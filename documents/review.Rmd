@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Overview
+One of the most critical statements of the "Australian standard for Tree stock and landscape use" is that 
+
+*1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
+*2. Size Index (as Height x Calliper) 
+*3. Height : Calliper
+*4. Rootball 
+
+
+# The major players 
+
+# The bench warmers
+
+
+
