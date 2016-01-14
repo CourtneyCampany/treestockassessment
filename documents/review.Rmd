@@ -10,6 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 #Overview
 One of the most critical statements of the "Australian standard for Tree stock and landscape use" is that 
 
+### survival and establishment (ecology and economy)
+
+
+
 *1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
 *2. Size Index (as Height x Calliper) 
 *3. Height : Calliper
@@ -18,7 +22,27 @@ One of the most critical statements of the "Australian standard for Tree stock a
 
 # The major players 
 
-# The bench warmers
+## Review of Root : Shoot balance
 
+### Aboveground (Height, Diameter/Calliper)
+### Belowground (Rootball diameter and volume)
+
+
+## The bench warmers
+
+### Aboveground
+
+### Belowground
+
+*rootball occupancy*
+*root direction*
+*root division*
+*height of root crown*  
+
+
+# Significant to the nursery industry
+
+#australias cliamte zones
+#do nursery practives change across climate zones
 
 
