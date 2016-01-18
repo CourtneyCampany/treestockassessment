@@ -1,32 +1,63 @@
 ---
-title: "Untitled"
-output: word_document
+title: Root Shoot assessment in nursery tree stock
+
+author: ""
+date: ""
+output:
+  word_document:
+    reference_docx: manuscriptstyle.docx
+csl: tree-physiology.csl
+bibliography: references.bib
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, results='asis', echo=FALSE, warning=FALSE}
+library(knitr)
+opts_knit$set(root.dir = '../')
 ```
+
 
 #Overview
 One of the most critical statements of the "Australian standard for Tree stock and landscape use" is that 
 
+
+Evaluating nursery seedling quality is necesasry to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
+
 ### survival and establishment (ecology and economy)
 
+1. lanscaping
+2. orhcards
+3. plantation
+4. urban
+
+What constitutes success of outplantings.  After what duration post outplanting is surivial/establishment considered complete.
 
 
+# The major assessment players 
 *1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
 *2. Size Index (as Height x Calliper) 
 *3. Height : Calliper
 *4. Rootball 
 
+Height and diameter are easily the two most common parameters examined in tree stock,
+Usually set with with minimum and maximum targets established in grower contracts [@haase2008understanding].
 
-# The major players 
+ but what about roots
+ 
 
-## Review of Root : Shoot balance
+ It is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
+
+## Review of Root : Shoot balance 
+*1. What root:shoot means to generatl tree ecology
+*2. What does root:shoot mean for nursery tree stock
+*3. root:shoot in bareroot vs container
+*4. root:shoot across container types and/or sizes
+
 
 ### Aboveground (Height, Diameter/Calliper)
+
 ### Belowground (Rootball diameter and volume)
 
+How do these root parameters affect/determine outplanting success.
 
 ## The bench warmers
 
@@ -35,14 +66,46 @@ One of the most critical statements of the "Australian standard for Tree stock a
 ### Belowground
 
 *rootball occupancy*
+
 *root direction*
+Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container]
+
 *root division*
 *height of root crown*  
-
+*growin density
 
 # Significant to the nursery industry
 
-#australias cliamte zones
-#do nursery practives change across climate zones
+Allometric approaches to model nursery stock tree growth.
 
+Larger container volumes lead to greatest field performance via incrased height, diameter and nutrient content in *Pinus pinea* seedlings, with an optimal relationship of container depth:diameter or 4 [@dominguez2006container].
 
+#australias climate zones
+ Bureau of Meteorology Climate Zones.  These are based on a modified Köppen classification system.
+
+\
+```{r ausclimate, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
+library(png)
+climate <- readPNG("images/climatezone_aus1.png")
+par(mar=c(0,0,0,0))
+plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
+rasterImage(climate, xleft = 0, ybottom = 0, xright = 1, ytop =1)
+
+```
+\
+
+\
+```{r ausclimate2, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
+library(png)
+climate2 <- readPNG("images/climatezone_aus2.png")
+par(mar=c(0,0,0,0))
+plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
+rasterImage(climate2, xleft = 0, ybottom = 0, xright = 1, ytop =1)
+
+```
+\
+
+This raises the queston of how large of an impact does climate variability on nursery stock tree growth.
+
+# When to assess
+After outplanting or across seasons to better understand overall seedling quality[see haase]?
