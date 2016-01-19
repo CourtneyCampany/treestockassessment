@@ -22,6 +22,8 @@ One of the most critical statements of the "Australian standard for Tree stock a
 
 Evaluating nursery seedling quality is necesasry to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
 
+
+
 ### survival and establishment (ecology and economy)
 
 1. lanscaping
@@ -32,19 +34,40 @@ Evaluating nursery seedling quality is necesasry to understanding seedling devel
 What constitutes success of outplantings.  After what duration post outplanting is surivial/establishment considered complete.
 
 
+
+To be extablished, a transplanted tree must generate a root system so that shoot growth is comparable to a non-transplanted tree [@watson1997principles].
+
+Establishment likely different for different stock types (ie. large vs small calliper trees),
+
+Larger trees require a longer time to produce a root system compared to smaller trees [@Watson2005]. This will affect planting sucess as the re-estblishment of the branch-to-root spread ratio will depend on the rate of root growth potential, even with shoot growth being typically suppressed intially [@struve2009tree].
+
+Transplant success and establishment is dependent on the chain of events from propagation and production, to harvest and transport, to transplanting and aftercare [@struve2009tree].
+
+translanting:reduction in uptake of water and nutrients and loss/usage of root carbohyrdrates to regrowth roots (growth lag phase)
+
+
+Transplant shock recovery measuyred through photosynthesis, xylem water potentials and leaf area compared to control trees [references in @Watson2005].
+
 # The major assessment players 
 *1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
-*2. Size Index (as Height x Calliper) 
+*2. Size Index (as Height x Calliper) (calliper or root collar diameter)
 *3. Height : Calliper
 *4. Rootball 
 
 Height and diameter are easily the two most common parameters examined in tree stock,
 Usually set with with minimum and maximum targets established in grower contracts [@haase2008understanding].
 
- but what about roots
- 
+However, it is now commonly accepted that height and diameter measurements alone do not always correlate with seedling performance following outplanting.
 
- It is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
+
+Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying].
+
+Additionally, seedling establishment is also dependent on the capacity of seedlings to rapidly initiate new roots [@grossnickle2005importance].
+
+After planting the original root system size determines the ability of seedlings to take up water so they can initiate the establishment process (Carlson and Miller 1990).
+
+In turn, this means that root quality parameters including ..... should be managed in order to promote seedling planting success.
+New root growth will be paramount for seedlings access water and nutrient resouces following outplanting.
 
 ## Review of Root : Shoot balance 
 *1. What root:shoot means to generatl tree ecology
@@ -52,10 +75,19 @@ Usually set with with minimum and maximum targets established in grower contract
 *3. root:shoot in bareroot vs container
 *4. root:shoot across container types and/or sizes
 
+It is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
+
+multi parameter models 
 
 ### Aboveground (Height, Diameter/Calliper)
 
 ### Belowground (Rootball diameter and volume)
+*rootball diameter*
+*rootball volume*
+*root growth potential (reviews by dunlap1980, simpson1997)--the quantified ability of a tree seedling
+to initiate and elongate new roots within a prescribed period of time in a standard environment optimized to promote root growth (# of new roots or change in volume over standard time). Useful for seedling quality assessment but not necessarily at predicting outplanting success [@davis2005quantifying].
+
+Folk&grossnickle: uses limtited conditions instead of standard environment to provide a more realistic test of growth potential
 
 How do these root parameters affect/determine outplanting success.
 
@@ -65,20 +97,50 @@ How do these root parameters affect/determine outplanting success.
 
 ### Belowground
 
+Development of a rapid and standardized assessment of fibrosity could help provide an accurate characterization of root system quality, as the current time consuming nature of this assessment provides little operational potential [@davis2005quantifying].
+
 *rootball occupancy*
 
 *root direction*
 Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container]
 
 *root division*
+
 *height of root crown*  
-*growin density
+*growing density*
 
-# Significant to the nursery industry
+*root fibrosity* (number of lateral roots representing active root tips)
+*1order lateral roots*  not consistent across seedlings when predicting growth (davis cites), not enough cites and species
 
-Allometric approaches to model nursery stock tree growth.
+*root TNC* usefult to predict growth potential following outplanting as it serves as the reserve to initate new bewlogroung growth
+*root nutrients* P in australia as a reserve, see Ferreira Reis and Kimmins 1986
+
+As mentioned by Davis and Jacobs [-@davis2005quantifying], establishing standards for minimum TNC, nutrient content and moisture of the stock root system may be useful if specific to species and stocktype in terms or root system physiology. This can allow testing between root morphology and physiology with the goal of..... and which are most releveant in terms of outplanting success (belowground allometry between M and P as well as with aboveground parameters). Combine root:shoot with quality (new parameters)
+
+#bareroot vs container stocktypes
+
+Under drought conditions, seedlings in containers have higher field survival in sites with drought conditions [@grossnickle2005importance and references therein], which may have a significant role in many australian outplantings.
+
+The root–soil contact is more disrupted in bareroot seedlings through the loss of fine roots at lifting (Nambiar 1980; Struve and Joly 1992), while containered seedlings should maintain their entire root system.
+
+Root morphoogy likely different (cites from davis2005). 
+*1. containers
++ root direction
++ size and shape
+
+*2. bareroot
++ pruning practice 
++ growing density
++ root wrenching
+
+
+# Significant to the nursery industry (building quantitaive links between parameters and root:shoot balance)
+
+Allometric approaches to model nursery stock tree growth. Multiple regression models have been shown to better predict seedling quality than with single parameters [@jacobs2005relative], impling that combining above and bewloground indices of seedling quality will more reliably predict seedling field performance.
 
 Larger container volumes lead to greatest field performance via incrased height, diameter and nutrient content in *Pinus pinea* seedlings, with an optimal relationship of container depth:diameter or 4 [@dominguez2006container].
+
+
 
 #australias climate zones
  Bureau of Meteorology Climate Zones.  These are based on a modified Köppen classification system.
