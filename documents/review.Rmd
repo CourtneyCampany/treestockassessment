@@ -18,13 +18,14 @@ opts_knit$set(root.dir = '../')
 
 #Overview
 One of the most critical statements of the "Australian standard for Tree stock and landscape use" is that 
-
-
-Evaluating nursery seedling quality is necesasry to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
-
+variability between tree stock should be expected, as trees are living organisms and there is nothing exact
+in their nature. This presents a large challenge for the nursery industry because they should attempt to produce a uniform planting stock in which the variance of the morphological characteristics is reduced [@puttonen1997looking]. Irregardless, nursery seedlings should embody the structural and physiological traits that can be quantitatively linked to success in the field [@rose1990target]. Evaluating nursery seedling quality is thus necessary to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
 
 
 ### survival and establishment (ecology and economy)
+*?How are?* are we defining seedling quality.  Is the root:shoot assessment in relation to seedling heath in nurersy or trialed against success of outplanting?
+
+As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessment of performance potential attributes include some systematic error [@puttonen1997looking].
 
 1. lanscaping
 2. orhcards
@@ -32,7 +33,6 @@ Evaluating nursery seedling quality is necesasry to understanding seedling devel
 4. urban
 
 What constitutes success of outplantings.  After what duration post outplanting is surivial/establishment considered complete.
-
 
 
 To be extablished, a transplanted tree must generate a root system so that shoot growth is comparable to a non-transplanted tree [@watson1997principles].
@@ -52,12 +52,11 @@ Transplant shock recovery measuyred through photosynthesis, xylem water potentia
 *1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
 *2. Size Index (as Height x Calliper) (calliper or root collar diameter)
 *3. Height : Calliper
-*4. Rootball 
+*4. Rootball (volume)
 
-Height and diameter are easily the two most common parameters examined in tree stock,
-Usually set with with minimum and maximum targets established in grower contracts [@haase2008understanding].
+Measuring morphology in the nursery is standard practice because it easily tracks growth and describes seedlings at harvest, and has thus evolved into classification which correlates seedling survival and growth with specific morphological traits [@pinto2011morphology]. Height and diameter (RCD, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. However, it is now commonly accepted that height and diameter measurements alone do not always correlate with seedling performance following outplanting. This realization led to the 'target seedling concept' by Rose et al. [-@rose1990target], which proposes that numerous physiolgoical and morphological seedling traits should be tracked and developed in order to quantitatively assess seedling field performance [@rose1995target]. The adaptation of this concept has led to the generation of a suite of parameters, depending on nursery practice and ...., that are currently utilized to evaluate seedling quality and potential for outplanting success.
 
-However, it is now commonly accepted that height and diameter measurements alone do not always correlate with seedling performance following outplanting.
+These parameters are broadly defined into two groups, morphological and physiological, which are categorized in Table 1.
 
 
 Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying].
@@ -140,10 +139,12 @@ Allometric approaches to model nursery stock tree growth. Multiple regression mo
 
 Larger container volumes lead to greatest field performance via incrased height, diameter and nutrient content in *Pinus pinea* seedlings, with an optimal relationship of container depth:diameter or 4 [@dominguez2006container].
 
-
+A cost effective sampling procedure is needed, limiting destructive sampling, as every seedling to be outplanted cannot be measured or assessed easily with current techniques [@puttonen1997looking].
 
 #australias climate zones
  Bureau of Meteorology Climate Zones.  These are based on a modified Köppen classification system.
+ 
+ If differing climates affect either morphological or physiological parameters of seedling health then the extrapolation of results across sites will be less accurate.
 
 \
 ```{r ausclimate, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
