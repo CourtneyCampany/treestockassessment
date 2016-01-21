@@ -58,6 +58,8 @@ Measuring morphology in the nursery is standard practice because it easily track
 
 These parameters are broadly defined into two groups, morphological and physiological, which are categorized in Table 1.
 
+Physiology and vigor can change significantly between harvest and outplanting while morphology tends not to change during that time, However, correlations stemming from morphology generally still serve as a proxy for physiology [@pinto2011morphology].
+
 
 Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying].
 
