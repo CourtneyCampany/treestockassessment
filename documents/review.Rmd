@@ -17,21 +17,26 @@ opts_knit$set(root.dir = '../')
 
 
 #Overview
-One of the most critical statements of the "Australian standard for Tree stock and landscape use" is that 
-variability between tree stock should be expected, as trees are living organisms and there is nothing exact
-in their nature. This presents a large challenge for the nursery industry because they should attempt to produce a uniform planting stock in which the variance of the morphological characteristics is reduced [@puttonen1997looking]. Irregardless, nursery seedlings should embody the structural and physiological traits that can be quantitatively linked to success in the field [@rose1990target]. Evaluating nursery seedling quality is thus necessary to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
-
-
-### survival and establishment (ecology and economy)
-*?How are?* are we defining seedling quality.  Is the root:shoot assessment in relation to seedling heath in nurersy or trialed against success of outplanting?
-
-As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessment of performance potential attributes include some systematic error [@puttonen1997looking].
-
+Nursery provides this and this.  Worldwide for this.  This in Australia. Specifically, in Australai the new 20/20 vision sets goals to incrase greenspace, .. As a result, the need to 
 1. lanscaping
 2. orhcards
 3. plantation
 4. urban
+economy, ecology, purpose here
 
+
+One very important statement within the "Australian standard for Tree stock and landscape use" is that 
+variability between tree stock should be expected, as trees are living organisms and there is nothing exact
+in their nature. This variability presents a large challenge for the nursery industry as they should attempt to produce a uniform planting stock in which the variance of the morphological characteristics is reduced [@puttonen1997looking]. Irregardless, nursery seedlings should embody the structural and physiological traits that can be quantitatively linked to success in the field [@rose1990target]. Evaluating nursery seedling quality is thus necessary to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
+
+##what is quality (performance potential)
+*?How are?* are we defining seedling quality. Is the root:shoot assessment in relation to seedling heath in nurersy or trialed against success of outplanting?
+
+The term "stocktype" descripbes a seedlings age and method production, while also serving as a visual reference of what the seedling should look like before outplanting [@pinto2011conducting].
+
+As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessment of performance potential attributes include some systematic error [@puttonen1997looking].
+
+##what good quality tree stock ensures (should be vigouros enough to recover from transplant with a high percentage of field establishment).
 What constitutes success of outplantings.  After what duration post outplanting is surivial/establishment considered complete.
 
 
@@ -48,18 +53,30 @@ translanting:reduction in uptake of water and nutrients and loss/usage of root c
 
 Transplant shock recovery measuyred through photosynthesis, xylem water potentials and leaf area compared to control trees [references in @Watson2005].
 
-# The major assessment players 
-*1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
-*2. Size Index (as Height x Calliper) (calliper or root collar diameter)
-*3. Height : Calliper
-*4. Rootball (volume)
+Depending on the transplant purpose (ie. landscaping or urban) will inherit a certain degree of harshness for seedlings and thus requires a high level of seedling quality\
+greenspace.establishment (high risk?) vision for 20/20 tie in
 
-Measuring morphology in the nursery is standard practice because it easily tracks growth and describes seedlings at harvest, and has thus evolved into classification which correlates seedling survival and growth with specific morphological traits [@pinto2011morphology]. Height and diameter (RCD, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. However, it is now commonly accepted that height and diameter measurements alone do not always correlate with seedling performance following outplanting. This realization led to the 'target seedling concept' by Rose et al. [-@rose1990target], which proposes that numerous physiolgoical and morphological seedling traits should be tracked and developed in order to quantitatively assess seedling field performance [@rose1995target]. The adaptation of this concept has led to the generation of a suite of parameters, depending on nursery practice and ...., that are currently utilized to evaluate seedling quality and potential for outplanting success.
+
+##target seedling approach
+
+focus on morphology (as a index of quality and a surrogate for physiology)
+
+Measuring morphology in the nursery is standard practice because it easily tracks growth and describes seedlings at harvest, and has thus evolved into classification which correlates seedling survival and growth with specific morphological traits [@pinto2011morphology]. 
+
+An overarching aspect of the target seedling approach is that seedling quality is of the utmost importance.
+
+Height and diameter (RCD, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. 
+
+
+However, it is now commonly accepted that height and diameter measurements alone do not always correlate with seedling performance following outplanting. This realization led to the 'target seedling concept' by Rose et al. [-@rose1990target], which proposes that numerous physiolgoical and morphological seedling traits should be tracked and developed in order to quantitatively assess seedling field performance [@rose1995target]. The adaptation of this concept has led to the generation of a suite of parameters, depending on nursery practice and ...., that are currently utilized to evaluate seedling quality and potential for outplanting success.
 
 These parameters are broadly defined into two groups, morphological and physiological, which are categorized in Table 1.
 
+Nursery stock can be described by both morphological and physiological characteristics, but must be related to outplanting performance [@landis2011target].
+
 Physiology and vigor can change significantly between harvest and outplanting while morphology tends not to change during that time, However, correlations stemming from morphology generally still serve as a proxy for physiology [@pinto2011morphology].
 
+Due to a lack of a rapid and encompassing physiolgoical test [@pinto2011conducting], moprholigcal and physiological assessments are rarely conducted in combination [find more @hobbs1984influence].
 
 Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying].
 
@@ -70,15 +87,46 @@ After planting the original root system size determines the ability of seedlings
 In turn, this means that root quality parameters including ..... should be managed in order to promote seedling planting success.
 New root growth will be paramount for seedlings access water and nutrient resouces following outplanting.
 
-## Review of Root : Shoot balance 
+##issue with morphology and single parameter relationships (pitfalls)
+
+Issues with using only morphological assessments, especially involving single parameter estimates of quality, have long been recognized has having overly large variation. For example, Wakeley [-@wakeley1954planting] noted how morpholigcal assessments of root collar diameter and height led to unreliable grades of survival and growth in longleaf and slash pine seedlings. 
+
+Unfavorable grades of seedlings, without inferring different capacities for field success, represent a fundamental economic issue for the nursery industry. Despite this, these indices are still commonly used as the standards in modern .
+
+Seedling quality and performance potential, however, can also vastly differ among seedlings taken from different nurseries, even when they are produced from the same seedlot over the same growing season [@pinto2011conducting].
+
+#how is seedling quality evaulated globally and in Australia?
+
+##US resources based on target seedling approach:
+Americanhort: american standard for nursery stock (2014)
+
+examples include Forestry Nursery Manuals produced through the USDA for bareroot seedlings or seedlings in containers with volumes spannning from 1989-2010.
+
+##Europe
+The European Nurserystock Association (ENA) has produced the "European technical & quality standards for nurserystock", most recently in 2010,  
+
+
+##Perhaps a table or figure here comparing indices...?
+
+# Breaking down the major assessment players 
+*1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
+*2. Size Index (as Height x Calliper) (calliper or root collar diameter)
+*3. Height : Calliper
+*4. Rootball (volume)
+
+
+## Review of Root : Shoot balance (need strong section here in terms of ecology and nurser specifics)
 *1. What root:shoot means to generatl tree ecology
+
+It is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
+
 *2. What does root:shoot mean for nursery tree stock
 *3. root:shoot in bareroot vs container
 *4. root:shoot across container types and/or sizes
 
-It is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
 
-multi parameter models 
+
+multi parameter models (allows for the assessment of tree quality above and below fround )
 
 ### Aboveground (Height, Diameter/Calliper)
 
@@ -92,11 +140,6 @@ Folk&grossnickle: uses limtited conditions instead of standard environment to pr
 
 How do these root parameters affect/determine outplanting success.
 
-## The bench warmers
-
-### Aboveground
-
-### Belowground
 
 Development of a rapid and standardized assessment of fibrosity could help provide an accurate characterization of root system quality, as the current time consuming nature of this assessment provides little operational potential [@davis2005quantifying].
 
@@ -108,7 +151,7 @@ Root spiralling was found occur in all *Pinus pinea* seedlings grown in containe
 *root division*
 
 *height of root crown*  
-*growing density*
+
 
 *root fibrosity* (number of lateral roots representing active root tips)
 *1order lateral roots*  not consistent across seedlings when predicting growth (davis cites), not enough cites and species
@@ -134,19 +177,35 @@ Root morphoogy likely different (cites from davis2005).
 + growing density
 + root wrenching
 
+#container volumes (surrogates for bewlogground)
+Larger container volumes lead to greatest field performance via incrased height, diameter and nutrient content in *Pinus pinea* seedlings, with an optimal relationship of container depth:diameter or 4 [@dominguez2006container].
+
+not always the case....
 
 # Significant to the nursery industry (building quantitaive links between parameters and root:shoot balance)
 
 Allometric approaches to model nursery stock tree growth. Multiple regression models have been shown to better predict seedling quality than with single parameters [@jacobs2005relative], impling that combining above and bewloground indices of seedling quality will more reliably predict seedling field performance.
 
-Larger container volumes lead to greatest field performance via incrased height, diameter and nutrient content in *Pinus pinea* seedlings, with an optimal relationship of container depth:diameter or 4 [@dominguez2006container].
+
 
 A cost effective sampling procedure is needed, limiting destructive sampling, as every seedling to be outplanted cannot be measured or assessed easily with current techniques [@puttonen1997looking].
 
-#australias climate zones
+
+#Australian standard:
+no emphasis on physiolgical assesemtn in the nursery.  The question remains on whether the mopholigcal 
+indices defined in the standard represent proper root:shoot balance for the most common and widely disttributed stock types in Australia.
+
+##australias climate zones (arid zones, hot temps (urban))...how are indices affected
+ 
+ austalia already represents an area of high aridity, nutrient soil deficiency, etc.  It is also designated as being more susceptible to extreme climate events, etc etc.  In this sense nursery standards developed to deal with an already inhospitable outplanting environment could possibly be used as a surruogate for understand the needs of other countries who are or will be facing hotter and drier climates.
+ 
  Bureau of Meteorology Climate Zones.  These are based on a modified Köppen classification system.
+ Insert figures: highlight zones around metro areas and what they represent.
  
  If differing climates affect either morphological or physiological parameters of seedling health then the extrapolation of results across sites will be less accurate.
+ 
+ Literature: with the potential
+
 
 \
 ```{r ausclimate, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
@@ -174,3 +233,5 @@ This raises the queston of how large of an impact does climate variability on nu
 
 # When to assess
 After outplanting or across seasons to better understand overall seedling quality[see haase]?
+
+
