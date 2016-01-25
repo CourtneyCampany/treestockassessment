@@ -95,18 +95,6 @@ Unfavorable grades of seedlings, without inferring different capacities for fiel
 
 Seedling quality and performance potential, however, can also vastly differ among seedlings taken from different nurseries, even when they are produced from the same seedlot over the same growing season [@pinto2011conducting].
 
-#how is seedling quality evaulated globally and in Australia?
-
-##US resources based on target seedling approach:
-Americanhort: american standard for nursery stock (2014)
-
-examples include Forestry Nursery Manuals produced through the USDA for bareroot seedlings or seedlings in containers with volumes spannning from 1989-2010.
-
-##Europe
-The European Nurserystock Association (ENA) has produced the "European technical & quality standards for nurserystock", most recently in 2010,  
-
-
-##Perhaps a table or figure here comparing indices...?
 
 # Breaking down the major assessment players 
 *1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
@@ -205,6 +193,20 @@ indices defined in the standard represent proper root:shoot balance for the most
  If differing climates affect either morphological or physiological parameters of seedling health then the extrapolation of results across sites will be less accurate.
  
  Literature: with the potential
+ 
+ 
+ #how is rootshoot balance, seedling quality evaulated globally and in Australia?
+
+##US resources based on target seedling approach:
+Americanhort: american standard for nursery stock (2014)
+
+examples include Forestry Nursery Manuals produced through the USDA for bareroot seedlings or seedlings in containers with volumes spannning from 1989-2010.
+
+##Europe
+The European Nurserystock Association (ENA) has produced the "European technical & quality standards for nurserystock", most recently in 2010,  
+
+
+##Perhaps a table or figure here comparing indices...?
 
 
 \
