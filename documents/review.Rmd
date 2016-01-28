@@ -95,6 +95,10 @@ Unfavorable grades of seedlings, without inferring different capacities for fiel
 
 Seedling quality and performance potential, however, can also vastly differ among seedlings taken from different nurseries, even when they are produced from the same seedlot over the same growing season [@pinto2011conducting].
 
+South et al. (2005) state that ‘‘although the size of (tree seedling)
+container stock has been increasing, research to show that seedling diameter is positively
+related to field performance is lacking.
+
 
 # Breaking down the major assessment players 
 *1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
@@ -109,10 +113,16 @@ Seedling quality and performance potential, however, can also vastly differ amon
 It is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
 
 *2. What does root:shoot mean for nursery tree stock
+Higher root:shoot ratio may result in more favourable water relations,lower shoot maintenance requirements and thus faster growth rates [@close2010influences]. 
+
+South and Mitchell (1999) have cautioned that larger seedlings
+do not survive better than smaller seedlings when top-growth is ‘‘out of balance’’. ===higher risk of transplant shock
+
 *3. root:shoot in bareroot vs container
+
 *4. root:shoot across container types and/or sizes
 
-
+Increassing container volume increased the root:shoot ratio at a given seedling height for Eucalyptus globulus across 10 nurseries, [@close2003physical].  Improved root:shoot ratios have been shown to be postively correlated with height growth in for seedlings [Larsen1998, others?]
 
 multi parameter models (allows for the assessment of tree quality above and below fround )
 
@@ -120,6 +130,8 @@ multi parameter models (allows for the assessment of tree quality above and belo
 
 ### Belowground (Rootball diameter and volume)
 *rootball diameter*
+
+
 *rootball volume*
 *root growth potential (reviews by dunlap1980, simpson1997)--the quantified ability of a tree seedling
 to initiate and elongate new roots within a prescribed period of time in a standard environment optimized to promote root growth (# of new roots or change in volume over standard time). Useful for seedling quality assessment but not necessarily at predicting outplanting success [@davis2005quantifying].
@@ -132,6 +144,10 @@ How do these root parameters affect/determine outplanting success.
 Development of a rapid and standardized assessment of fibrosity could help provide an accurate characterization of root system quality, as the current time consuming nature of this assessment provides little operational potential [@davis2005quantifying].
 
 *rootball occupancy*
+
+
+*rootball depth*
+
 
 *root direction*
 Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container]
@@ -170,9 +186,37 @@ Larger container volumes lead to greatest field performance via incrased height,
 
 not always the case....
 
+Seedlings raised in larger volume containers may affect post-planting performance through reduced handling damage at planting, higher root:shoot ratio than smaller containers, and higher total biomass with a similar root:shoot ratio compared to plants in the different containers [@close2010influences].
+
+Higher total biomass may result in larger total carbohydrate stores available for re-mobilisation for rapid growth soon after planting [@close2010influences].
+
+
+##how management practices come into play
+*irrigation (amoutns and hardening)
+
+*planting density (containers, selfshading seedlings)
+
+Additionally seedlings
+raised at high densities self-shade that potentially pre-disposes leaves to photodamage due
+to the rapid change in exposure to light after transplanting [@close2012review].
+
+*fertilization (amounts and deprevation)
+
+#from 2020 to 202020 (recent trends and directions of Australia nursery)
+In 1997 the Australian Federal Government set a target to treble the nation’s plantation estate by 2020: the ‘2020 Vision’ (www.plantations2020.com.au). This initiative has seen the expansion of the plantation estate by 55 % to 1.97 million ha, hardwoods accounting for 48 % of the total (Gavran and Parsons 2009)....60 % Eucalyptus globulus Labill and
+20 % Eucalyptus nitens Maiden.
+
+The first 2020 vision saw a shift from bareroot to containerised production of tree seedlings [@close2012review]
+
+Now ----20% more greenspace establishded a significant shift in the what Austrlias nurserys will do.  species for urban, new requirements?
+
+This is highlight by the difficulty in establishment of stree trees (Rob bodenstaff)
+
 # Significant to the nursery industry (building quantitaive links between parameters and root:shoot balance)
 
 Allometric approaches to model nursery stock tree growth. Multiple regression models have been shown to better predict seedling quality than with single parameters [@jacobs2005relative], impling that combining above and bewloground indices of seedling quality will more reliably predict seedling field performance.
+
+
 
 
 
@@ -180,8 +224,9 @@ A cost effective sampling procedure is needed, limiting destructive sampling, as
 
 
 #Australian standard:
-no emphasis on physiolgical assesemtn in the nursery.  The question remains on whether the mopholigcal 
-indices defined in the standard represent proper root:shoot balance for the most common and widely disttributed stock types in Australia.
+little emphasis on physiolgical assesement in the nursery. The question remains on whether the mopholigcal 
+indices defined in the standard represent proper root:shoot balance for the most common and widely distributed stock types in Australia.
+
 
 ##australias climate zones (arid zones, hot temps (urban))...how are indices affected
  
