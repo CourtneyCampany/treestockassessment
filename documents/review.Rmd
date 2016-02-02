@@ -1,5 +1,5 @@
 ---
-title: Root Shoot assessment in nursery tree stock
+title: Tree stock balance in nursery tree stock
 
 author: ""
 date: ""
@@ -63,7 +63,7 @@ Depending on the transplant purpose (ie. landscaping or urban) will inherit a ce
 greenspace.establishment (high risk?) vision for 20/20 tie in
 
 
-##target seedling approach
+##target seedling approach (variables that are most related to growth---which morph variables are most correlated to those)
 
 focus on morphology (as a index of quality and a surrogate for physiology)
 
@@ -123,6 +123,10 @@ In nusery trees, it is important that the shoot not be too tall relative to the 
 
 Higher root:shoot ratio may result in more favourable water relations,lower shoot maintenance requirements and thus faster growth rates [@close2010influences]. 
 
+Above the optimum shoot:root ratio, survival decreases with increased allocation to shoots as evaporative surface exceeds water uptake capacity, while below optimal shoot:root ratios, decreases drought survival due to a lack of photosynthetic capacity to produce needed carbohydrate reserves [@cregg1994carbon].
+
+Shoot-root ratios can be confounded in quality assessment when a low value does not reflects a thick taproot system instead of a large fibrous roots= system, which offers limited surface area necessary for water absorption [@ambebe2013evaluation].
+
 South and Mitchell (1999) have cautioned that larger seedlings
 do not survive better than smaller seedlings when top-growth is ‘‘out of balance’’. ===higher risk of transplant shock
 
@@ -137,7 +141,7 @@ multi parameter models (allows for the assessment of tree quality above and belo
 
 ### Aboveground (Height, Diameter/Calliper)
 
-*height*
+*height* (index of transpirational area and photosyn which affect growth
 
 Shoot system size is important because on sites with available soil water and nutrients, competition for light between planted seedlings and the site vegetation complex is a main factor limiting seedling performance (Grossnickle 2000).
 
@@ -147,7 +151,7 @@ Overall larger seedling height, however, may have adverse effects on field succe
 
 Additionally, larger stock is adds difficulty in lifting, handling and planting properly, which can negate advantages of larger size tree stock in planting success [@cleary1978regenerating] 
 
-*diameter*
+*diameter* (most consistently related with plant performance above and bewloground which affect growth)
 
 tree stock diameter (caliper) is tradionally viewed as a index for tree sturdiness [all cites], and potentially related to the size of the root system [@cleary1978regenerating].
 
@@ -179,6 +183,8 @@ to initiate and elongate new roots within a prescribed period of time in a stand
 Folk&grossnickle: uses limtited conditions instead of standard environment to provide a more realistic test of growth potential
 
 How do these root parameters affect/determine outplanting success.
+
+Increases in root volume where related to increases in preplanting total fresh weight(although autocorrelated), root-collar diameter and height of Douglas-fir seedlings [@rose1991root].
 
 
 Development of a rapid and standardized assessment of fibrosity could help provide an accurate characterization of root system quality, as the current time consuming nature of this assessment provides little operational potential [@davis2005quantifying].
@@ -312,7 +318,7 @@ indices defined in the standard represent proper root:shoot balance for the most
  #how is rootshoot balance, seedling quality evaulated globally and in Australia?
 Tree root to shoot balance is commonly believed to play a major role in water status of an outplanted seedling, and plays a critical role in surivival in droughted field conditions. In urban systems, this balance may critically define the success of planted tree stock as (hotter drier cite)
 
-
+###do other countries evalue tree balance? in what way?
 ##US resources based on target seedling approach:
 Americanhort: american standard for nursery stock (2014)
 
