@@ -38,7 +38,13 @@ The term "stocktype" descripbes a seedlings age and method production, while als
 
 As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessment of performance potential attributes include some systematic error [@puttonen1997looking].
 
+Seedling quality’ is an expression used to describe the extent to which a
+seedling may be expected to successfully survive and grow after outplanting
+(Duryea 1985; Mattsson 1997).
+
 Seedling quality is a dynamic process that is a culmination of all the practives that have precedded and will succedd that point fo measurement [@mexal1990target].
+
+A primary goal of seedling quality assessment is to quantify levels of morphological and physiological attributes which accurately assess seedling condition and potential for vigorous growth and development [@wilson2006quality].
 
 Importantly, planting seedlings with desirable plant attributes does not guarantee high survival, but does increases chances for survival[@grossnickle2012seedlings].
 
@@ -67,7 +73,7 @@ greenspace.establishment (high risk?) vision for 20/20 tie in
 
 focus on morphology (as a index of quality and a surrogate for physiology)
 
-Measuring morphology in the nursery is standard practice because it easily tracks growth and describes seedlings at harvest, and has thus evolved into classification which correlates seedling survival and growth with specific morphological traits [@pinto2011morphology]. 
+Measuring morphology in the nursery is standard practice because it easily tracks growth and describes seedlings at harvest, and has thus evolved into classification which correlates seedling survival and growth with specific morphological traits [@pinto2011morphology].  Ritchie 1984
 
 Morphological attributes are considered a reliable measure of seedling quality as they retain their mark on the seedling identity for extended timeframes after seedlings are field planted and start to grow [@puttonen1997looking, @grossnickle2012seedlings].
 
@@ -90,6 +96,8 @@ Nursery stock can be described by both morphological and physiological character
 Physiology and vigor can change significantly between harvest and outplanting while morphology tends not to change during that time, However, correlations stemming from morphology generally still serve as a proxy for physiology [@pinto2011morphology].
 
 Due to a lack of a rapid and encompassing physiolgoical test [@pinto2011conducting], moprholigcal and physiological assessments are rarely conducted in combination [find more @hobbs1984influence].
+
+Ratios of various morphological traits (e.g., root:shoot, height:diameter) have also been considered in morphological studies (Bayley and Kietzka 1997; Jacobs et al. 2006). Operational quantification of some moprhological variables are not practical for nurseries to implement on a large scale, but if superior predictors can be identified it may be possible to modify nursery cultural techniques to improve quality [@wilson2006quality]. (utilize table 1....modeify to global options)
 
 
 ##issue with morphology and single parameter relationships (pitfalls)
@@ -121,6 +129,10 @@ The shoot-root ratio represents the balance between the transpirational area (sh
 *2. What does root:shoot mean for nursery tree stock
 In nusery trees, it is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
 
+Proper R:S balance is an important morphological attribute because it is a measure of
+seedling water loss and water uptake capacity at the time of planting (Ritchie 1984;
+Thompson 1985; Burdett 1990; Grossnickle 2000).
+
 Higher root:shoot ratio may result in more favourable water relations,lower shoot maintenance requirements and thus faster growth rates [@close2010influences]. 
 
 Above the optimum shoot:root ratio, survival decreases with increased allocation to shoots as evaporative surface exceeds water uptake capacity, while below optimal shoot:root ratios, decreases drought survival due to a lack of photosynthetic capacity to produce needed carbohydrate reserves [@cregg1994carbon].
@@ -129,6 +141,8 @@ Shoot-root ratios can be confounded in quality assessment when a low value does 
 
 South and Mitchell (1999) have cautioned that larger seedlings
 do not survive better than smaller seedlings when top-growth is ‘‘out of balance’’. ===higher risk of transplant shock
+
+*From an economic standpoint, nurseries must minimize the amount of seedlings that they destructively harvest when evaluating root shoot balance.  Thus, non-destructive morpholoigcal parameters are commonly used to assess tree stock balance. How effective these are is still a matter of contention....*
 
 #A large question that remains is to the degree of correlation between tree stock balance and if rooting volume accurately represents the belowground status of a seedling
 *3. root:shoot in bareroot vs container
@@ -155,11 +169,16 @@ Additionally, larger stock is adds difficulty in lifting, handling and planting 
 
 tree stock diameter (caliper) is tradionally viewed as a index for tree sturdiness [all cites], and potentially related to the size of the root system [@cleary1978regenerating].
 
+Diameter has been shown to be closely related to seedling mass and outplanted seedling performance for nursery grown silver birch seedlings [@aphalo2003field]. commonly postively related to field performance hardwoods[@wilson2006quality]
+
 Stem diameter increases concomitantly with height, but this relationship is not absolute and is influenced growing density, fertility and pruning in nurseries [@mexal1990target]. nursery diameter nitrogen cites.
 
 Diameter has been shown to be correlated with important morphological characteristics including height and dry total biomass, but not necessarily the R:S [@mexal1990target].
 
+linear relationship between diameter and root volume was found for seedlings of northern red oak, white oak, and black cherry (Jacobs and Seifert 2004).
 
+stem diameter at the time of planting predicts of stem volume for several years after out-planting (Simpson
+1995)
 
 ### Belowground (Rootball diameter and volume)
 
@@ -196,8 +215,12 @@ Development of a rapid and standardized assessment of fibrosity could help provi
 
 
 *root direction*
+As new root must regenerate from the original outplanted root system, it is vital to assess root distribution patterns of nursery tree stock[@watson1982root].
+
 A potential issue with the large increase in containerized seedlings is that seedlings are subject to root-binding and sprialling, which can negatively affect outplanting performance for years [@cleary1978regenerating].
-Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container]
+
+Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container].
+
 
 Generally, this issue can be avoided by root pruning, pot style...
 
@@ -224,10 +247,16 @@ Thus container grown seedlings have been commonly shown to have greater root gro
 
 Stock quality assessments show bareroot seedlings have larger shoot systems because they are typically grown at lower densities, and in many instances longer timeframes, than container seedlings [@grossnicklebareroot].
 
-Root morphoogy likely different (cites from davis2005). 
+Although bareroot seedlings must additionally compete for resources belowground, the same optimal seedlings size conclusions still apply for both stock types [@aphalo2003field].
+
+Root morphology likely different (cites from davis2005). 
 *1. containers
 + root direction
 + size and shape
+
+The container design used for tree stocktypes has a major influence on root systems [@landis1990containers]
+
+There are numerous container types and treatments applied to containers aimed at natural root pruning and mainpulating root direction and division.  For example, air pruning containers, porous-walled containres and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection. For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects]. Cork oak seedlings also had similar height and diameter after a 10 month nuresry period in shallow and deep containers, yet deeoer containers had more larger tap root and near double fine root biomass [@chirino2008effects].
 
 *2. bareroot
 + pruning practice 
@@ -240,6 +269,8 @@ Although bareroot and container stocktypes have distinct characteristics influen
 Volume is one of the most obvious and important characteristics of a container as the larger the container the larger the seedling that can be produced, however, optimum container sizes can vary by species, growing density, environmental conditions and growing season length [@tsakaldimi2005root].
 
 The size of containers plants are grown in prior to outplantind has been shown to have significant impacts of field success, especially during the early months after planting [@close2006defining].
+
+Container depth determines root system growth and tap root length, which will aid in soil colonization of deep soil horizons [@chirino2008effects].
 
 Larger container volumes lead to greatest field performance via incrased height, diameter and nutrient content in *Pinus pinea* seedlings, with a possible optimal relationship of container depth:diameter or 4 [@dominguez2006container].
 
@@ -261,6 +292,14 @@ nutrient and water uptake (Will and Teskey I997).
 A review of the pot size effect found that increasing
 growing volume improved biomass production (Poorter et al. 2012).
 
+*does pot volume affect root:shoot?*
+Different container volumes did not affect R:S in silver birch [@aphalo2003field]
+
+For Picea glauca seedlings S:R increased nearly two fold from 2.3 to 4 after 20 weeks from from 10cm3 - 524cm3 container volumes [@carlson1976effect].
+
+ R:S did not shift in western larch seedlings across volumes from 111ml to 207ml  [@aghai2014container]
+
+?why---refer to poorter
 
 ##how management practices come into play (the impacts of container volume are obivously well studued and large, howver
 ##differences in nusery practices have the potentiall to.....)
