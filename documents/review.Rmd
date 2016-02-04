@@ -48,6 +48,7 @@ A primary goal of seedling quality assessment is to quantify levels of morpholog
 
 Importantly, planting seedlings with desirable plant attributes does not guarantee high survival, but does increases chances for survival[@grossnickle2012seedlings].
 
+
 ##what good quality tree stock ensures (should be vigouros enough to recover from transplant with a high percentage of field establishment).
 What constitutes success of outplantings.  After what duration post outplanting is surivial/establishment considered complete.
 
@@ -68,6 +69,11 @@ Transplant shock recovery measured through photosynthesis, xylem water potential
 Depending on the transplant purpose (ie. landscaping or urban) will inherit a certain degree of harshness for seedlings and thus requires a high level of seedling quality\
 greenspace.establishment (high risk?) vision for 20/20 tie in
 
+##Primary stresses and what factors best predict the reponse to these?
+Seedlings are living, perishable plants and can be profoundly impacted by stresses introduced during culturing, lifting,
+packing, grading, handling, pruning, storage, transport, and outplanting.
+The three primary types of stress that influence seedling quality are
+moisture, temperature, and physical stress.[@haase2007morphological]
 
 ##target seedling approach (variables that are most related to growth---which morph variables are most correlated to those)
 
@@ -83,6 +89,8 @@ seedling tolerance to environmental stress and thus should to be considered in r
 The morphological attributes of target seedlings represent the cumulative series of physiological processes responding to resources and stresses during nursery production [@mexal1990target].
 
 An overarching aspect of the target seedling approach is that seedling quality is of the utmost importance.
+
+No single moprhological factor has been shown to provide a perfect prediction of outplanting success, but many of them are linked with seedling performance potential in some way [@haase2007morphological].
 
 Height and diameter (RCD, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. 
 
@@ -157,11 +165,13 @@ multi parameter models (allows for the assessment of tree quality above and belo
 
 *height* (index of transpirational area and photosyn which affect growth
 
+Height is considered a good estimate of photosynthetic capacity and transpirational area, suggesting a positive relationship with subsequent growth [@haase2007morphological].
+
 Shoot system size is important because on sites with available soil water and nutrients, competition for light between planted seedlings and the site vegetation complex is a main factor limiting seedling performance (Grossnickle 2000).
 
 Within a nursery environment maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target].
 
-Overall larger seedling height, however, may have adverse effects on field success in drier sites.This is mainly a issue of an imbalanced root:shoot ratio, which affects water uptake and the ability to develop new roots [cites from gross2012].
+Larger seedling height, however, may have adverse effects on field success in drier sites. This is mainly a issue of an imbalanced root:shoot ratio, which affects water uptake and the ability to develop new roots [cites from gross2012,@haase2007morphological], ].
 
 Additionally, larger stock is adds difficulty in lifting, handling and planting properly, which can negate advantages of larger size tree stock in planting success [@cleary1978regenerating] 
 
@@ -205,6 +215,9 @@ How do these root parameters affect/determine outplanting success.
 
 Increases in root volume where related to increases in preplanting total fresh weight(although autocorrelated), root-collar diameter and height of Douglas-fir seedlings [@rose1991root].
 
+Jacobs and others (2005) Second year height and diameter were greater for hardwood seedlings with greater initial root volume.
+
+Root volume may not reflect root fibrosity, as seedlings with large fine root mass can displace the same volume as a seedlings with large tap roots [@haase2007morphological].
 
 Development of a rapid and standardized assessment of fibrosity could help provide an accurate characterization of root system quality, as the current time consuming nature of this assessment provides little operational potential [@davis2005quantifying].
 
@@ -237,6 +250,11 @@ Generally, this issue can be avoided by root pruning, pot style...
 
 As mentioned by Davis and Jacobs [-@davis2005quantifying], establishing standards for minimum TNC, nutrient content and moisture of the stock root system may be useful if specific to species and stocktype in terms or root system physiology. This can allow testing between root morphology and physiology with the goal of..... and which are most releveant in terms of outplanting success (belowground allometry between M and P as well as with aboveground parameters). Combine root:shoot with quality (new parameters)
 
+###INdexs: H:D, size index, others? (dicksons), R:S
+
+A high H:D ratio indicates a relatively spindly seedling while a lower ratio indicates a stouter seedling [@haase2007morphological].
+
+
 #bareroot vs container stocktypes
 
 Under drought conditions, seedlings in containers have higher field survival in sites with drought conditions [@grossnickle2005importance and references therein], which may have a significant role in many australian outplantings.
@@ -262,6 +280,9 @@ There are numerous container types and treatments applied to containers aimed at
 + pruning practice 
 + growing density
 + root wrenching
+
+
+Based on the methods of removal, bareroot seedlings have shoot:root of 3:1 or less compared to container seedlings with a shoot:root of 2:1 or less [@haase2007morphological].
 
 Although bareroot and container stocktypes have distinct characteristics influencing their field survival, new nursery practices are devloping bareroot seedlings with more balanced R:S and increasing large containers stocktypes [@grossnicklebareroot]. As a result, nursery tree stock standards should be more reliable between these two types..if they work at all (can be shown to be accurate)
 
