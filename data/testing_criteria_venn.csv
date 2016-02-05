@@ -1,0 +1,4 @@
+country,true_to_type,visual_health,height,diameter,crown_symmetry,canopy_spread,stem_taper,stem_structure,self_support,trunk_position,formative_pruning,included_bark,suckering,pest_disease,injury,rootball_diameter,rootball_depth,rootcrown_height,rootball_occupancy,root_direction,root_division
+australia,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+europe,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0
+usa,1,1,1,1,0,1,0,1,0,1,1,0,0,1,1,1,1,0,0,0,0
