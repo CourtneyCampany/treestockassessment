@@ -42,7 +42,7 @@ Seedling quality’ is an expression used to describe the extent to which a
 seedling may be expected to successfully survive and grow after outplanting
 (Duryea 1985; Mattsson 1997).
 
-Seedling quality is a dynamic process that is a culmination of all the practives that have precedded and will succedd that point fo measurement [@mexal1990target].
+Seedling quality is a dynamic process that is a culmination of all the practives that have precedded and will succed that point fo measurement [@mexal1990target].
 
 A primary goal of seedling quality assessment is to quantify levels of morphological and physiological attributes which accurately assess seedling condition and potential for vigorous growth and development [@wilson2006quality].
 
@@ -90,9 +90,9 @@ The morphological attributes of target seedlings represent the cumulative series
 
 An overarching aspect of the target seedling approach is that seedling quality is of the utmost importance.
 
-No single moprhological factor has been shown to provide a perfect prediction of outplanting success, but many of them are linked with seedling performance potential in some way [@haase2007morphological].
+No single morphological factor has been shown to provide a perfect prediction of outplanting success, but many of them are linked with seedling performance potential in some way [@haase2007morphological].
 
-Height and diameter (RCD, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. 
+Height and diameter (Root collar diameter, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. 
 
 
 However, it is now commonly accepted that height and diameter measurements alone do not always correlate with seedling performance following outplanting. This realization led to the 'target seedling concept' by Rose et al. [-@rose1990target], which proposes that numerous physiolgoical and morphological seedling traits should be tracked and developed in order to quantitatively assess seedling field performance [@rose1995target]. The adaptation of this concept has led to the generation of a suite of parameters, depending on nursery practice and ...., that are currently utilized to evaluate seedling quality and potential for outplanting success.
