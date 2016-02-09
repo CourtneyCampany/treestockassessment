@@ -38,11 +38,10 @@ The term "stocktype" descripbes a seedlings age and method production, while als
 
 As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessment of performance potential attributes include some systematic error [@puttonen1997looking].
 
-Seedling quality’ is an expression used to describe the extent to which a
-seedling may be expected to successfully survive and grow after outplanting
-(Duryea 1985; Mattsson 1997).
+Seedling quality is the basis for tree planting success and high quality trees will have a higher survival rate and faster growth in the field than poor quality trees [@wightman1999good]
 
 Seedling quality is a dynamic process that is a culmination of all the practives that have precedded and will succed that point fo measurement [@mexal1990target].
+
 
 A primary goal of seedling quality assessment is to quantify levels of morphological and physiological attributes which accurately assess seedling condition and potential for vigorous growth and development [@wilson2006quality].
 
@@ -63,6 +62,7 @@ Transplant success and establishment is dependent on the chain of events from pr
 
 translanting:reduction in uptake of water and nutrients and loss/usage of root carbohyrdrates to regrowth roots (growth lag phase)
 
+Transplant shock are the negative effects on growth and survival when nursery-raised stock are planted into a new environment and is associated with acclimatisation of seedlings to the new environmental conditions [@close2005physiological].
 
 Transplant shock recovery measured through photosynthesis, xylem water potentials and leaf area compared to control trees [references in @Watson2005].
 
@@ -90,7 +90,7 @@ The morphological attributes of target seedlings represent the cumulative series
 
 An overarching aspect of the target seedling approach is that seedling quality is of the utmost importance.
 
-No single morphological factor has been shown to provide a perfect prediction of outplanting success, but many of them are linked with seedling performance potential in some way [@haase2007morphological].
+No single morphological factor has been shown to provide a perfect prediction of outplanting success, but many of them are linked with seedling performance potential in some way [@haase2007morphological]. Consequesntly, seedlings quality represents how height, diameter, plant nutrition, health, root size and shape act together and influence one another [@wightman1999good].
 
 Height and diameter (Root collar diameter, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. 
 
@@ -150,6 +150,8 @@ Shoot-root ratios can be confounded in quality assessment when a low value does 
 South and Mitchell (1999) have cautioned that larger seedlings
 do not survive better than smaller seedlings when top-growth is ‘‘out of balance’’. ===higher risk of transplant shock
 
+Overall, a nurseries may choose to manage root:shoot balance differently when tree stock are destined to be outplanted in either arid or well irrigated environments.
+
 *From an economic standpoint, nurseries must minimize the amount of seedlings that they destructively harvest when evaluating root shoot balance.  Thus, non-destructive morpholoigcal parameters are commonly used to assess tree stock balance. How effective these are is still a matter of contention....*
 
 #A large question that remains is to the degree of correlation between tree stock balance and if rooting volume accurately represents the belowground status of a seedling
@@ -177,9 +179,9 @@ Additionally, larger stock is adds difficulty in lifting, handling and planting 
 
 *diameter* (most consistently related with plant performance above and bewloground which affect growth)
 
-tree stock diameter (caliper) is tradionally viewed as a index for tree sturdiness [all cites], and potentially related to the size of the root system [@cleary1978regenerating].
+tree stock diameter (caliper) is tradionally viewed as a index for tree sturdiness [all cites], and potentially related to the size of the root system [@cleary1978regenerating, @wightman1999good].
 
-Diameter has been shown to be closely related to seedling mass and outplanted seedling performance for nursery grown silver birch seedlings [@aphalo2003field]. commonly postively related to field performance hardwoods[@wilson2006quality]
+Diameter has been shown to be postively related to seedling mass and outplanted seedling performance for a variety of nursery grown tree seedlings [@aphalo2003field, @wilson2006quality, @bayala2009predicting].
 
 Stem diameter increases concomitantly with height, but this relationship is not absolute and is influenced growing density, fertility and pruning in nurseries [@mexal1990target]. nursery diameter nitrogen cites.
 
@@ -234,6 +236,8 @@ A potential issue with the large increase in containerized seedlings is that see
 
 Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container].
 
+Root binding occurs when a plant has roots too large for its container resulting in a reduction in field performance or root growth potential, which is a constand concern for tree nurseries [@south2006root]
+
 
 Generally, this issue can be avoided by root pruning, pot style...
 
@@ -253,7 +257,7 @@ As mentioned by Davis and Jacobs [-@davis2005quantifying], establishing standard
 ###INdexs: H:D, size index, others? (dicksons), R:S
 
 A high H:D ratio indicates a relatively spindly seedling while a lower ratio indicates a stouter seedling [@haase2007morphological].
-
+H:D ratio was found to be correlated to mortality in Pinus patula seedlings, suggesting it may serve as a good indice of survival [@bayley1997stock]
 
 #bareroot vs container stocktypes
 
@@ -261,7 +265,9 @@ Under drought conditions, seedlings in containers have higher field survival in 
 
 The root–soil contact is more disrupted in bareroot seedlings through the loss of fine roots at lifting (Nambiar 1980; Struve and Joly 1992), while containered seedlings typically maintain intact multldimensional root system [@tinus1974characteristics].
 
-Thus container grown seedlings have been commonly shown to have greater root growth during the first field growing season (cites in gross2012)
+Thus container grown seedlings have been commonly shown to have greater root growth during the first field growing season (cites in gross2012)[@wilson2007root]=red oak.
+
+Overall, container systems include better environmental control of the growing regime, shorter production cycles, increased stock uniformity and frequently superior field performance on poor quality sites (Brisette et al. 1991; Johnson et al. 1996)
 
 Stock quality assessments show bareroot seedlings have larger shoot systems because they are typically grown at lower densities, and in many instances longer timeframes, than container seedlings [@grossnicklebareroot].
 
@@ -272,9 +278,10 @@ Root morphology likely different (cites from davis2005).
 + root direction
 + size and shape
 
-The container design used for tree stocktypes has a major influence on root systems [@landis1990containers]
+The container design used for tree stocktypes has a major influence on root systems [@landis1990containers, @chapman2006early]
 
-There are numerous container types and treatments applied to containers aimed at natural root pruning and mainpulating root direction and division.  For example, air pruning containers, porous-walled containres and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection. For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects]. Cork oak seedlings also had similar height and diameter after a 10 month nuresry period in shallow and deep containers, yet deeoer containers had more larger tap root and near double fine root biomass [@chirino2008effects].
+There are numerous container types and treatments applied to containers aimed at natural root pruning and mainpulating root direction and division.  For example, air or mechanical pruning containers and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection. Container types designed to aid root pruning should produce seedlings with horizontally orientated structural roots and more stable root forms [@chapman2006early].
+For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects]. Cork oak seedlings also had similar height and diameter after a 10 month nuresry period in shallow and deep containers, yet deeoer containers had more larger tap root and near double fine root biomass [@chirino2008effects].
 
 *2. bareroot
 + pruning practice 
