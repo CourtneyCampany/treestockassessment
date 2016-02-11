@@ -16,7 +16,7 @@ opts_knit$set(root.dir = '../')
 ```
 
 
-#Overview
+#Overview (the Standard and what it means)
 Nursery provides this and this.  Worldwide for this.  This in Australia. Specifically, in Australai the new 20/20 vision sets goals to incrase greenspace, .. As a result, the need to 
 1. lanscaping
 2. orhcards
@@ -25,44 +25,29 @@ Nursery provides this and this.  Worldwide for this.  This in Australia. Specifi
 economy, ecology, purpose here
 
 
-Recently, the nursery industry in Australia has adopted a new standard for tree stock for landscape use (AS2303:2015).  Although this standard is not currently mandantory, it was developed to 
+Recently, the nursery industry in Australia has adopted a new standard for tree stock for landscape use (AS2303:2015). Although this standard is not currently mandantory, it was developed to 
 
 One very important statement within the "Australian standard for Tree stock and landscape use" is that 
 variability between tree stock should be expected, as trees are living organisms and there is nothing exact
 in their nature. This variability presents a large challenge for the nursery industry as they should attempt to produce a uniform planting stock in which the variance of the morphological characteristics is reduced [@puttonen1997looking]. Irregardless, nursery seedlings should embody the structural and physiological traits that can be quantitatively linked to success in the field [@rose1990target]. Evaluating nursery seedling quality is thus necessary to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
 
 ##what is quality (performance potential)
-*?How are?* are we defining seedling quality. Is the root:shoot assessment in relation to seedling heath in nurersy or trialed against success of outplanting?
 
-The term "stocktype" descripbes a seedlings age and method production, while also serving as a visual reference of what the seedling should look like before outplanting [@pinto2011conducting].
+Seedling quality is the basis for tree planting success and high quality trees will have a higher survival rate and faster growth in the field than poor quality trees [@wightman1999good]. Seedling quality is a dynamic process that is a culmination of all the practives that have preceeded and will succeed that point fo measurement [@mexal1990target]. Thus, the term "stocktype" is used to describe a seedlings age and method production, while also serving as a visual reference of what the seedling should look like before outplanting [@pinto2011conducting]. A primary goal of seedling quality assessments is to then quantify levels of morphological and physiological attributes which accurately assess the condition and potential for growth and development of different stocktypes [@wilson2006quality].
 
-As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessment of performance potential attributes include some systematic error [@puttonen1997looking].
-
-Seedling quality is the basis for tree planting success and high quality trees will have a higher survival rate and faster growth in the field than poor quality trees [@wightman1999good]
-
-Seedling quality is a dynamic process that is a culmination of all the practives that have precedded and will succed that point fo measurement [@mexal1990target].
+Importantly, planting seedlings with desirable plant attributes does not guarantee high survival, but does increases chances for survival[@grossnickle2012seedlings]. As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessments of stocktype performance potential does include some systematic error [@puttonen1997looking].
 
 
-A primary goal of seedling quality assessment is to quantify levels of morphological and physiological attributes which accurately assess seedling condition and potential for vigorous growth and development [@wilson2006quality].
+##what good quality tree stock ensures
 
-Importantly, planting seedlings with desirable plant attributes does not guarantee high survival, but does increases chances for survival[@grossnickle2012seedlings].
+The ultimate goal of a generating a high quality tree stock is to ensure a very high percentage of outplanting estblishment. Transplant success and establishment is dependent on the chain of events from propagation and production, to harvest and transport, to transplanting and aftercare [@struve2009tree]. To be extablished, a transplanted tree must generate a root system so that shoot growth is comparable to a non-transplanted tree [@watson1997principles]. Establishment likely different for different stock types, such as large vs small calliper trees. The ability to re-establish a balance between above and belowground growth will depend on the rate of root growth potential, even with shoot growth being typically suppressed intially [@struve2009tree]. Larger trees generally require a longer time to produce a root system compared to smaller trees [@Watson2005], which may affect outplanting success.
 
+During an initial growth lag phase, reductions in water and nutrient uptake and the loss of root carbohydrates to regrowth roots will determine the amount of transplant shock and eventually outplanting success. Transplant shock are the negative effects on growth and survival when nursery-raised stock are planted into a new environment and is associated with acclimatisation of seedlings to the new environmental conditions [@close2005physiological]. Reductions in transplant shock can thus be actively managed in nurseries through cultural practives that assess above and belowgroudn balance of tree planting stock.
 
-##what good quality tree stock ensures (should be vigouros enough to recover from transplant with a high percentage of field establishment).
-What constitutes success of outplantings.  After what duration post outplanting is surivial/establishment considered complete.
+Depending on destination of the outplanting (ie landscaping, plantation forests or urban sites), outplatning seedlings will undergo varying degrees of 
 
+These differing levels of ... are especially relevant for tree stock in Australia as planned increases in urban greenspaces are underway as well as climate and soil contraints that typically define Australian ecosystems. 
 
-To be extablished, a transplanted tree must generate a root system so that shoot growth is comparable to a non-transplanted tree [@watson1997principles].
-
-Establishment likely different for different stock types (ie. large vs small calliper trees),
-
-Larger trees require a longer time to produce a root system compared to smaller trees [@Watson2005]. This will affect planting sucess as the re-estblishment of the branch-to-root spread ratio will depend on the rate of root growth potential, even with shoot growth being typically suppressed intially [@struve2009tree].
-
-Transplant success and establishment is dependent on the chain of events from propagation and production, to harvest and transport, to transplanting and aftercare [@struve2009tree].
-
-translanting:reduction in uptake of water and nutrients and loss/usage of root carbohyrdrates to regrowth roots (growth lag phase)
-
-Transplant shock are the negative effects on growth and survival when nursery-raised stock are planted into a new environment and is associated with acclimatisation of seedlings to the new environmental conditions [@close2005physiological].
 
 Transplant shock recovery measured through photosynthesis, xylem water potentials and leaf area compared to control trees [references in @Watson2005].
 
@@ -70,10 +55,9 @@ Depending on the transplant purpose (ie. landscaping or urban) will inherit a ce
 greenspace.establishment (high risk?) vision for 20/20 tie in
 
 ##Primary stresses and what factors best predict the reponse to these?
-Seedlings are living, perishable plants and can be profoundly impacted by stresses introduced during culturing, lifting,
-packing, grading, handling, pruning, storage, transport, and outplanting.
-The three primary types of stress that influence seedling quality are
-moisture, temperature, and physical stress.[@haase2007morphological]
+Seedlings are living, perishable plants and can be profoundly impacted by stresses introduced during culturing, lifting,packing, grading, handling, pruning, storage, transport, and outplanting.
+
+The three primary types of stress that influence seedling quality are moisture, temperature, and physical stress.[@haase2007morphological]
 
 ##target seedling approach (variables that are most related to growth---which morph variables are most correlated to those)
 
@@ -131,6 +115,8 @@ related to field performance is lacking.
 
 
 ## Review of Root : Shoot balance (need strong section here in terms of ecology and nurser specifics)
+Combinations of root and shoot morphological characteristics may be better able to predict growth potentials and possibly outplanting success than simple shoot parameters.
+
 *1. What root:shoot means to general tree ecology
 The shoot-root ratio represents the balance between the transpirational area (shoot) and the water absorbing area (root) of a seedling [@thompson1985seedling]. 
 
@@ -187,10 +173,12 @@ Stem diameter increases concomitantly with height, but this relationship is not 
 
 Diameter has been shown to be correlated with important morphological characteristics including height and dry total biomass, but not necessarily the R:S [@mexal1990target].
 
-linear relationship between diameter and root volume was found for seedlings of northern red oak, white oak, and black cherry (Jacobs and Seifert 2004).
+linear relationship between diameter and root volume was found for seedlings of northern red oak, white oak, and black cherry (Jacobs and Seifert 2004) and with red oak seedlings [@dey1997morphological]
 
 stem diameter at the time of planting predicts of stem volume for several years after out-planting (Simpson
 1995)
+
+As stem diameter is easy to measure and is positive correlated with root system size, it is an operationally attractive morphological parameter for nursery grading criteria [@dey1997morphological].
 
 ### Belowground (Rootball diameter and volume)
 
@@ -203,6 +191,13 @@ After planting the original root system size determines the ability of seedlings
 In turn, this means that root quality parameters including ..... should be managed in order to promote seedling planting success.
 New root growth will be paramount for seedlings access water and nutrient resouces following outplanting.
 
+Many measurements of root system morphology are destructive and time consuming, which limits their application in nursery cultural practives [@jacobs2004re].
+
+The size of the root system in loblooly pine seedlings, in terms of rooting volume, was shown to determine the potential for water uptake prior to new root growth [@carlson1986root].
+
+In red oak seedings seedlings, measured root volume was successful in predicting total height and diameter after one growing season [@jacobs2004re].
+
+If rootball occupancy has meet the standard, then can container volume be used to predeict aboveground growth?
 
 *rootball diameter*
 
@@ -387,6 +382,9 @@ Tree root to shoot balance is commonly believed to play a major role in water st
 
 ###do other countries evalue tree balance? in what way?
 ##US resources based on target seedling approach:
+
+Commonly-measured morphological characteristics include shoot height, stem diameter, and root system size [@rose1990target](Rose et al. 1990). Tree nursery standards from various countries generally focus on these 3 core parameters to assess tree stock balance, albeit in different ways.
+
 Americanhort: american standard for nursery stock (2014)
 
 examples include Forestry Nursery Manuals produced through the USDA for bareroot seedlings or seedlings in containers with volumes spannning from 1989-2010.
