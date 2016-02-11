@@ -151,34 +151,21 @@ multi parameter models (allows for the assessment of tree quality above and belo
 
 ### Aboveground (Height, Diameter/Calliper)
 
-*height* (index of transpirational area and photosyn which affect growth
+*height* 
+Intro sentence..
 
-Height is considered a good estimate of photosynthetic capacity and transpirational area, suggesting a positive relationship with subsequent growth [@haase2007morphological].
+Height is considered a good estimate of photosynthetic capacity and transpirational area, suggesting a positive relationship with subsequent growth [@haase2007morphological]. Within a nursery environment maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target]. Shoot system size is important because on sites with available soil water and nutrients, competition for light between planted seedlings and the site vegetation complex is a main factor limiting seedling performance (Grossnickle 2000).Larger seedling height, however, may have adverse effects on field success in drier sites. This is mainly a issue of an imbalanced root:shoot ratio, which affects water uptake and the ability to develop new roots [cites from gross2012,@haase2007morphological], ]. Additionally, larger stock is adds difficulty in lifting, handling and planting properly, which can negate advantages of larger size tree stock in planting success [@cleary1978regenerating] 
 
-Shoot system size is important because on sites with available soil water and nutrients, competition for light between planted seedlings and the site vegetation complex is a main factor limiting seedling performance (Grossnickle 2000).
+*diameter* 
+Stem diameter has been consistently found to relate to plant performance above and belowground parameters which affect seedlings growth. Diameter has also been shown to be postively related to total seedling mass and performance of outplanted seedlings for a variety of nursery grown tree seedlings [@aphalo2003field, @wilson2006quality, @bayala2009predicting].
 
-Within a nursery environment maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target].
-
-Larger seedling height, however, may have adverse effects on field success in drier sites. This is mainly a issue of an imbalanced root:shoot ratio, which affects water uptake and the ability to develop new roots [cites from gross2012,@haase2007morphological], ].
-
-Additionally, larger stock is adds difficulty in lifting, handling and planting properly, which can negate advantages of larger size tree stock in planting success [@cleary1978regenerating] 
-
-*diameter* (most consistently related with plant performance above and bewloground which affect growth)
-
-tree stock diameter (caliper) is tradionally viewed as a index for tree sturdiness [all cites], and potentially related to the size of the root system [@cleary1978regenerating, @wightman1999good].
-
-Diameter has been shown to be postively related to seedling mass and outplanted seedling performance for a variety of nursery grown tree seedlings [@aphalo2003field, @wilson2006quality, @bayala2009predicting].
-
+Tree stock diameter (caliper) is tradionally viewed as a index for sturdiness for nursery tree stock [all cites].
+Stem diameter at the time of planting can successfully predict of stem volume for several years after out-planting (Simpson 1995).
 Stem diameter increases concomitantly with height, but this relationship is not absolute and is influenced growing density, fertility and pruning in nurseries [@mexal1990target]. nursery diameter nitrogen cites.
-
 Diameter has been shown to be correlated with important morphological characteristics including height and dry total biomass, but not necessarily the R:S [@mexal1990target].
 
-linear relationship between diameter and root volume was found for seedlings of northern red oak, white oak, and black cherry (Jacobs and Seifert 2004) and with red oak seedlings [@dey1997morphological]
+As stem diameter is easy to measure and is positive correlated with root system size [@cleary1978regenerating, @wightman1999good], it is an operationally attractive morphological parameter for nursery grading criteria [@dey1997morphological]. Postive linear relationship between diameter and root volume have also been noted for seedlings of northern red oak, white oak, and black cherry (Jacobs and Seifert 2004) and with red oak seedlings [@dey1997morphological].
 
-stem diameter at the time of planting predicts of stem volume for several years after out-planting (Simpson
-1995)
-
-As stem diameter is easy to measure and is positive correlated with root system size, it is an operationally attractive morphological parameter for nursery grading criteria [@dey1997morphological].
 
 ### Belowground (Rootball diameter and volume)
 
