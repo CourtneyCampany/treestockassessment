@@ -31,6 +31,18 @@ One very important statement within the "Australian standard for Tree stock and 
 variability between tree stock should be expected, as trees are living organisms and there is nothing exact
 in their nature. This variability presents a large challenge for the nursery industry as they should attempt to produce a uniform planting stock in which the variance of the morphological characteristics is reduced [@puttonen1997looking]. Irregardless, nursery seedlings should embody the structural and physiological traits that can be quantitatively linked to success in the field [@rose1990target]. Evaluating nursery seedling quality is thus necessary to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
 
+
+##shifts in nursery tree stock with 20/20/20 and new stadard in OZ.  green spaces and nursery trees
+#from 2020 to 202020 (recent trends and directions of Australia nursery)
+In 1997 the Australian Federal Government set a target to treble the nation’s plantation estate by 2020: the ‘2020 Vision’ (www.plantations2020.com.au). This initiative has seen the expansion of the plantation estate by 55 % to 1.97 million ha, hardwoods accounting for 48 % of the total (Gavran and Parsons 2009)....60 % Eucalyptus globulus Labill and
+20 % Eucalyptus nitens Maiden.
+
+The first 2020 vision saw a shift from bareroot to containerised production of tree seedlings [@close2012review]
+
+Now ----20% more greenspace establishded a significant shift in the what Austrlias nurserys will do.  species for urban, new requirements?
+
+This is highlight by the difficulty in establishment of stree trees (Rob bodenstaff)
+
 ##what is quality (performance potential)
 
 Seedling quality is the basis for tree planting success and high quality trees will have a higher survival rate and faster growth in the field than poor quality trees [@wightman1999good]. Seedling quality is a dynamic process that is a culmination of all the practives that have preceeded and will succeed that point fo measurement [@mexal1990target]. Thus, the term "stocktype" is used to describe a seedlings age and method production, while also serving as a visual reference of what the seedling should look like before outplanting [@pinto2011conducting]. A primary goal of seedling quality assessments is to then quantify levels of morphological and physiological attributes which accurately assess the condition and potential for growth and development of different stocktypes [@wilson2006quality].
@@ -114,6 +126,33 @@ related to field performance is lacking.
 *4. Rootball (volume) (RGP)
 
 
+
+
+# Significant to the nursery industry (building quantitaive links between parameters and root:shoot balance)
+
+Allometric approaches to model nursery stock tree growth. Multiple regression models have been shown to better predict seedling quality than with single parameters [@jacobs2005relative], impling that combining above and bewloground indices of seedling quality will more reliably predict seedling field performance.
+
+A cost effective sampling procedure is needed, limiting destructive sampling, as every seedling to be outplanted cannot be measured or assessed easily with current techniques [@puttonen1997looking].
+
+#Australian standard:
+little emphasis on physiolgical assesement in the nursery. The question remains on whether the morpholigcal 
+indices defined in the standard represent proper root:shoot balance for the most common and widely distributed stock types in Australia.  
+
+###do other countries evalue tree balance? in what way?
+##US resources based on target seedling approach:
+
+Commonly-measured morphological characteristics include shoot height, stem diameter, and root system size [@rose1990target](Rose et al. 1990). Tree nursery standards from various countries generally focus on these 3 core parameters to assess tree stock balance, albeit in different ways.
+
+Americanhort: american standard for nursery stock (2014)
+
+examples include Forestry Nursery Manuals produced through the USDA for bareroot seedlings or seedlings in containers with volumes spannning from 1989-2010.
+
+##Europe
+The European Nurserystock Association (ENA) has produced the "European technical & quality standards for nurserystock", most recently in 2010,  
+
+
+
+
 ## Review of Root : Shoot balance (need strong section here in terms of ecology and nurser specifics)
 Combinations of root and shoot morphological characteristics may be better able to predict growth potentials and possibly outplanting success than simple shoot parameters.
 
@@ -122,6 +161,10 @@ The shoot-root ratio represents the balance between the transpirational area (sh
 
 *2. What does root:shoot mean for nursery tree stock
 In nusery trees, it is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
+
+Shoot:Root ration has also been shown to be responseive to fertilzation regimes, with higher S:R with increased nutrient supply for several tree species [@villar2004nursery](Green et al., 1994; Holopainen et al.,Canham et al.,1996
+1995; Graff et al., 1999), usually manifesting as increased shoot growth and not reduced root allocation. This response has also been
+observed in other Quercus species.
 
 Proper R:S balance is an important morphological attribute because it is a measure of
 seedling water loss and water uptake capacity at the time of planting (Ritchie 1984;
@@ -150,6 +193,8 @@ Increassing container volume increased the root:shoot ratio at a given seedling 
 multi parameter models (allows for the assessment of tree quality above and below fround )
 
 ### Aboveground (Height, Diameter/Calliper)
+
+The first attempts to describe an quality nursery plant usually begin with morphological characteristics, such as shoot height and stem diameter, which are then converted into grading standards [@landis2006applying].
 
 *height* 
 Intro sentence..
@@ -282,7 +327,7 @@ The size of containers plants are grown in prior to outplantind has been shown t
 
 Container depth determines root system growth and tap root length, which will aid in soil colonization of deep soil horizons [@chirino2008effects].
 
-Larger container volumes lead to greatest field performance via incrased height, diameter and nutrient content in *Pinus pinea* seedlings, with a possible optimal relationship of container depth:diameter or 4 [@dominguez2006container].
+Larger container volumes lead to greatest field performance via increased height, diameter and nutrient content in *Pinus pinea* seedlings, with a possible optimal relationship of container depth:diameter or 4 [@dominguez2006container].
 
 not always the case....
 
@@ -299,10 +344,15 @@ indicative of a
 less developed root system, and can restrict the capacity for
 nutrient and water uptake (Will and Teskey I997).
 
-A review of the pot size effect found that increasing
-growing volume improved biomass production (Poorter et al. 2012).
+A review of the pot size effect found that increasing growing volume improved biomass production (Poorter et al. 2012).
+
+The use of different containers types and volumes has been shown to have morpholoigcal consequences, including height, RCD and total mass, for black sprive seedligns [@heightpeterson1997growing].
+
 
 *does pot volume affect root:shoot?*
+Although proper root to shoot balance will be essential for outplanting success the size of the container used for different stock types will more likely depend on nursery practives to maximum growth, yeild and profitability.  Size, time and space involved in transplanting tree stock to larger containers or dispatch them so buyers. 
+
+
 Different container volumes did not affect R:S in silver birch [@aphalo2003field]
 
 For Picea glauca seedlings S:R increased nearly two fold from 2.3 to 4 after 20 weeks from from 10cm3 - 524cm3 container volumes [@carlson1976effect].
@@ -310,6 +360,8 @@ For Picea glauca seedlings S:R increased nearly two fold from 2.3 to 4 after 20 
  R:S did not shift in western larch seedlings across volumes from 111ml to 207ml  [@aghai2014container]
 
 ?why---refer to poorter
+
+*does R:S differ significantly by species, stocktype or climate??? (KEY QUESTION)
 
 ##how management practices come into play (the impacts of container volume are obivously well studued and large, howver
 ##differences in nusery practices have the potentiall to.....)
@@ -328,31 +380,27 @@ to the rapid change in exposure to light after transplanting [@close2012review].
 
 Seedling size in the nursery can be manipulated by the length of the growing season imposed by the timing of seed sowing [@close2006defining]. Additionally, the length of the growing season can vary across different climates zones, such as those present across Australia....what this means for evergreens
 
-#from 2020 to 202020 (recent trends and directions of Australia nursery)
-In 1997 the Australian Federal Government set a target to treble the nation’s plantation estate by 2020: the ‘2020 Vision’ (www.plantations2020.com.au). This initiative has seen the expansion of the plantation estate by 55 % to 1.97 million ha, hardwoods accounting for 48 % of the total (Gavran and Parsons 2009)....60 % Eucalyptus globulus Labill and
-20 % Eucalyptus nitens Maiden.
-
-The first 2020 vision saw a shift from bareroot to containerised production of tree seedlings [@close2012review]
-
-Now ----20% more greenspace establishded a significant shift in the what Austrlias nurserys will do.  species for urban, new requirements?
-
-This is highlight by the difficulty in establishment of stree trees (Rob bodenstaff)
-
-# Significant to the nursery industry (building quantitaive links between parameters and root:shoot balance)
-
-Allometric approaches to model nursery stock tree growth. Multiple regression models have been shown to better predict seedling quality than with single parameters [@jacobs2005relative], impling that combining above and bewloground indices of seedling quality will more reliably predict seedling field performance.
 
 
-A cost effective sampling procedure is needed, limiting destructive sampling, as every seedling to be outplanted cannot be measured or assessed easily with current techniques [@puttonen1997looking].
 
+#effects of environment on nurseries and seedling performance
 
-#Australian standard:
-little emphasis on physiolgical assesement in the nursery. The question remains on whether the mopholigcal 
-indices defined in the standard represent proper root:shoot balance for the most common and widely distributed stock types in Australia.  
+Differente environmental conditions across nursery locations can have important influences on functional traits of a common seedling type [@molla2006physiological].
+
+ex.  affects on cold haridness (Pinus radiata and in Pseudotsuga menziesii (Menzies et al., 1981; Schuch et al., 1989)
+ex. drought tolerance in meditaranian climates
+ex. possible differnces in length of growing season/daylength
+
+q.ilex  root growth, frost resistance and drought tolerance attributed to climate in which seedlings were grown (nursery location)
+[@molla2006physiological].
 
 
 
 ##australias climate zones (arid zones, hot temps (urban))...how are indices affected
+The cliamte of Australia means that many tree stock are container grown in open environments, and thus are exposed to .....
+
+
+This potenial impact of climate has been relatively unexplored in Australia, in which tree nurseries propagate plants from tropical to temperate climates.
  
  austalia already represents an area of high aridity, nutrient soil deficiency, etc.  It is also designated as being more susceptible to extreme climate events, etc etc.  In this sense nursery standards developed to deal with an already inhospitable outplanting environment could possibly be used as a surruogate for understand the needs of other countries who are or will be facing hotter and drier climates.
  
@@ -367,20 +415,14 @@ indices defined in the standard represent proper root:shoot balance for the most
  #how is rootshoot balance, seedling quality evaulated globally and in Australia?
 Tree root to shoot balance is commonly believed to play a major role in water status of an outplanted seedling, and plays a critical role in surivival in droughted field conditions. In urban systems, this balance may critically define the success of planted tree stock as (hotter drier cite)
 
-###do other countries evalue tree balance? in what way?
-##US resources based on target seedling approach:
 
-Commonly-measured morphological characteristics include shoot height, stem diameter, and root system size [@rose1990target](Rose et al. 1990). Tree nursery standards from various countries generally focus on these 3 core parameters to assess tree stock balance, albeit in different ways.
-
-Americanhort: american standard for nursery stock (2014)
-
-examples include Forestry Nursery Manuals produced through the USDA for bareroot seedlings or seedlings in containers with volumes spannning from 1989-2010.
-
-##Europe
-The European Nurserystock Association (ENA) has produced the "European technical & quality standards for nurserystock", most recently in 2010,  
+###What is the species effect?  Is root to shoot balance conserved?  fast, slow, native -non native, temperate decidous???
 
 
-##Perhaps a table or figure here comparing indices...?
+
+
+
+
 
 
 \
