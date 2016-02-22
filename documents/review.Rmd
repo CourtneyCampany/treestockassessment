@@ -41,7 +41,7 @@ The first 2020 vision saw a shift from bareroot to containerised production of t
 
 Now ----20% more greenspace establishded a significant shift in the what Austrlias nurserys will do.  species for urban, new requirements?
 
-This is highlight by the difficulty in establishment of stree trees (Rob bodenstaff)
+This is highlight by the difficulty in establishment of street trees (Rob bodenstaff)
 
 ##what is quality (performance potential)
 
@@ -216,7 +216,7 @@ As stem diameter is easy to measure and is positive correlated with root system 
 
 Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying].
 
-Additionally, seedling establishment is also dependent on the capacity of seedlings to rapidly initiate new roots [@grossnickle2005importance].
+Seedling establishment is also dependent on the capacity of seedlings to rapidly initiate new roots [@heiskanen1998influence, @grossnickle2005importance].
 
 After planting the original root system size determines the ability of seedlings to take up water so they can initiate the establishment process (Carlson and Miller 1990).
 
