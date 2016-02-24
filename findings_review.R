@@ -7,3 +7,9 @@
 2. Patterson 1996 - RCD, height, mass by container size
 
 3. Heishanen_1998 - R:S by soil media (scots pine, silver birch)
+
+
+
+
+
+
