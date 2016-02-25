@@ -8,6 +8,8 @@
 
 3. Heishanen_1998 - R:S by soil media (scots pine, silver birch)
 
+4. Lamhamedi_19967 - RCD, H, mass, R:S by container size (black spruce)
+
 
 
 

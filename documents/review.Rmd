@@ -45,31 +45,25 @@ This is highlight by the difficulty in establishment of street trees (Rob bodens
 
 ##what is quality (performance potential)
 
-Seedling quality is the basis for tree planting success and high quality trees will have a higher survival rate and faster growth in the field than poor quality trees [@wightman1999good]. Seedling quality is a dynamic process that is a culmination of all the practives that have preceeded and will succeed that point fo measurement [@mexal1990target]. Thus, the term "stocktype" is used to describe a seedlings age and method production, while also serving as a visual reference of what the seedling should look like before outplanting [@pinto2011conducting]. A primary goal of seedling quality assessments is to then quantify levels of morphological and physiological attributes which accurately assess the condition and potential for growth and development of different stocktypes [@wilson2006quality].
-
-Importantly, planting seedlings with desirable plant attributes does not guarantee high survival, but does increases chances for survival[@grossnickle2012seedlings]. As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessments of stocktype performance potential does include some systematic error [@puttonen1997looking].
+Seedling quality is the basis for tree planting success and high quality trees will have a higher survival rate and faster growth in the field than poor quality trees [@wightman1999good]. Seedling quality is a dynamic process that is a culmination of all the practives that have preceeded and will succeed that point fo measurement [@mexal1990target]. A primary goal of seedling quality assessments is to quantify levels of morphological and physiological attributes which accurately assess the condition and potential for growth and development of different stocktypes [@wilson2006quality]. As there is no one single test which encompasses seedling quality, assessing a seedling is analagous to a physician conducting a multitude of measurements to characterize a patients general health [@ritchie1984assessing].
 
 
-##what good quality tree stock ensures
+The term "stocktype" is used to describe a seedlings age and method production, while also serving as a visual reference of what the seedling should look like before outplanting [@pinto2011conducting]. Importantly, planting seedlings with desirable plant attributes does not guarantee high survival, but does increases chances for survival[@grossnickle2012seedlings]. As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessments of stocktype performance potential does include some systematic error [@puttonen1997looking]. Additionally, assessments during nursery production can be problematuc as seedling characteristics often change during the high grow phase [@mattsson1997predicting].
 
-The ultimate goal of a generating a high quality tree stock is to ensure a very high percentage of outplanting estblishment. Transplant success and establishment is dependent on the chain of events from propagation and production, to harvest and transport, to transplanting and aftercare [@struve2009tree]. To be extablished, a transplanted tree must generate a root system so that shoot growth is comparable to a non-transplanted tree [@watson1997principles]. Establishment likely different for different stock types, such as large vs small calliper trees. The ability to re-establish a balance between above and belowground growth will depend on the rate of root growth potential, even with shoot growth being typically suppressed intially [@struve2009tree]. Larger trees generally require a longer time to produce a root system compared to smaller trees [@Watson2005], which may affect outplanting success.
-
-During an initial growth lag phase, reductions in water and nutrient uptake and the loss of root carbohydrates to regrowth roots will determine the amount of transplant shock and eventually outplanting success. Transplant shock are the negative effects on growth and survival when nursery-raised stock are planted into a new environment and is associated with acclimatisation of seedlings to the new environmental conditions [@close2005physiological]. Reductions in transplant shock can thus be actively managed in nurseries through cultural practives that assess above and belowgroudn balance of tree planting stock.
-
-Depending on destination of the outplanting (ie landscaping, plantation forests or urban sites), outplatning seedlings will undergo varying degrees of 
-
-These differing levels of ... are especially relevant for tree stock in Australia as planned increases in urban greenspaces are underway as well as climate and soil contraints that typically define Australian ecosystems. 
+The ultimate goal of a generating a high quality tree stock is to ensure a very high percentage of outplanting establishment. Transplant success and establishment is dependent on the chain of events from propagation and production, to harvest and transport, to transplanting and aftercare [@struve2009tree]. To be extablished, a transplanted tree must generate a root system so that shoot growth is comparable to a non-transplanted tree [@watson1997principles]. Establishment likely different for different stock types, such as large vs small calliper trees. The ability to re-establish a balance between above and belowground growth will depend on the rate of root growth potential, even with shoot growth being typically suppressed intially [@struve2009tree]. Larger trees generally require a longer time to produce a root system compared to smaller trees [@Watson2005], which may affect outplanting success.
 
 
-Transplant shock recovery measured through photosynthesis, xylem water potentials and leaf area compared to control trees [references in @Watson2005].
+##Primary stresses
 
-Depending on the transplant purpose (ie. landscaping or urban) will inherit a certain degree of harshness for seedlings and thus requires a high level of seedling quality\
-greenspace.establishment (high risk?) vision for 20/20 tie in
+The three primary types of stress that influence seedling quality are moisture, temperature, and physical stress.[@haase2007morphological]. Nursery seedlings can be profoundly impacted by these primary stresses during all phases of preoduction, including culturing, lifting, packing, grading, handling, pruning, storage, and transport.
 
-##Primary stresses and what factors best predict the reponse to these?
-Seedlings are living, perishable plants and can be profoundly impacted by stresses introduced during culturing, lifting,packing, grading, handling, pruning, storage, transport, and outplanting.
+Depending on destination of the outplanting (ie landscaping, plantation forests or urban sites), seedlings will undergo varying degrees of environmental stresses not experienced during nursery production.  The varying degrees of harshness inherit by outplanted seedlings determine the length and severity of seedling 'transplant shock'.During an initial growth lag phase, reductions in water and nutrient uptake and the loss of root carbohydrates to regrowth roots will determine the amount of transplant shock and eventually outplanting success. Transplant shock are the negative effects on growth and survival when nursery-raised stock are planted into a new environment and is associated with acclimatisation of seedlings to the new environmental conditions [@close2005physiological]. During an initial growth lag phase, reductions in water and nutrient uptake and the loss of root carbohydrates to regrowth roots will determine the amount of transplant shock and eventually outplanting success.Reductions in transplant shock can thus be actively managed in nurseries through cultural practives that assess above and belowgroudn balance of tree planting stock.
 
-The three primary types of stress that influence seedling quality are moisture, temperature, and physical stress.[@haase2007morphological]
+***insert urban ecology, Australia and greenspace examples here
+Minimizing transplant shock is highly relevant for tree stock in Australia as planned increases in urban greenspaces are underway as well as climate and soil contraints that typically define Australian ecosystems. 20/20/20 urban examples.  Aridity examples
+
+To minimize transplant shock requires not only stocktypes that exhibit high quality morpholoical characteristic but a seedling that is properly balanced above and belowground.
+
 
 ##target seedling approach (variables that are most related to growth---which morph variables are most correlated to those)
 
@@ -79,14 +73,13 @@ Measuring morphology in the nursery is standard practice because it easily track
 
 Morphological attributes are considered a reliable measure of seedling quality as they retain their mark on the seedling identity for extended timeframes after seedlings are field planted and start to grow [@puttonen1997looking, @grossnickle2012seedlings].
 
-Seedling morphological parameters, including height, stem diameter and shoot-root ratio each influence
-seedling tolerance to environmental stress and thus should to be considered in relation to each other [@cleary1978regenerating]
+Seedling morphological parameters, including height, stem diameter and shoot-root ratio each influence seedling tolerance to environmental stress and thus should to be considered in relation to each other [@cleary1978regenerating]
 
 The morphological attributes of target seedlings represent the cumulative series of physiological processes responding to resources and stresses during nursery production [@mexal1990target].
 
 An overarching aspect of the target seedling approach is that seedling quality is of the utmost importance.
 
-No single morphological factor has been shown to provide a perfect prediction of outplanting success, but many of them are linked with seedling performance potential in some way [@haase2007morphological]. Consequesntly, seedlings quality represents how height, diameter, plant nutrition, health, root size and shape act together and influence one another [@wightman1999good].
+No single morphological factor has been shown to provide a perfect prediction of outplanting success, but many of them are linked with seedling performance potential in some way [@mattsson1997predicting; @haase2007morphological]. Consequesntly, seedlings quality represents how height, diameter, plant nutrition, health, root size and shape act together and influence one another [@wightman1999good].
 
 Height and diameter (Root collar diameter, calliper, stem diameter) are easily the two most common parameters examined in tree stock, and minimum and maximum targets are usually established in grower contracts [@haase2008understanding]. 
 
@@ -169,7 +162,7 @@ observed in other Quercus species.
 
 Proper R:S balance is an important morphological attribute because it is a measure of
 seedling water loss and water uptake capacity at the time of planting (Ritchie 1984;
-Thompson 1985; Burdett 1990; Grossnickle 2000).
+Thompson 1985; Burdett 1990; Grossnickle 2000), although this does not always translate into reduced water stress post-planting [@lamhamed1997effect].
 
 Higher root:shoot ratio may result in more favourable water relations,lower shoot maintenance requirements and thus faster growth rates [@close2010influences]. 
 
@@ -322,11 +315,11 @@ Based on the methods of removal, bareroot seedlings have shoot:root of 3:1 or le
 Although bareroot and container stocktypes have distinct characteristics influencing their field survival, new nursery practices are devloping bareroot seedlings with more balanced R:S and increasing large containers stocktypes [@grossnicklebareroot]. As a result, nursery tree stock standards should be more reliable between these two types..if they work at all (can be shown to be accurate)
 
 #container volumes (surrogates for bewlogground)
-Volume is one of the most obvious and important characteristics of a container as the larger the container the larger the seedling that can be produced, however, optimum container sizes can vary by species, growing density, environmental conditions and growing season length [@tsakaldimi2005root].
+Volume is one of the most obvious and important characteristics of a container as the larger the container the larger the seedling that can be produced, however, optimum container sizes can vary by species, growing density, environmental conditions and growing season length [@tsakaldimi2005root]. Container depth will determine root system growth and tap root length, which will aid in soil colonization of deep soil horizons [@chirino2008effects].
 
-The size of containers plants are grown in prior to outplantind has been shown to have significant impacts of field success, especially during the early months after planting [@close2006defining].
+The size of containers plants are grown in prior to outplantind has been shown to have significant impacts of field success, especially during the early months after planting [@close2006defining]. For example, seedlings outplanted from very large containers may undergo water stress as large foliar water demands may outweight root uptake potential during early growth [@lamhamed1997effect].
 
-Container depth determines root system growth and tap root length, which will aid in soil colonization of deep soil horizons [@chirino2008effects].
+
 
 Larger container volumes lead to greatest field performance via increased height, diameter and nutrient content in *Pinus pinea* seedlings, with a possible optimal relationship of container depth:diameter or 4 [@dominguez2006container].
 
@@ -336,10 +329,7 @@ Seedlings raised in larger volume containers may affect post-planting performanc
 
 Higher total biomass may result in larger total carbohydrate stores available for re-mobilisation for rapid growth soon after planting [@close2010influences].
 
-Nelson (1996) suggested that
-improved after-planting performance of eucalypt seedlings
-produced in larger containers was due to differences in root
-architecture.
+Nelson (1996) suggested that improved after-planting performance of eucalypt seedlings produced in larger containers was due to differences in root architecture.
 
 indicative of a
 less developed root system, and can restrict the capacity for
@@ -349,7 +339,9 @@ A review of the pot size effect found that increasing growing volume improved bi
 
 The use of different containers types and volumes has been shown to have morpholoigcal consequences, including height, RCD and total mass, for black sprive seedligns [@heightpeterson1997growing].
 
-If a container size is too small, then root restriction can will inhibit the ability of root systme to supply adequate water to shoots and will negatively affect seedling C gain [@will1997effect]
+If a container size is too small, then root restriction can will inhibit the ability of root systme to supply adequate water to shoots and will negatively affect seedling C gain [@will1997effect].
+
+As advanatgous as larger container volumes appear to be, this does not necessarily fit in with the economics of nursery production.  Producing high quality seedlings in smaller containers, grown at high densities, is more advanatagous to profit.  Thus, the container type can influence the economics of planting programs (check nesmith/pinto2011).
 
 *does pot volume affect root:shoot?*
 Although proper root to shoot balance will be essential for outplanting success the size of the container used for different stock types will more likely depend on nursery practives to maximum growth, yeild and profitability.  Size, time and space involved in transplanting tree stock to larger containers or dispatch them so buyers. 
@@ -367,6 +359,9 @@ For Picea glauca seedlings S:R increased nearly two fold from 2.3 to 4 after 20 
 
 ##how management practices come into play (the impacts of container volume are obivously well studued and large, howver
 ##differences in nusery practices have the potentiall to.....)
+
+Irrigation and fertilzation regimes, as well as prevailing temperatures and climate will affect seedling quality during nursery production [@mattsson1997predicting].
+
 Nursery cultural and silvicultural practices have a strong influence on seedling performance
 immediately after planting [@grossnickle2012seedlings]. This boils down to the goal of providing treestock that have the highest capacity for surivial once they leave the nursery. Seedling size in the nursery can be manipulated by the length of the growing season imposed by the timing of seed sowing [@close2006defining]. Additionally, the length of the growing season can vary across different climates zones, such as those present across Australia....what this means for evergreens, Improper nursery management may encourage a disproportionant amount of shoot growth, resulting in an unbalanced seedling with lower field-survival potential [@cleary1978regenerating].
 
@@ -376,7 +371,7 @@ immediately after planting [@grossnickle2012seedlings]. This boils down to the g
 
 *fertilization (amounts and deprevation)
 
-Proper fertilzation of nursery tree stock is essential for high seedlings quality, however, the degree of fertilzation may also impact the production of carbohydrates.  Alleviation of nitrogen stress on seedlings may result in less fixed carbon allocated to storage [@green1994effects], which may then impact the availability of starch pools for new growth following outplanting. In addition, nutrient defiencies (ie nitrogen or phosphorus) in nursery trees can cause decreases in leaf cholorphyll contant and the subsequent negative impact on leaf physiology can also lead to decreased carbohydrate production, tree slenderness, seedling height and RCD in nursery trees [@trubat2010nursery].  Consequently, the management of fertilizastion of treestock throughout the nursery period will have imporant consequences for seedling root:shoot balance, as well as future seedling establishment.
+Proper fertilzation of nursery tree stock is essential for high seedlings quality, however, the degree of fertilzation may also impact the production of carbohydrates.  Alleviation of nitrogen stress on seedlings may result in less fixed carbon allocated to storage [@green1994effects; @holopainen1995resource], which may then impact the availability of starch pools for new growth following outplanting or the ability to synthesize herbivory defense compounds. In addition, nutrient defiencies (ie nitrogen or phosphorus) in nursery trees can cause decreases in leaf cholorphyll contant and the subsequent negative impact on leaf physiology can also lead to decreased carbohydrate production, tree slenderness, seedling height and RCD in nursery trees [@trubat2010nursery]. Consequently, the management of fertilizastion of treestock throughout the nursery period will have imporant consequences for seedling root:shoot balance, as well as future seedling establishment.
 
 *planting density
 
@@ -397,7 +392,10 @@ ex. possible differnces in length of growing season/daylength
 q.ilex  root growth, frost resistance and drought tolerance attributed to climate in which seedlings were grown (nursery location)
 [@molla2006physiological].
 
+Different nursrey thermal regime can have an effect on survival of seedlings (Aleppo pine), but not all (Holm olk) [@pardos2003effect]. 
 
+Often studies related on overwintering of deciduous tree stock or coastal versus inland nurseries in mediterannen climates.  In these circumstances, seedlings can become phenonlogically out of phase if dormancy is affected by temperature during over wintering.
+Geogrpahical differences in nurseries will thus likely play a large role in growth of similar stocktypes, especially regarding temperature.
 
 ##australias climate zones (arid zones, hot temps (urban))...how are indices affected
 The cliamte of Australia means that many tree stock are container grown in open environments, and thus are exposed to .....
@@ -406,6 +404,10 @@ The cliamte of Australia means that many tree stock are container grown in open 
 This potenial impact of climate has been relatively unexplored in Australia, in which tree nurseries propagate plants from tropical to temperate climates.
  
  austalia already represents an area of high aridity, nutrient soil deficiency, etc.  It is also designated as being more susceptible to extreme climate events, etc etc.  In this sense nursery standards developed to deal with an already inhospitable outplanting environment could possibly be used as a surruogate for understand the needs of other countries who are or will be facing hotter and drier climates.
+ 
+ 
+ **Here sum up nursery culture and climate by saying need to include co-variates when evaluting seedling quality across Australia.  
+ **Next say that age, time since transplant and species must also be accoutned for.
  
  Bureau of Meteorology Climate Zones.  These are based on a modified Köppen classification system.
  Insert figures: highlight zones around metro areas and what they represent.
