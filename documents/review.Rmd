@@ -301,8 +301,8 @@ Root morphology likely different (cites from davis2005).
 
 The container design used for tree stocktypes has a major influence on root systems [@landis1990containers, @chapman2006early]
 
-There are numerous container types and treatments applied to containers aimed at natural root pruning and mainpulating root direction and division.  For example, air or mechanical pruning containers and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection. Container types designed to aid root pruning should produce seedlings with horizontally orientated structural roots and more stable root forms [@chapman2006early].
-For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects]. Cork oak seedlings also had similar height and diameter after a 10 month nuresry period in shallow and deep containers, yet deeoer containers had more larger tap root and near double fine root biomass [@chirino2008effects].
+There are numerous container types and treatments applied to containers aimed at natural root pruning and mainpulating root direction and division.  For example, air or mechanical pruning containers and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection.  Container types designed to aid root pruning should produce seedlings with horizontally orientated structural roots and more stable root forms [@chapman2006early].
+For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects]. Cork oak seedlings also had similar height and diameter after a 10 month nuresry period in shallow and deep containers, yet deeoer containers had more larger tap root and near double fine root biomass [@chirino2008effects]. Although roots deflected inside containers are commonly assocaited with tree instability, little is known about root form in large nursery containers [@gilman2010root].
 
 *2. bareroot
 + pruning practice 
@@ -379,7 +379,7 @@ seedlings raised at high densities self-shade that potentially pre-disposes leav
 to the rapid change in exposure to light after transplanting [@close2012review].
 
 *root pruning
-Root pruning can vastly increase the surface area of the root system and increase the amount of roots within the root ball if properly managed [@watson1987effect].  As such, root pruning is commonly performed when transplanting into containers and represents an active management practive to increase the amount of resource absorbing roots and thus seedling quality. 
+Root pruning can vastly increase the surface area of the root system and increase the amount of roots within the root ball if properly managed [@watson1987effect].  Pruning the rootball allows for roots to grow radially straight from the trunk when planted into larger containers, decreading root morphological defects (kinks, j-rooting) [gilman2010root]. As such, root pruning is commonly performed when transplanting into containers and represents an active management practive to increase the amount of resource absorbing roots and thus seedling quality. 
 
 #effects of environment on nurseries and seedling performance
 
