@@ -35,7 +35,7 @@ shinyServer(function(input, output, session) {
   })
   
   output$brushedPoints <- renderPrint({
-    rows <- brushedPoints(appdata2, input$plot_brush,xvar = "logvol", yvar = "logSI")
+    rows <- brushedPoints(appdata2[,c(1:6)], input$plot_brush,xvar = "logvol", yvar = "logSI")
     cat("Selected points:\n")
     print(rows)
   })
