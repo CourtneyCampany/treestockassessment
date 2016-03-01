@@ -11,7 +11,7 @@ shinyUI(pageWithSidebar(
                       c("fast","moderate","slow" )),
     
     checkboxGroupInput("whichorigin", "Native or Non_Native:",
-                       c("native","non-native" )),
+                       c("native","nonnative" )),
     
     checkboxGroupInput("whichleaf", "Foliage type:",
                        c("deciduous","evergreen" ))
@@ -21,6 +21,8 @@ shinyUI(pageWithSidebar(
   
   
   mainPanel(
-    plotOutput('plot1')
-  )
+    plotOutput('plot1', brush=brushOpts("plot_brush",resetOnNew = TRUE, fill = "blue", opacity=.5, stroke="black"),
+               width=800, height=600),
+    verbatimTextOutput("brushedPoints")
+    )
 ))
