@@ -2,6 +2,6 @@ name: SI_shiny
 account: courtneycampany
 server: shinyapps.io
 appId: 86298
-bundleId: 383906
+bundleId: 383938
 url: https://courtneycampany.shinyapps.io/SI_shiny/
-when: 1456790448.63261
+when: 1456793107.40576
