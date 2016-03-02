@@ -208,22 +208,18 @@ As stem diameter is easy to measure and is positive correlated with root system 
 
 ### Belowground (Rootball diameter and volume)
 
-Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying].
+Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying]. Seedling establishment is also dependent on the capacity of seedlings to rapidly initiate new roots [@heiskanen1998influence, @grossnickle2005importance]. 
 
-Seedling establishment is also dependent on the capacity of seedlings to rapidly initiate new roots [@heiskanen1998influence, @grossnickle2005importance].
-
-After planting the original root system size determines the ability of seedlings to take up water so they can initiate the establishment process (Carlson and Miller 1990).
+After planting the original root system size determines the ability of seedlings to take up water so they can initiate the establishment process (Carlson and Miller 1990). The size of the root system in loblooly pine seedlings, in terms of rooting volume, was shown to determine the potential for water uptake prior to new root growth [@carlson1986root].
 
 In turn, this means that root quality parameters including ..... should be managed in order to promote seedling planting success.
 New root growth will be paramount for seedlings access water and nutrient resouces following outplanting.
 
 Many measurements of root system morphology are destructive and time consuming, which limits their application in nursery cultural practives [@jacobs2004re].
 
-The size of the root system in loblooly pine seedlings, in terms of rooting volume, was shown to determine the potential for water uptake prior to new root growth [@carlson1986root].
-
 In red oak seedings seedlings, measured root volume was successful in predicting total height and diameter after one growing season [@jacobs2004re].
 
-If rootball occupancy has meet the standard, then can container volume be used to predeict aboveground growth?
+If rootball occupancy has meet the standard, then can container volume be used to predict aboveground growth? (will depend on the knowledge of age/tranplanting time at time of sale)
 
 *rootball diameter*
 
@@ -284,15 +280,19 @@ H:D ratio was found to be correlated to mortality in Pinus patula seedlings, sug
 
 Under drought conditions, seedlings in containers have higher field survival in sites with drought conditions [@grossnickle2005importance and references therein], which may have a significant role in many australian outplantings.
 
-The root–soil contact is more disrupted in bareroot seedlings through the loss of fine roots at lifting (Nambiar 1980; Struve and Joly 1992), while containered seedlings typically maintain intact multldimensional root system [@tinus1974characteristics].
+The root–soil contact is more disrupted in bareroot seedlings through the loss of fine roots at lifting (Nambiar 1980; Struve and Joly 1992)@rose2005root, while containered seedlings typically maintain intact multldimensional root system [@tinus1974characteristics].
 
-Thus container grown seedlings have been commonly shown to have greater root growth during the first field growing season (cites in gross2012)[@wilson2007root]=red oak.
+Thus container grown seedlings have been commonly shown to have greater root growth during the first field growing season (cites in gross2012)[@wilson2007root]=red oak. 
+
+Although root grown seems to be enhanced, this has not been shown to increase shoot growth and survivalbiliy in subsequent years following outplanting[@rose2005root]
 
 Overall, container systems include better environmental control of the growing regime, shorter production cycles, increased stock uniformity and frequently superior field performance on poor quality sites (Brisette et al. 1991; Johnson et al. 1996)
 
 Stock quality assessments show bareroot seedlings have larger shoot systems because they are typically grown at lower densities, and in many instances longer timeframes, than container seedlings [@grossnicklebareroot].
 
 Although bareroot seedlings must additionally compete for resources belowground, the same optimal seedlings size conclusions still apply for both stock types [@aphalo2003field].
+
+In terms of roots to shoot balance, bareroot seedlings have been found to be larger than containered seedlings with a greater S:R. [@rose2005root] Likely due to the removeal from beds.
 
 Root morphology likely different (cites from davis2005). 
 *1. containers
@@ -341,7 +341,12 @@ The use of different containers types and volumes has been shown to have morphol
 
 If a container size is too small, then root restriction can will inhibit the ability of root systme to supply adequate water to shoots and will negatively affect seedling C gain [@will1997effect].
 
+the shape and size of containers exert serious constraints on the growth of roots and their function, especially in hardwood species, adversely affecting seedling development. (Wilson et al. 2007) [@wilson2007root; @mariotti2015can]
+
+
 As advanatgous as larger container volumes appear to be, this does not necessarily fit in with the economics of nursery production.  Producing high quality seedlings in smaller containers, grown at high densities, is more advanatagous to profit.  Thus, the container type can influence the economics of planting programs (check nesmith/pinto2011).
+
+When stocktypes (Q. robur and J.regia seedlings) are grown in larger and deeper container types during nursery, height, RCD and root production, while R:S stayed the same [@mariotti2015can]
 
 *does pot volume affect root:shoot?*
 Although proper root to shoot balance will be essential for outplanting success the size of the container used for different stock types will more likely depend on nursery practives to maximum growth, yeild and profitability.  Size, time and space involved in transplanting tree stock to larger containers or dispatch them so buyers. 
@@ -371,7 +376,12 @@ immediately after planting [@grossnickle2012seedlings]. This boils down to the g
 
 *fertilization (amounts and deprevation)
 
-Proper fertilzation of nursery tree stock is essential for high seedlings quality, however, the degree of fertilzation may also impact the production of carbohydrates.  Alleviation of nitrogen stress on seedlings may result in less fixed carbon allocated to storage [@green1994effects; @holopainen1995resource], which may then impact the availability of starch pools for new growth following outplanting or the ability to synthesize herbivory defense compounds. In addition, nutrient defiencies (ie nitrogen or phosphorus) in nursery trees can cause decreases in leaf cholorphyll contant and the subsequent negative impact on leaf physiology can also lead to decreased carbohydrate production, tree slenderness, seedling height and RCD in nursery trees [@trubat2010nursery]. Consequently, the management of fertilizastion of treestock throughout the nursery period will have imporant consequences for seedling root:shoot balance, as well as future seedling establishment.
+Proper fertilzation of nursery tree stock is essential for high seedlings quality, however, the degree of fertilzation may also impact the production of carbohydrates.  Alleviation of nitrogen stress on seedlings may result in less fixed carbon allocated to storage [@green1994effects; @holopainen1995resource], which may then impact the availability of starch pools for new growth following outplanting or the ability to synthesize herbivory defense compounds. In addition, nutrient defiencies (ie nitrogen or phosphorus) in nursery trees can cause decreases in leaf cholorphyll contant and the subsequent negative impact on leaf physiology can also lead to decreased carbohydrate production, tree slenderness, seedling height and RCD in nursery trees [@trubat2010nursery]. 
+
+Commonly, the reduction of belowground resource limitation by fertilization and irrigation leads to increases in shoot growth compared to root growth, thus decreased R:S [@canham1996biomass; @jackson2012nursery] *more*
+Consequently, the management of fertilization of treestock throughout the nursery period will have imporant consequences for seedling root:shoot balance, as well as future seedling establishment.
+
+The sensitivity to the postive effects of fertilization and irrigation practives on growth rates of seedlings, however, will likely vary by species [@canham1996biomass].  Additionally, if seedlings are intentiionally nitrogen hardened before sell will reduce seedlings traints including height, rcd, leaf area and rgp [@trubat2008short]
 
 *planting density
 
@@ -379,14 +389,14 @@ seedlings raised at high densities self-shade that potentially pre-disposes leav
 to the rapid change in exposure to light after transplanting [@close2012review].
 
 *root pruning
-Root pruning can vastly increase the surface area of the root system and increase the amount of roots within the root ball if properly managed [@watson1987effect].  Pruning the rootball allows for roots to grow radially straight from the trunk when planted into larger containers, decreading root morphological defects (kinks, j-rooting) [gilman2010root]. As such, root pruning is commonly performed when transplanting into containers and represents an active management practive to increase the amount of resource absorbing roots and thus seedling quality. 
+Root pruning can vastly increase the surface area of the root system and increase the amount of roots within the root ball if properly managed [@watson1987effect, @gilman1996nursery]. Pruning the rootball allows for roots to grow radially straight from the trunk when planted into larger containers, decreading root morphological defects (kinks, j-rooting) [gilman2010root]. As such, root pruning is commonly performed when transplanting into containers and represents an active management practive to increase the amount of resource absorbing roots and thus seedling quality. Once outplanted, tree stability and establishment also improve with reduced root defects from active root pruning [@gouin1983girdling; @gilman2009pruning].
 
 #effects of environment on nurseries and seedling performance
 
 Differente environmental conditions across nursery locations can have important influences on functional traits of a common seedling type [@molla2006physiological].
 
 ex.  affects on cold haridness (Pinus radiata and in Pseudotsuga menziesii (Menzies et al., 1981; Schuch et al., 1989)
-ex. drought tolerance in meditaranian climates
+ex. drought tolerance in meditaranian climates [
 ex. possible differnces in length of growing season/daylength
 
 q.ilex  root growth, frost resistance and drought tolerance attributed to climate in which seedlings were grown (nursery location)
@@ -396,6 +406,7 @@ Different nursrey thermal regime can have an effect on survival of seedlings (Al
 
 Often studies related on overwintering of deciduous tree stock or coastal versus inland nurseries in mediterannen climates.  In these circumstances, seedlings can become phenonlogically out of phase if dormancy is affected by temperature during over wintering.
 Geogrpahical differences in nurseries will thus likely play a large role in growth of similar stocktypes, especially regarding temperature.
+Mangement practives include N harderning to increase drought tolerance [@trubat2008short; @villar2004nursery]
 
 ##australias climate zones (arid zones, hot temps (urban))...how are indices affected
 The cliamte of Australia means that many tree stock are container grown in open environments, and thus are exposed to .....
