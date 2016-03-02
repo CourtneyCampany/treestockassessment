@@ -8,7 +8,9 @@
 
 3. Heishanen_1998 - R:S by soil media (scots pine, silver birch)
 
-4. Lamhamedi_19967 - RCD, H, mass, R:S by container size (black spruce)
+4. Lamhamedi_1997 - RCD, H, mass, R:S by container size (black spruce)
+
+5. Mariotti_2015 - height, RCD and root production, while R:S (Q. robur and J.regia)
 
 
 
