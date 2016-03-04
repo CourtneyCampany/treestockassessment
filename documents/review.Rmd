@@ -98,6 +98,8 @@ Ratios of various morphological traits (e.g., root:shoot, height:diameter) have 
 
 Overall, the most widely used moprhological parameters include shoot height, root collar diameter, sturdiness (height to diameter ratio), and root to shoot ratio.
 
+Many measurements of root system morphology are destructive and time consuming, which limits their application in nursery cultural practives [@jacobs2004re].
+
 ##issue with morphology and single parameter relationships (pitfalls)
 
 Issues with using only morphological assessments, especially involving single parameter estimates of quality, have long been recognized has having overly large variation. For example, Wakeley [-@wakeley1954planting] noted how morpholigcal assessments of root collar diameter and height led to unreliable grades of survival and growth in longleaf and slash pine seedlings. 
@@ -118,8 +120,6 @@ related to field performance is lacking.
 *2. Size Index (as Height x Calliper) (calliper or root collar diameter)
 *3. Height : Calliper (taper development)
 *4. Rootball (volume) (RGP)
-
-
 
 
 # Significant to the nursery industry (building quantitaive links between parameters and root:shoot balance)
@@ -143,8 +143,6 @@ examples include Forestry Nursery Manuals produced through the USDA for bareroot
 
 ##Europe
 The European Nurserystock Association (ENA) has produced the "European technical & quality standards for nurserystock", most recently in 2010,  
-
-
 
 
 ## Review of Root : Shoot balance (need strong section here in terms of ecology and nurser specifics)
@@ -196,7 +194,7 @@ Intro sentence..
 Height is considered a good estimate of photosynthetic capacity and transpirational area, suggesting a positive relationship with subsequent growth [@haase2007morphological]. Within a nursery environment maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target]. Shoot system size is important because on sites with available soil water and nutrients, competition for light between planted seedlings and the site vegetation complex is a main factor limiting seedling performance (Grossnickle 2000).Larger seedling height, however, may have adverse effects on field success in drier sites. This is mainly a issue of an imbalanced root:shoot ratio, which affects water uptake and the ability to develop new roots [cites from gross2012,@haase2007morphological], ]. Additionally, larger stock is adds difficulty in lifting, handling and planting properly, which can negate advantages of larger size tree stock in planting success [@cleary1978regenerating] 
 
 *diameter* 
-Stem diameter has been consistently found to relate to plant performance above and belowground parameters which affect seedlings growth. Diameter has also been shown to be postively related to total seedling mass and performance of outplanted seedlings for a variety of nursery grown tree seedlings [@aphalo2003field; @wilson2006quality; @zida2008initial; @bayala2009predicting].
+Stem diameter has been consistently found to relate to plant performance above and belowground parameters which affect seedlings growth. Diameter has also been shown to be postively related to total seedling mass and performance of outplanted seedlings for a variety of nursery grown tree seedlings [@aphalo2003field; @south2006root; @wilson2006quality; @zida2008initial; @bayala2009predicting]. 
 
 Tree stock diameter (caliper) is tradionally viewed as a index for sturdiness for nursery tree stock [all cites].
 Stem diameter at the time of planting can successfully predict of stem volume for several years after out-planting (Simpson 1995).
@@ -204,7 +202,6 @@ Stem diameter increases concomitantly with height, but this relationship is not 
 Diameter has been shown to be correlated with important morphological characteristics including height and dry total biomass, but not necessarily the R:S [@mexal1990target].
 
 As stem diameter is easy to measure and is positive correlated with root system size [@cleary1978regenerating, @wightman1999good], it is an operationally attractive morphological parameter for nursery grading criteria [@dey1997morphological]. Postive linear relationship between diameter and root volume have also been noted for seedlings of northern red oak, white oak, and black cherry (Jacobs and Seifert 2004) and with red oak seedlings [@dey1997morphological].
-
 
 ### Belowground (Rootball diameter and volume)
 
@@ -214,8 +211,6 @@ After planting the original root system size determines the ability of seedlings
 
 In turn, this means that root quality parameters including ..... should be managed in order to promote seedling planting success.
 New root growth will be paramount for seedlings access water and nutrient resouces following outplanting.
-
-Many measurements of root system morphology are destructive and time consuming, which limits their application in nursery cultural practives [@jacobs2004re].
 
 In red oak seedings seedlings, measured root volume was successful in predicting total height and diameter after one growing season [@jacobs2004re].
 
@@ -236,9 +231,7 @@ Increases in root volume where related to increases in preplanting total fresh w
 
 Jacobs and others (2005) Second year height and diameter were greater for hardwood seedlings with greater initial root volume.
 
-Root volume may not reflect root fibrosity, as seedlings with large fine root mass can displace the same volume as a seedlings with large tap roots [@haase2007morphological].
-
-Development of a rapid and standardized assessment of fibrosity could help provide an accurate characterization of root system quality, as the current time consuming nature of this assessment provides little operational potential [@davis2005quantifying].
+Root volume may not reflect root fibrosity, as seedlings with large fine root mass can displace the same volume as a seedlings with large tap roots [@haase2007morphological]. Development of a rapid and standardized assessment of fibrosity could help provide an accurate characterization of root system quality, as the current time consuming nature of this assessment provides little operational potential [@davis2005quantifying].
 
 *rootball occupancy*
 
@@ -361,6 +354,14 @@ For Picea glauca seedlings S:R increased nearly two fold from 2.3 to 4 after 20 
 ?why---refer to poorter
 
 *does R:S differ significantly by species, stocktype or climate??? (KEY QUESTION)
+
+
+##potential issues with seedling age, root binding (When to cull)
+Interestingly, @south2006root showed that RCD too small and too large negatively affected outplanting survival, with the large container stock probably decreaed performance due to root binding.
+
+As RCD has been shown to correlate with the size of the roots system it seems relevant to examine indexes of RCD with container size (is RCD vs container diameter or volume as in @south2006root
+
+
 
 ##how management practices come into play (the impacts of container volume are obivously well studued and large, howver
 ##differences in nusery practices have the potentiall to.....)
