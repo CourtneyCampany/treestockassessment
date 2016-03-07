@@ -18,6 +18,8 @@
 
 8. Rose_2005 - Shoot, Root, diameter, height (ratios of h:D, and vol:vol) container vs bareroot douglas fir
 
+9. Orterge_2006 - height, rcd, R:S container type (little but volume) Pinus radiata
+
 
 
 

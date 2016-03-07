@@ -29,7 +29,7 @@ Recently, the nursery industry in Australia has adopted a new standard for tree 
 
 One very important statement within the "Australian standard for Tree stock and landscape use" is that 
 variability between tree stock should be expected, as trees are living organisms and there is nothing exact
-in their nature. This variability presents a large challenge for the nursery industry as they should attempt to produce a uniform planting stock in which the variance of the morphological characteristics is reduced [@puttonen1997looking]. Irregardless, nursery seedlings should embody the structural and physiological traits that can be quantitatively linked to success in the field [@rose1990target]. Evaluating nursery seedling quality is thus necessary to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding].
+in their nature. This variability presents a large challenge for the nursery industry as they should attempt to produce a uniform planting stock in which the variance of the morphological characteristics is reduced [@puttonen1997looking]. Irregardless, nursery seedlings should embody the structural and physiological traits that can be quantitatively linked to success in the field [@rose1990target]. Evaluating nursery seedling quality is thus necessary to understanding seedling development and success after outplanting, however the quality of tree stock often is assessed inconsistently [@haase2008understanding]. Selecting the appropirate cultivar, properly preparing the outplanting site and management of outplanted trees will be wasted of th equality of the outplanted seedling is initially poor [@moore2001nursery]
 
 
 ##shifts in nursery tree stock with 20/20/20 and new stadard in OZ.  green spaces and nursery trees
@@ -146,13 +146,16 @@ The European Nurserystock Association (ENA) has produced the "European technical
 
 
 ## Review of Root : Shoot balance (need strong section here in terms of ecology and nurser specifics)
-Combinations of root and shoot morphological characteristics may be better able to predict growth potentials and possibly outplanting success than simple shoot parameters.
+Combinations of root and shoot morphological characteristics may be better able to predict growth potentials and possibly outplanting success than simple shoot parameters. The challenge facing nursery growers producing trees is to not only optimise canopy growth but to ensure that the root and shoot systems are properly managed, especially with container production systems which affects the quality of the root systems [@moore2001nursery].
 
 *1. What root:shoot means to general tree ecology
 The shoot-root ratio represents the balance between the transpirational area (shoot) and the water absorbing area (root) of a seedling [@thompson1985seedling]. 
 
 *2. What does root:shoot mean for nursery tree stock
-In nusery trees, it is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding].
+In nusery trees, it is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding]. A vigorous fast-growing shoot has to be supported and
+balanced by a vigorous root system (Nielsen 1992).
+
+From a structural point of view, the shoot and root system should also be balanced to ensure the stability of the seedling in the years following outplanting.  To avoid toppling, the shoot system need not be to tall relative to the root system.  Additionally, the root system should be of sufficient size to anchor the tree and the calliiper of the shoot system should be developed enough to provide stability against mechanical forcing. 
 
 Shoot:Root ration has also been shown to be responseive to fertilzation regimes, with higher S:R with increased nutrient supply for several tree species [@villar2004nursery](Green et al., 1994; Holopainen et al.,Canham et al.,1996
 1995; Graff et al., 1999), usually manifesting as increased shoot growth and not reduced root allocation. This response has also been
@@ -242,14 +245,12 @@ Root volume may not reflect root fibrosity, as seedlings with large fine root ma
 *root direction*
 As new root must regenerate from the original outplanted root system, it is vital to assess root distribution patterns of nursery tree stock[@watson1982root].
 
-A potential issue with the large increase in containerized seedlings is that seedlings are subject to root-binding and sprialling, which can negatively affect outplanting performance for years [@cleary1978regenerating].
+A potential issue with the large increase in containerized seedlings is that seedlings are subject to root-binding and sprialling, which can negatively affect outplanting performance for years [@cleary1978regenerating]. J-rooting occurs when a seedling is inproperly planted into container growing media and can manifest into a source of structrual weakness at the soil interface as the tree grows [@moore2001nursery].
 
-Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container].
+Root spiralling was found occur in all *Pinus pinea* seedlings grown in containers, however, spiralling had no affect on success following outplanting [@dominguez2006container].  Root spiralling has the potential to girdle the tree over time as they restrict the flow of water through the root-crown area [@moore2001nursery]
 
 Root binding occurs when a plant has roots too large for its container resulting in a reduction in field performance or root growth potential, which is a constand concern for tree nurseries [@south2006root]
 
-
-Generally, this issue can be avoided by root pruning, pot style...
 
 *root division*
 
@@ -264,12 +265,19 @@ Generally, this issue can be avoided by root pruning, pot style...
 
 As mentioned by Davis and Jacobs [-@davis2005quantifying], establishing standards for minimum TNC, nutrient content and moisture of the stock root system may be useful if specific to species and stocktype in terms or root system physiology. This can allow testing between root morphology and physiology with the goal of..... and which are most releveant in terms of outplanting success (belowground allometry between M and P as well as with aboveground parameters). Combine root:shoot with quality (new parameters)
 
+
+*management of rooting in containerized seedlings*
+
+Generally, this issue can be avoided by root pruning, pot style...
+
 ###INdexs: H:D, size index, others? (dicksons), R:S
 
 A high H:D ratio indicates a relatively spindly seedling while a lower ratio indicates a stouter seedling [@haase2007morphological].
 H:D ratio was found to be correlated to mortality in Pinus patula seedlings, suggesting it may serve as a good indice of survival [@bayley1997stock]
 
 #bareroot vs container stocktypes
+
+Containerized seedlings have a better survival rate, are easier to plant, have more immediate growth response benefits, and are cheaper to produce and plant than bareroot seedlings (Landis et al. 1990).
 
 Under drought conditions, seedlings in containers have higher field survival in sites with drought conditions [@grossnickle2005importance and references therein], which may have a significant role in many australian outplantings.
 
@@ -292,10 +300,13 @@ Root morphology likely different (cites from davis2005).
 + root direction
 + size and shape
 
-The container design used for tree stocktypes has a major influence on root systems [@landis1990containers, @chapman2006early]
+###The container design used for tree stocktypes has a major influence on root systems [@landis1990containers, @chapman2006early]
 
-There are numerous container types and treatments applied to containers aimed at natural root pruning and mainpulating root direction and division.  For example, air or mechanical pruning containers and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection.  Container types designed to aid root pruning should produce seedlings with horizontally orientated structural roots and more stable root forms [@chapman2006early].
-For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects]. Cork oak seedlings also had similar height and diameter after a 10 month nuresry period in shallow and deep containers, yet deeoer containers had more larger tap root and near double fine root biomass [@chirino2008effects]. Although roots deflected inside containers are commonly assocaited with tree instability, little is known about root form in large nursery containers [@gilman2010root].
+There are numerous container types and treatments applied to containers aimed at natural root pruning and mainpulating root direction and division.  For example, air or mechanical pruning containers and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection.  Container types designed to aid root pruning should produce seedlings with horizontally orientated structural roots and more stable root forms [@chapman2006early]. 
+
+Trees grown in containers have been shown to develop root deformations [@ortega2006field], thus pruning managements (manual or container) is now common practive in manageing healthy root systems during nursery production.
+
+For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects]. Cork oak seedlings also had similar height and diameter after a 10 month nuresry period in shallow and deep containers, yet deeper containers had more larger tap root and near double fine root biomass [@chirino2008effects]. Although roots deflected inside containers are commonly assocaited with tree instability, little is known about root form in large nursery containers [@gilman2010root].
 
 *2. bareroot
 + pruning practice 
@@ -311,7 +322,6 @@ Although bareroot and container stocktypes have distinct characteristics influen
 Volume is one of the most obvious and important characteristics of a container as the larger the container the larger the seedling that can be produced, however, optimum container sizes can vary by species, growing density, environmental conditions and growing season length [@tsakaldimi2005root]. Container depth will determine root system growth and tap root length, which will aid in soil colonization of deep soil horizons [@chirino2008effects].
 
 The size of containers plants are grown in prior to outplantind has been shown to have significant impacts of field success, especially during the early months after planting [@close2006defining]. For example, seedlings outplanted from very large containers may undergo water stress as large foliar water demands may outweight root uptake potential during early growth [@lamhamed1997effect].
-
 
 
 Larger container volumes lead to greatest field performance via increased height, diameter and nutrient content in *Pinus pinea* seedlings, with a possible optimal relationship of container depth:diameter or 4 [@dominguez2006container].
@@ -336,6 +346,7 @@ If a container size is too small, then root restriction can will inhibit the abi
 
 the shape and size of containers exert serious constraints on the growth of roots and their function, especially in hardwood species, adversely affecting seedling development. (Wilson et al. 2007) [@wilson2007root; @mariotti2015can]
 
+Seedlings in larger containers will be larger than those of smaller containers, yet this may or may not affect survirorhsip of trees in the  years following outplanting. 
 
 As advanatgous as larger container volumes appear to be, this does not necessarily fit in with the economics of nursery production.  Producing high quality seedlings in smaller containers, grown at high densities, is more advanatagous to profit.  Thus, the container type can influence the economics of planting programs (check nesmith/pinto2011).
 
