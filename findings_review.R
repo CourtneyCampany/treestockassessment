@@ -20,6 +20,10 @@
 
 9. Orterge_2006 - height, rcd, R:S container type (little but volume) Pinus radiata
 
+10. Simpson_1994 - height, RCD, RS vs container volume (also field growth ) doug fir/lodgepole
+
+
+
 
 
 
