@@ -22,6 +22,8 @@
 
 10. Simpson_1994 - height, RCD, RS vs container volume (also field growth ) doug fir/lodgepole
 
+11. Chorino_2008 - height, RCD, SI, RD containter type - Quercus suber
+
 
 
 

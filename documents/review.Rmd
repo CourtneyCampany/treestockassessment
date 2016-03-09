@@ -206,6 +206,9 @@ Diameter has been shown to be correlated with important morphological characteri
 
 As stem diameter is easy to measure and is positive correlated with root system size [@cleary1978regenerating, @wightman1999good], it is an operationally attractive morphological parameter for nursery grading criteria [@dey1997morphological]. Postive linear relationship between diameter and root volume have also been noted for seedlings of northern red oak, white oak, and black cherry (Jacobs and Seifert 2004) and with red oak seedlings [@dey1997morphological].
 
+#strudiness
+Lower height/diameter ratios indicate plant sturdiness [@peterson1997growing].
+
 ### Belowground (Rootball diameter and volume)
 
 Recently planted seedlings will initially depend on the root system created by nursery culture [@grossnickle2005importance], thus anticipating the potential for seedling root proliferation following transplanting could greatly improve field establishment [@davis2005quantifying]. Seedling establishment is also dependent on the capacity of seedlings to rapidly initiate new roots [@heiskanen1998influence, @grossnickle2005importance]. 
