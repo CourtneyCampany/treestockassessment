@@ -24,6 +24,12 @@
 
 11. Chorino_2008 - height, RCD, SI, RD containter type - Quercus suber
 
+12. Climent_2011 - 
+
+13. Climent_2008 - H, RCD, mass - canary pine
+
+14. Aphalo_2003 - R, RCD, mass - sliver birch (need to extract mass data from figure)
+
 
 
 
