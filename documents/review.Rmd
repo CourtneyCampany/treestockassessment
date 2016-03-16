@@ -16,10 +16,10 @@ opts_knit$set(root.dir = '../')
 ```
 
 
-#Overview (trends in australia tree nuseries and the new Standard and what it means)
-In 1997 the Australian Federal Government set a target to triple the nation’s plantation estate by 2020 with the ‘2020 Vision’ intiative (www.plantations2020.com.au). This initiative led a massive decade long expansion of the plantation estate (>50 %) in Australia to over 2 million ha, with the majority of the increase composing of Eucalpytus hardwood species [@gavran2010]. This 2020 vision created a shift from bareroot to containerised production of tree seedlings in nurseries to meet high volume demands of foresty companies [@close2012review]. During this period, it was also necessary to increase emphasis on quality seedling testing to ensure containerized seedlings had characteristics that were favorable to outplanting in a wide range of platning sites [@close2003physical]. Recently, Horticulture Innovation Australia has introduced the new "202020 Vision" that aims increase urban greespace by 20% by the year 2020 (http://202020vision.com.au/). This new initiave repesents a significant market shift towards landscape use and introduces a new set of challenges to the Australian tree nursery for the foreseeable future.  
+#Trends in australia tree nurseries: past and present
+In 1997 the Australian Federal Government set a target to triple the nation’s plantation estate by 2020 with the ‘2020 Vision’ intiative (www.plantations2020.com.au). This initiative led a massive decade long expansion of the plantation estate (>50 %) in Australia to over 2 million ha, with the majority of the increase composing of Eucalpytus hardwood species [@gavran2010]. This 2020 vision created a shift from bareroot to containerised production of tree seedlings in nurseries to meet high volume demands of foresty companies [@close2012review]. During this period, it was also necessary to increase emphasis on quality seedling testing to ensure containerized seedlings had characteristics that were favorable to outplanting in a wide range of platning sites [@close2003physical]. Recently, Horticulture Innovation Australia has introduced the new "202020 Vision" that aims increase urban greespace by 20% by the year 2020 (http://202020vision.com.au/). This new initiative represents  a significant market shift towards landscape use and introduces a new set of challenges to the Australian tree nursery for the foreseeable future.  
 
-These new challenges are highlighted by the difficulty in establishment of urban trees (Rob bodenstaff/cite), and the pressure this places on individual tree nuseries to provide tree stock that can endure increasing harsh environments. Hot and dry conditions in Australian cities, inconsistent irrigation, infertile soils, pests, diseases and high pressure from urban heat islands threaten the survivability of urban trees, and success of green infrastrucuture [@202020web]. Additionally, valuing trees to be selected for urban planting sometimes neglects considerations of stress endurance in favor of trees with higher aesthic appeal [@ware1994ecological; @pandit2013effect]. Consequently, Australian tree nurseries are now expected to provide a large array of native and non-native trees species that are all capable of enduring less that ideal outplatning site conditions.
+These new challenges are highlighted by the difficulty in establishment of urban trees (Rob bodenstaff/cite), and the pressure this places on individual tree nuseries to provide tree stock that can endure increasing harsh environments. Hot and dry conditions in Australian cities, inconsistent irrigation, infertile soils, pests, diseases and high pressure from urban heat islands threaten the survivability of urban trees, and success of green infrastrucuture [@202020web]. Additionally, valuing trees to be selected for urban planting sometimes neglects considerations of stress endurance in favor of trees with higher aesthic appeal [@ware1994ecological; @pandit2013effect]. Consequently, Australian tree nurseries are now expected to provide a large array of native and non-native trees species that are all capable of enduring less than ideal outplatning site conditions.
 
 In 2015, the Australian nusery industry adopted a new standard for tree stock for landscape use to assessment above and belowground characteristics of tree stock of all stages of growth (AS2303:2015). Confounding with the  demands for diverse high quality tree stock on the nusery industry is that variability within tree stock is a near certaintity during nursery production. This variability presents a unique challenge for nurseries attempting to produce planting stocks with uniform morphological characteristics [@puttonen1997looking], and thus meeting specifications outlined in the AS2303 standard. Although the AS2303 standard is not currently mandantory, it is likely to be increasingly called on in attempts to minimize risks of outplanting failure with new landscape and green infrasture projects. Selecting the appropirate cultivar, properly preparing the outplanting site and management of outplanted trees will be wasted of th equality of the outplanted seedling is initially poor [@moore2001nursery].
 
@@ -75,13 +75,9 @@ A cost effective sampling procedure is needed, limiting destructive sampling, as
 
 
 
-
-
 #Evaluating the Australian standard:
 little emphasis on physiolgical assesement in the nursery. The question remains on whether the morpholigcal 
 indices defined in the standard represent proper root:shoot balance for the most common and widely distributed stock types in Australia. The newly adopted AUS standard assesss tree balance with 'Size Index' as a function of container volume or rootball diameter for containerized or bare-root tree stock, respectively. Size index is calculated as the product of height (m) and calliper (at 300 mm), and is expected to represent the physical bulk of the tree aboveground [@clark2003specifying].
-
-
 
 
 # Breaking down the major assessment players 
@@ -92,14 +88,8 @@ indices defined in the standard represent proper root:shoot balance for the most
 
 
 
-
-
-
 ###do other countries evalue tree balance? in what way?
 ##US resources based on target seedling approach:
-
-
-
 Americanhort: american standard for nursery stock (2014)
 
 examples include Forestry Nursery Manuals produced through the USDA for bareroot seedlings or seedlings in containers with volumes spannning from 1989-2010.
@@ -129,8 +119,6 @@ Proper R:S balance is an important morphological attribute because it is a measu
 
 From a structural point of view, the shoot and root system should also be balanced to ensure the stability of the seedling in the years following outplanting.  To avoid toppling, the shoot system need not be to tall relative to the root system.  Additionally, the root system should be of sufficient size to anchor the tree and the calliiper of the shoot system should be developed enough to provide stability against mechanical forcing. In nursery trees, it is important that the shoot not be too tall relative to the stem diameter and that the shoot mass not be too large relative to the roots [@haase2008understanding]. A vigorous fast-growing shoot has to be supported and balanced by a vigorous root system (Nielsen 1992).
 
-
-
 Shoot-root ratios can be confounded in quality assessment when a low value does not reflects a thick taproot system instead of a large fibrous roots= system, which offers limited surface area necessary for water absorption [@ambebe2013evaluation]. This highlights the need to combine R:S assessments with other aspects of seedlings morphology.
 
 *nurseries, how to achieve root:shoot assessment without destroying plants???*
@@ -141,7 +129,7 @@ In is difficult to determine a quantity of roots that should exist for individua
 
 Overall, a nurseries may also choose to manage root:shoot balance differently when tree stock are destined to be outplanted in either arid or well irrigated environments.
 
-Shoot:Root ration has also been shown to be responseive to fertilzation regimes, with higher S:R with increased nutrient supply for several tree species [@villar2004nursery](Green et al., 1994; Holopainen et al.,Canham et al.,1996 1995; Graff et al., 1999), usually manifesting as increased shoot growth and not reduced root allocation. 
+Shoot:Root ratio has also been shown to be responseive to fertilzation regimes, with higher S:R with increased nutrient supply for several tree species [@villar2004nursery](Green et al., 1994; Holopainen et al.,Canham et al.,1996 1995; Graff et al., 1999), usually manifesting as increased shoot growth and not reduced root allocation. 
 
 *From an economic standpoint, nurseries must minimize the amount of seedlings that they destructively harvest when evaluating root shoot balance.  Thus, non-destructive morpholoigcal parameters are commonly used to assess tree stock balance. How effective these are is still a matter of contention....*
 
@@ -185,7 +173,7 @@ Silver birch not related to field performance [@aphalo2003field].
 
 ### Belowground (Rootball diameter and volume)
 
-Available rooting volume represents this ..., and in container growtn media is a finite spacial resouces for growting root systems.
+Available rooting volume represents this ..., and in container growth media is a finite spacial resouces for growing root systems.
 
 Independent of nursery practices including growing media, watering or fertilization, gradients of rooting volume gradient may mechaninally impedes whole plant growth and physiolgoical activity [@mcconnaughay1991physical; @climent2011biomass]*get other cites*
 
