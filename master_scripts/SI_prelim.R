@@ -18,70 +18,49 @@ prelim <- read.csv("data/prelim_data.csv")
 
 cols <- c("green", "yellow", "red")
    
+###large color palette
+library(RColorBrewer)
+n <- 60
+qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
+col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
+pie(rep(1,n), col=sample(col_vector, n))
+
+
+
 ###plotting-------------------------------------------------------------------------------------------------------------
 library(magicaxis)
 
 windows(7,7)
+png(filename = "images/prelimdata.png", width = 5, height = 5, units = "in", res= 600)
+par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logSI ~ logvol, data=prelim, xlab="Container volume (L)", ylab=silab,
+     axes=FALSE, cex=1.25, bg=col_vector[prelim$species],xlim=c(1,3),ylim=c(1, 3), pch=21)
+
+magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+#add assessment
+points(log10(min_size_index[1:30])~log10(container_volume[1:30]), data=standard, bg="grey65",   type='l',lwd=2)
+points(log10(max_size_index[1:30])~log10(container_volume[1:30]), data=standard, col="black",  type='l', lwd=2)
+
+# legend("topleft", c("Max. size index", "Min. size index") ,pch=c(16, 21), cex=1.25, bty='n', inset=.01)
+
+box()
+
+# dev.copy2pdf(file= "images/prelimdata.pdf")
+dev.off()
+
+
+####make loglog plot of SI and prelim data------------------------------------------------------------------------------------
 
 par(mar=c(6,7,2,2),cex.axis=1.4, cex.lab=1.75,las=0,mgp=c(4.5,1,0))
-plot(logSI ~ logvol, data=prelim, xlab="Container volume (L)", ylab=silab,
-     axes=FALSE, cex=1.25, col=cols[prelim$growth_rate],xlim=c(1,3.5),ylim=c(1, 3.5), pch=16)
-
+plot(logSI ~ logvol, data=pots, xlab="Container volume (L)", ylab=expression(Size~index~range~~(calliper~x~height)),
+     axes=FALSE, cex=1.25, col=unordercols,xlim=c(.05,3.4),ylim=c(0.05, 3.5))
 magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
-
+points(logSI~ log10(volume), data=pots_final, col=potcols, pch=16, cex=1.6)
 
 #add assessment
-points(log10(min_size_index)~log10(container_volume), data=standard, col="black",  cex=1.25, type='l', lwd=3)
-points(log10(max_size_index)~log10(container_volume), data=standard, col="black",  cex=1.25, type='l', lwd=3)
+points(log10(min_size_index)~log10(container_volume), data=assess, col="black", pch=21, cex=1.25)
+points(log10(max_size_index)~log10(container_volume), data=assess, col="black", pch=16, cex=1.25)
 
 legend("topleft", c("Max. size index", "Min. size index") ,pch=c(16, 21), cex=1.25, bty='n', inset=.01)
-
-box()
-
-dev.off()
-
-###same plot without log10
-windows(7,7)
-
-par(mar=c(6,7,2,2),cex.axis=.8, cex.lab=1,las=0,mgp=c(4.5,1,0))
-plot(SI ~ container_l, data=prelim, xlab="Container volume (L)", ylab=silab,cex=1.25, col=cols[prelim$type], pch=17,
-     xlim=c(0,1000), ylim=c(0,1000))
-
-#add assessment
-points(min_size_index~container_volume, data=standard, col="black",  cex=1.25, type='l', lwd=3)
-points(max_size_index~container_volume, data=standard, col="black",  cex=1.25, type='l', lwd=3)
-
-legend("topleft", c("Max. size index", "Min. size index") ,pch=c(16, 21), cex=1, bty='n', inset=.01)
-
-box()
-
-dev.off()
-
-
-
-
-###d2h figure
-windows(7,7)
-
-par(mar=c(6,7,2,2),cex.axis=.8, cex.lab=1,las=0,mgp=c(4.5,1,0))
-plot(log10(d2h) ~ log10(container_l), data=prelim, xlab="Container volume (L)", ylab="Stem Volume",cex=1.25, 
-     axes=FALSE,col=species, pch=16)
-magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
-
-box()
-
-dev.off()
-
-###diameter
-###d2h figure
-windows(7,7)
-
-par(mar=c(6,7,2,2),cex.axis=.8, cex.lab=1,las=0,mgp=c(4.5,1,0))
-plot(log10(caliper_30cm) ~ log10(container_l), data=prelim, xlab="Caliper", ylab="Stem Volume",cex=1.25, 
-     axes=FALSE,col=species, pch=16)
-magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
-
-box()
-
-dev.off()
 
