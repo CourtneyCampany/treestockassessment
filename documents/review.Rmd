@@ -104,7 +104,9 @@ Morphological indexes seperate into 2 categoires.  First, are indices that combi
 *morphological indexes*
 SI x 2, Dicksons, S:R
 
-SI = reflects the the ability to withstand physical damge
+Slenderness Index (D:H) = reflects the the ability to withstand physical damge
+When slenderness is too high plants have decreasing stability in the field, and the root system may be
+insufficient to support the shoot biomass under droughty planting conditions [@ford2014improving].
 R:S = water uptake to loss
 Dicksons = 
 relative canopy to root-ball volume
@@ -138,8 +140,6 @@ Shoot-root ratios can be confounded in quality assessment when a low value does 
 
 The issue of a lack of standardized method for determining root:shoot ratios in nursery plants raised by @lavender1984plant still exists today.In is difficult to determine a quantity of roots that should exist for individual tree stock, thus, R:S are used to when evualting overall plant size and predicting field survival [@thompson1985seedling]. However, volume based methods are still destructive and not necessarily cost effective for production nurseries (SI has mass to root size). Under managed nurseries environments, catered to support tree stock growth, it will be difficult to develop an adequate index of root:shoot balance that will cover the saleable period for any given stocktype. From an economic standpoint, nurseries must minimize the amount of seedlings that they destructively harvest when evaluating root shoot balance.  Thus, non-destructive morpholoigcal parameters are commonly used to assess tree stock balance. How effective these are is still a matter of contention
 
-
-
 ### Belowground (Rootball diameter and volume)
 
 Root system parameters, such as total root mass, are some of the best features to characterize seedlings quality [@wrzesinski2015influence], yet these parameters remain difficult to monitor in production tree nurseries.
@@ -158,7 +158,9 @@ to initiate and elongate new roots within a prescribed period of time in a stand
 Folk&grossnickle: uses limtited conditions instead of standard environment to provide a more realistic test of growth potential
 
 *rootball occupancy* *rootball diameter*
-If rootball occupancy has meet the standard, then can container volume be used to predict aboveground growth? (will depend on the knowledge of age/tranplanting time at time of sale)
+If rootball occupancy has meet the standard, then can container volume be used to predict aboveground growth? (will depend on the knowledge of age/tranplanting time at time of sale).
+
+In containerized systems, the root system should fully colonisethe container and contain actively growing white roots tips. If left too long, root systems are considered bound when the rootball is hard with a large proportion thick brown roots, has many roots visible on outside of the rootball, and formes a dense mat at the bottom of the rootball [@ford2014improving].
 
 *root deformations* (morphology different from above)
 
@@ -360,6 +362,11 @@ indices defined in the standard represent proper root:shoot balance for the most
 Issue of variability, can exists within nurseries and stock types, variable climate also introduces variability across nurseries 
 
 As information is gained with local nurseries, recommendations and size specifications for containerized plants are likely to change to more accurately match site, species, and planting time to individual stock type [@nelson1996container].
+
+Depending on container size and type, there is an age window where plants exhibit optimum physiology and size, elimanting issues with low rootball occupancy or too old with root binding and defected root systems [@ford2014improving].
+
+
+
 
 ###do other countries evalue tree balance? in what way, usa, europe, canada, brazil?
 ##US resources based on target seedling approach:
