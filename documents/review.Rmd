@@ -60,20 +60,12 @@ Evaluating nursery seedling quality is thus necessary to understanding seedling 
 \
 Seedling quality is the basis for tree planting success and high quality trees will have a higher survival rate and faster growth in the field than poor quality trees [@wightman1999good]. Importantly, planting seedlings with desirable plant attributes will not guarantee survival, but should increase survivability [@grossnickle2012seedlings]. As seedlings are more acclimatized to nursery conditions than to planting site conditions, assessments of stock type performance potential does include some systematic error [@puttonen1997looking]. Assessments during nursery production can also be problematic as seedling characteristics often change during the high grow phase [@mattsson1997predicting]. Regardless, the ultimate goal of a generating a high quality tree stock is to ensure a very high percentage of out-planting establishment. Thus, specifications for tree stock are designed to ensure that seedlings can endure stresses from variable site conditions and growing climates, but are also applicable to a wide range to species and tree types.
 
-##Primary stresses affecting seedling quality
-The three primary types of stress that influence seedling quality are moisture, temperature, and physical stress.[@haase2007morphological]. Nursery seedlings can be profoundly impacted by these primary stresses during all phases of production, including culturing, lifting, packing, grading, handling, pruning, storage, and transport.
+##Primary stresses affecting nursery seedlings
+The three primary types of stress that influence seedling quality are moisture, temperature, and physical stress.[@haase2007morphological]. Nursery seedlings can be profoundly impacted by each of these stresses during nursery production, including culturing, lifting, packing, grading, handling, pruning, storage, and transport. Additionally, seedlings will undergo varying degrees of environmental stresses not experienced during nursery production. The varying degrees of harshness inherit by out-planted seedlings determine the length and severity of seedling of 'transplant shock'. Transplant shock represents the negative effects on growth and survival when nursery-raised stock are out-planted and is associated with acclimatization of seedlings to the new environmental conditions [@close2005physiological]. To overcome transplant stress after planting the root system must meet the transpiration demands of the shoot system [@ford2014improving]. Reductions in stress should thus be actively managed with nursery practices that manage proper balance of tree planting stock above and belowground.
 
-Irrigation and fertilization regimes, as well as prevailing temperatures and climate will affect seedling quality during nursery production [@mattsson1997predicting].
-
-\
-Depending on destination of the out-planting, seedlings will undergo varying degrees of environmental stresses not experienced during nursery production. The varying degrees of harshness inherit by out-planted seedlings determine the length and severity of seedling of 'transplant shock'. Transplant shock represents the negative effects on growth and survival when nursery-raised stock are out-planted and is associated with acclimatization of seedlings to the new environmental conditions [@close2005physiological]. During an initial growth lag phase, reductions in water and nutrient uptake and the loss of root carbohydrates to regrowth roots will determine the amount of transplant shock and eventually out-planting success. To overcome transplant stress after planting the root system must meet the transpiration demands of the shoot system [@ford2014improving]. Reductions in transplant shock can thus be actively managed with nursery practices that manage proper balance of tree planting stock above and belowground.
-
-\
-***insert urban ecology, Australia and green space examples here
-Minimizing transplant shock is highly relevant for tree stock in Australia as planned increases in urban green spaces are underway as well as climate and soil constraints that typically define Australian ecosystems. 20/20/20 urban examples.  Aridity examples
-
-Out planting success depends on the interactions between tree attributes and the environmental components of the site, with high quality morphological/physiological attributes especially important under harsh field conditions [@stape2001relationships].
-
+Minimizing transplant shock is highly relevant for tree stock in Australia as planned increases in urban green spaces are underway as well as climate and soil constraints that typically define Australian ecosystems. During an initial growth lag phase, reductions in water and nutrient uptake and the loss of root carbohydrates to regrowth roots will determine the amount of transplant shock and eventually out-planting success. Out planting success depends on the interactions between tree attributes and the environmental components of the site, with high quality morphological/physiological attributes especially important under harsh field conditions [@stape2001relationships].
+**one climate example**
+**one wrap up sentence about quality standards**
 
 ##target seedling approach (variables that are most related to growth---which morph variables are most correlated to those)
 
@@ -342,6 +334,9 @@ indices defined in the standard represent proper root:shoot balance for the most
 
 \
 Depending on container size and type, there is an age window where plants exhibit optimum physiology and size, eliminating issues with low rootball occupancy or too old with root binding and defected root systems [@ford2014improving]. Issue of variability, can exists within nurseries and stock types, variable climate also introduces variability across nurseries. As information is gained with local nurseries, recommendations and size specifications for containerized plants are likely to change to more accurately match site, species, and planting time to individual stock type [@nelson1996container]. Interestingly, @south2006root showed that RCD too small and too large negatively affected out-planting survival, with the large container stock probably decreased performance due to root binding.
+
+Irrigation and fertilization regimes, as well as prevailing temperatures and climate will affect seedling quality during nursery production [@mattsson1997predicting].
+
 
 If rootball occupancy has meet the standard, then can container volume be used to predict aboveground growth? (will depend on the knowledge of age/transplanting time at time of sale).
 ###do other countries evalue tree balance? in what way, usa, europe, canada, brazil?
