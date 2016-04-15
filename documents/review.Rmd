@@ -328,25 +328,58 @@ In should be explicitly mentioned that robust survival and field establishment e
 \
 Operational quantification of some morphological variables are not practical for nurseries to implement on a large scale, but if superior predictors can be identified it may be possible to modify nursery cultural techniques to improve quality [@wilson2006quality].
 
-#Evaluating the Australian standard:
+#Evaluating the Australian standard: 
 little emphasis on physiological assessment in the nursery. The question remains on whether the morphological 
 indices defined in the standard represent proper root:shoot balance for the most common and widely distributed stock types in Australia. The newly adopted AUS standard assess tree balance with 'Size Index' as a function of container volume or rootball diameter for containerized or bare-root tree stock, respectively. Size index is calculated as the product of height (m) and caliper (at 300 mm), and is expected to represent the physical bulk of the tree aboveground [@clark2003specifying]. A cost effective sampling procedure is needed, limiting destructive sampling, as every seedling to be out-planted cannot be measured or assessed easily with current techniques [@puttonen1997looking].
+If rootball occupancy has meet the standard, then can container volume be used to predict aboveground growth? (will depend on the knowledge of age/transplanting time at time of sale).
 
+##Tree balance in other national nursery standards?
+In the **European technical & quality standards for nursery stock** the container and plant size are expected to be in reasonable proportion [@eurstand]. In this standard only minimum height for container stock in specified, with no specific guidelines for large container sizes. The Americanhort's **American standard for nursery stock** in 2014 acceptable ranges for plant height and rootball dimensions based on caliper/height specifications [@usastand]. In the **Canadian Standard for Nusery Stock** containerized stock is graded with an acceptable range of either height or canopy spread for different container sizes [@canstand].
+
+Alternatively, the "Size Index" specification in AS2303 is meant integrated measurement of aboveground bulk of the tree relative to the size of the container [@clark2003specifying; @ausstand]. This specific quantification of tree balance marks an important distiction between AS2303 and seedlings quality standards from other major market countrues in with the evaluation of tree balance.
+
+Additionally, each of these other standard classify tree stock into groups (i.e spreading, upright, evergreen , deciduous), with quality specifications for each group.  The AS2303 simplifies quality assessmens by including only one guideline for all tree stock.
+
+##Capturing inherent variation within nursery tree stock
 \
+```{r ausclimate2, echo=FALSE, error=TRUE,fig.width=7, fig.height=7,dev="png", dpi=600, dev.args=list(type="cairo")}
+library(png)
+climate2 <- readPNG("images/variation_concepty.png")
+par(mar=c(0,0,0,0))
+plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
+rasterImage(climate2, xleft = 0, ybottom = 0, xright = 1, ytop =1)
+
+```
+
+*natural variation*
+Intraspecific variation refers to phenotypic variation that naturally occurs within-species.
+In production nurseries, this effect is a curious issue as the seed source for individual stock types is.....
+
+*species variation*
+Although plants use all the same resources for growth, the construction, lifespan and relative allocation of leaves, stems, and roots vary between species [@westoby2002plant]. As plants have developed different strategies to uptake resources and to utilize resouces to maximize growth in a specific way, large varition in size, shape and growth rate exists among tree speices. As a result, plant growth rate heavily depends on this biomass partitioning to different parts, expecially to leaves. For example, evergreen species have ....compared to deciduous species []. 
+
+
+Species with high growth rates are more competitive in acquiring resources, whereas species with low growth rates are more conservative with the scarce resources they have obtained (Grime, 1977; Berendse and Elberse, 1989; Reich et al., 2003b; Poorter and Garnier, 2007).
+
+poorter 2012..
+
+relates to as2303=
+does it capture this (much greater than within species variation)
+It entirely possible for certain morphologies to commonly fall out of exceptable range if SI is too narrower.  As with other nursery standards, should stock type groups be assessed differently in order to accurartely assess qualtiy within different morphotypes?
+
+
+types = evergreens (spreading or upright)
+
+does SI account for large vraition between types with different forms?
+
+*nursery practices*
 Depending on container size and type, there is an age window where plants exhibit optimum physiology and size, eliminating issues with low rootball occupancy or too old with root binding and defected root systems [@ford2014improving]. Issue of variability, can exists within nurseries and stock types, variable climate also introduces variability across nurseries. As information is gained with local nurseries, recommendations and size specifications for containerized plants are likely to change to more accurately match site, species, and planting time to individual stock type [@nelson1996container]. Interestingly, @south2006root showed that RCD too small and too large negatively affected out-planting survival, with the large container stock probably decreased performance due to root binding.
 
 Irrigation and fertilization regimes, as well as prevailing temperatures and climate will affect seedling quality during nursery production [@mattsson1997predicting].
 
-
-If rootball occupancy has meet the standard, then can container volume be used to predict aboveground growth? (will depend on the knowledge of age/transplanting time at time of sale).
-###do other countries evalue tree balance? in what way, usa, europe, canada, brazil?
-*US resources based on target seedling approach:*
-Americanhort: american standard for nursery stock (2014)
-
-examples include Forestry Nursery Manuals produced through the USDA for bare root seedlings or seedlings in containers with volumes spanning from 1989-2010.
-\
-*Europe*
-The European Nursery stock Association (ENA) has produced the "European technical & quality standards for nursery stock", most recently in 2010,  
+*climate*
+It is recognized that climatic conditions in different sections of the country produce plants of different caliper height proportions and variance also exists in caliper height proportion from species to species. Container size in relation to plant size will vary with
+geographical location and grower established practice. [Canada standard].
 
 \
 ```{r ausclimate, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
@@ -355,16 +388,6 @@ climate <- readPNG("images/climatezone_aus1.png")
 par(mar=c(0,0,0,0))
 plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
 rasterImage(climate, xleft = 0, ybottom = 0, xright = 1, ytop =1)
-
-```
-
-\
-```{r ausclimate2, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
-library(png)
-climate2 <- readPNG("images/climatezone_aus2.png")
-par(mar=c(0,0,0,0))
-plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
-rasterImage(climate2, xleft = 0, ybottom = 0, xright = 1, ytop =1)
 
 ```
 
