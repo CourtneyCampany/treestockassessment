@@ -112,36 +112,23 @@ As new root must regenerate from the original out-planted root system, it is vit
 ##Pitfalls with morphological assessments and single parameter relationships
 Issues with using only morphological assessments, especially involving single parameter estimates of quality, have long been recognized has having overly large variation. Use of simple morphological variables to predict absolute growth often fail to explain large proportions of variation out-planted seedling growth [@pinto2011establishment]. For example, @wakeley1954planting first noted how morphological assessments of root collar diameter and height led to unreliable grades of survival and growth in longleaf and slash pine seedlings. Additionally, measurements of root system morphology can be destructive and time consuming, which limits their application in nursery cultural practices [@jacobs2004re]. Although morphological parameters can assess seedling size, growth potential and shoot to root balance; they may also not accurately capture seedling physiological quality [@mexal1990target, @grossnickle2012seedlings]. Unfavorable morphological grades of seedlings may therefore occur, without actually inferring different capacities for field success. This issue represents a fundamental problem for the nursery industry, yet morphological indices still likely represent the most cost-effective standard practice.
 
-# Building quantitaive links between morphological parameters and root:shoot balance/morphological index
-Using only aboveground grading criteria ignores the importance of root system morphology in growth and field survival and may not adequately identify potential for out-planting success [@schultz1990nursery]. Insufficient grading rules of morphological parameters, may not capture natural variation in tree stock, and may lead to culling of stock that capable of surviving at a high rate. Thus the question arises of whether size alone is good enough? or need tree balance
-Multiple regression models have been shown to better predict seedling quality than with single parameters [@jacobs2005relative], implying that combining above and belowground indices of seedling quality will more reliably predict seedling field performance. A morphological index is a combination of two or more morphological measurements, with the purpose to describe an overall beneficial seedling attribute (is balance and sturdiness) and creating a value based index that corresponds to field performance better than any individual parameter [@thompson1985seedling].
+# Building quantitaive links between morphological parameters above and bewlow ground
+Insufficient grading rules of morphological parameters, may not capture natural variation in tree stock, and may lead to culling of stock that capable of surviving at a high rate. Multiple regression models have been shown to better predict seedling quality than with single parameters [@jacobs2005relative]. Morphological indexes, including combinations of two or more morphological measurements, are used to describe an overall beneficial seedling attribute that corresponds to field performance better than any individual parameter [@thompson1985seedling]. Morphological indexes generally separate into 2 categories. First, are indices that combine morphological parameters to describe aspects of the aboveground architecture of plant. Second, are combinations of parameters above- and belowground which offer some assessment of overall seedling balance.
 
-\
-Morphological indexes generally separate into 2 categories.  First, are indices that combine morphological parameters to describe aspects of the aboveground architecture of plant. Second, are combinations of parameters above- and belowground which offer some assessment of overall seedling balance.
+Tree slenderness index, calulated as the height:diameter ratio, is indicative of a plants taper and reflects an ability to withstand physical damage [@peterson1997growing]. When slenderness is too high plants have decreasing stability in the field , and the root system may be insufficient to support the shoot biomass under droughty planting conditions [@haase2007morphological; @ford2014improving]. The slenderness index was correlated with mortality in **Pinus patula** seedlings, suggesting it may serve as a good indices of survival [@bayley1997stock], however is was not related to field performance in Silver birch [@aphalo2003field].This disagreement likely arise from focusing only on aboveground grading criteria, which ignores the importance of root system morphology in growth and field survival and may not adequately identify potential for out-planting success [@schultz1990nursery]. 
+
+Thus the question arises of whether grading aboveground metrics of seedlings size alone are sufficient to capture the state of the entire seedling. However, combining above and belowground indices of seedling quality will more reliably predict seedling field performance. 
+
+Typically considered as R:S but this parameter is not cheaply measured in production nurseries.
+As RCD has been shown to correlate with the size of the roots system it seems relevant to include morphological indexes which contain RCD with container size (is RCD vs container diameter or volume as in @south2006root)
 
 *morphological indexes*
-SI x 2, Dicksons, S:R
-
-Slenderness Index (D:H) = reflects the the ability to withstand physical damage
-When slenderness is too high plants have decreasing stability in the field, and the root system may be
-insufficient to support the shoot biomass under droughty planting conditions [@ford2014improving].
 R:S = water uptake to loss
-Dicksons = 
 relative canopy to root-ball volume
 
-Lower height/diameter ratios indicate plant sturdiness [@peterson1997growing].
-Silver birch not related to field performance [@aphalo2003field].
-
-A high H:D ratio indicates a relatively spindly seedling while a lower ratio indicates a stouter seedling [@haase2007morphological].
-H:D ratio was found to be correlated to mortality in Pinus patula seedlings, suggesting it may serve as a good indices of survival [@bayley1997stock]
-
-# Breaking down the indexes 
 *1. Tree stock balance: relationship between 'Size Index' and Rootball Volume  
 *2. Size Index (as Height x Caliper) (caliper or root collar diameter)
-*3. Height : Caliper (taper development)
 *4. Rootball (volume) (RGP)
-
-As RCD has been shown to correlate with the size of the roots system it seems relevant to include morphological indexes which contain RCD with container size (is RCD vs container diameter or volume as in @south2006root)
 
 ## Review of Root : Shoot balance (need strong section here in terms of ecology and nurser specifics)
 Combinations of root and shoot morphological characteristics may be better able to predict growth potentials and possibly out-planting success than simple shoot parameters. The challenge facing nursery growers producing trees is to not only optimize canopy growth but to ensure that the root and shoot systems are properly managed, especially with container production systems which affects the quality of the root systems [@moore2001nursery].Transplant success and establishment is dependent on the chain of events from propagation and production, to harvest and transport, to transplanting and aftercare [@struve2009tree]. To be established, a transplanted tree must generate a root system so that shoot growth is comparable to a non-transplanted tree [@watson1997principles]. Establishment likely different for different stock types, such as large vs small caliper trees. The ability to re-establish a balance between above and belowground growth will depend on the rate of root growth potential, even with shoot growth being typically suppressed initially [@struve2009tree]. Larger trees generally require a longer time to produce a root system compared to smaller trees [@Watson2005], which may affect out-planting success. An imbalance above and belowground can put larger tree stock at higher risk of transplant shock, thus eliminating the increased survivability usually seen over smaller seedlings (south and Mitchell 1999).
