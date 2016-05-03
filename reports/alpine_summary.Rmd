@@ -3,8 +3,8 @@ title: "Alpine Nursery Research Visit"
 author: "Hawkesbury Institute for the Environment Research Team"
 date: "April 26-29 2016"
 output: 
-  html_document:
-    code_folding: hide
+  html_document
+   
 ---
 
 ```{r setup, results='asis', echo=FALSE, warning=FALSE}
@@ -13,7 +13,7 @@ opts_knit$set(root.dir = '../')
 
 ```
 
-```{r alpinedata}
+```{r alpinedata, echo=FALSE}
 #read data
 standard <- read.csv("data/container_assessment.csv")
   standard$logminSI <- with(standard, log10(min_size_index))
@@ -55,34 +55,30 @@ alpine_dat <- read.csv("reports/alpine_sizeindex.csv")
 
 ```
 
-
 ## Research Aims
-Last week we visited Alpine Nursery in Dural, NSW. The goal of this visit, and the many to come, are to evaluate the new Australian Standard for assessing tree stock for landscape use (AS2303). Specifically, we are aiming to investigate how well the **Size Index** parameter accurately captures tree above and belowground balance in containerized trees. The **Size Index** parameter is the height x calliper (300mm) of a given tree at time of dispatch and is stated to be a measure of the aboveground bulk of a tree. In the standard, a specific min/max **Size Index** value is then specified for the volume of container a seedling is currently in. As a result, trees that are deemed "ready to sale" by the nursery should have a **Size Index** value within the min/max range in order to pass the assessment.
+Last week we visited Alpine Nursery in Dural, NSW. The goal of this visit, and the many to come, are to evaluate the new Australian Standard for assessing tree stock for landscape use (AS2303). Specifically, we are investigating how well the **Size Index** parameter accurately captures above and belowground balance in containerized trees. The **Size Index** parameter is the calliper x height at time of dispatch and is stated to be a measure of the aboveground bulk of a tree. In AS2303, a **Size Index** range (min and max) is  specified for the container volume a seedling is currently in. As a result, trees that are deemed "ready to sale" by the nursery should have a **Size Index** value within this range in order to pass the assessment.
 
 \
-We aim to test whether the specified range of **Size Index** values accurately captures enough of the variation that exists within tree stock and across production nurseries. This variation can be broadly conceptualized in 4 categories:
+We aim to test whether the specified range of **Size Index** values accurately captures enough of the variation that exists within tree stock and across production nurseries in Australia. This variation can be broadly conceptualized in 4 categories:
 
 <div style="width:1000px; height=1000px;" align=center>
 ![where is my diagram?](concept.png)
 </div>
 
-## Protocol
+## Protocol used at Alpine Nursery 
 \
 <div style="width:700px; height=700px;" align=center>
 ![where is my protocol?](protocol.png)
 </div>
 
 ## Research Visit Summary
-With the help of several staff at Alpine Nursery we were able to measure 
-```{r numbertrees, echo=FALSE, results='asis'}
-print(nrow(alpine_dat))
-```
-trees. This included 22 tree species across 15 different container sizes.  Container volumes ranged from 15L to 2000L, which nearly covers the entire spectrum of the AS2303 tree stock balance ***Size Index*** range. We assessed 57 total batches, measuring anywhere from 1 to 45 trees in each batch. The research visit was completed in a total of 4 days. Using a staging area, the above and belowground visual assessments were quickly completed for all tree stock in containers up to 45L. Larger containers were then assessed by visiting individual tree stock batches across the nursery.  One tree was initially assessed for each batch. If this tree failed (i.e. J-rooting) then the option was given to the production manager to assess additional trees. On the following days, measurements of size index variables and categorical shape parameters were completed in batches that passed the above and belowground testing process.
+With the help of several staff at Alpine Nursery we were able to measure 920 trees. This included 22 tree species across 15 different container sizes. Container volumes ranged from 15L to 2000L, which nearly covers the entire spectrum of the AS2303 **Size Index** range. We assessed 57 total batches, measuring anywhere from 1 to 45 trees in each batch. The research visit was completed in a total of 4 days. Using a staging area, the above and belowground visual assessments were quickly completed for all tree stock in containers up to 45L. Larger containers were then assessed by visiting individual tree stock batches within the nursery. One tree was initially assessed for each batch. If this tree failed (i.e. J-rooting) then the option was given to the production manager to assess additional trees. On the following days, measurements of size index variables and categorical shape parameters were completed for all batches that passed the above and belowground testing process.
 
 ## Data Summary
- Lets see how the 'ready to sell' trees at Alpine fit in the range of *Size Index" values specified in AS2303.
 
-```{r si, warning=FALSE, message=FALSE,fig.align='center' }
+### How do the assessed tree stock at Alpine Nursery fit in the range of **Size Index** values specified in AS2303?
+
+```{r si, warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7 , echo=FALSE}
 library(magicaxis)
 library(RColorBrewer)
 
@@ -99,22 +95,39 @@ plot(logSI ~ logvol, data=alpine_dat, xlab="Container volume (L)", ylab=silab,
      axes=FALSE, cex=1.25, bg=col_vector[alpine_dat$species],pch=21, xlim=c(.5,3.75), ylim=c(.5,3.5))
 magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
 
-#add assessment
-# points(log10(min_size_index[1:36])~log10(container_volume[1:36]), data=standard, bg="grey65",   type='l',lwd=2)
-# points(log10(max_size_index[1:36])~log10(container_volume[1:36]), data=standard, col="black",  type='l', lwd=2)
-
 polygon(x=c(minx,minx,maxx,maxx), y=c(minsimin, minsimax, maxsimax,maxsimin), lwd=2,lty=2, col=greytrans )
-    box()
-
-legend("topleft", c("Max. size index", "Min. size index") ,pch=c(16, 21), cex=1.25, bty='n', inset=.01)
 box()
+```
+
+### A closer look at a few species available in many sizes...
+
+```{r si3, warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7 , echo=FALSE}
+banksia <- alpine_dat[alpine_dat$species == "banksia_integrifolia",]
+corymbia <- alpine_dat[alpine_dat$species == "corymbia_maculata",]
+saligna <- alpine_dat[alpine_dat$species == "eucalyptus_saligna",]
+leglab <- c("banksia_integrifolia","corymbia_maculata" ,"eucalyptus_saligna")
+halfblue <- scales::alpha("blue",alpha=.5)
+halfred <- scales::alpha("red",alpha=.5)
+halfgreen <- scales::alpha("forestgreen",alpha=.5)
+
+par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logSI ~ logvol, data=banksia, xlab="Container volume (L)", ylab=silab,
+     axes=FALSE, cex=1.25, bg=halfred, pch=21, xlim=c(.5,3.75), ylim=c(.5,3.5))
+points(logSI ~ logvol, data=saligna,  bg=halfblue ,pch=21, cex=1.25)
+points(logSI ~ logvol, data=corymbia,  bg=halfgreen, pch=21, cex=1.25)
+
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+#add assessment
+polygon(x=c(minx,minx,maxx,maxx), y=c(minsimin, minsimax, maxsimax,maxsimin), lwd=2,lty=2, col=greytrans )
+box()
+legend("topleft", leglab, pch=21, pt.bg=c(halfred, halfgreen, halfblue), bty='n', cex=1, inset=.015)
 
 ```
 
 
-The big trees seem to level off at the largest container volumes.  Is that due to height or calliper?
-
-```{r height,warning=FALSE, message=FALSE,fig.align='center'}
+### Is variation in **Size Index** driven by either height or calliper?
+```{r height,warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
 par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
 plot(logH ~ logvol, data=alpine_dat, xlab="Container volume (L)", ylab="Height (m)",
      axes=FALSE, cex=1.25, bg=col_vector[alpine_dat$species],pch=21, xlim=c(.5,3.75), ylim=c(-.5,1))
@@ -123,9 +136,8 @@ magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
 box()
 ```
 
-
 \
-```{r calliper,warning=FALSE, message=FALSE,fig.align='center'}
+```{r calliper,warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
 par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
 plot(logD ~ logvol, data=alpine_dat, xlab="Container volume (L)", ylab="Stem Calliper @ 300mm (mm)",
      axes=FALSE, cex=1.25, bg=col_vector[alpine_dat$species],pch=21, xlim=c(.5,3.75), ylim=c(.5,2.25))
@@ -134,9 +146,8 @@ magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
 box()
 ```
 
-
-How related are height and calliper in these trees?
-```{r hieghtdiam,  warning=FALSE, message=FALSE,fig.align='center'}
+### Height and calliper are postively correlated, as expected
+```{r hieghtdiam,  warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
 par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
 plot(calliper300 ~ height_m, data=alpine_dat, xlab="Height (m)", ylab="Diameter (mm)",xlim=c(0,8), ylim=c(0,175),
      cex=1.25, col=col_vector[alpine_dat$species],pch=1)
@@ -147,8 +158,36 @@ box()
 legend("topleft", c("Root Collar Diameter","Calliper @ 300mm") ,pch=c(16, 1), bg="black", cex=1, bty='n', inset=.01)
 ```
 
+
+### There is definetely a need to investigate variation within and among species....
+```{r 25L,  warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
+vol25 <- alpine_dat[alpine_dat$volume==25 , ]
+vol25 <- droplevels(vol25)
+species25 <- sort(unique(vol25$species))
+
+par(mar=c(10,5,1,1),mgp=c(3,1,0))
+boxplot(sizeindex ~ species, data=vol25, ylab="Size Index  (calliper x height)", las=2, xlab="", xaxt='n', outline=FALSE,col=col_vector[1:9])
+axis(1, at = 1:9,labels=FALSE)
+text(x=1:9, y=-3, species25, srt=45, xpd=TRUE, adj=1)
+text(x=8.5, y=62.5, label="25L Containers", font=2)
+```
+
+\
+```{r 100L,  warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
+vol100 <- alpine_dat[alpine_dat$volume==100, ]
+vol100 <- droplevels(vol100)
+species100 <- sort(unique(vol100$species))
+
+par(mar=c(10,5,1,1),mgp=c(3,1,0))
+boxplot(sizeindex ~ species, data=vol100, ylab="Size Index  (calliper x height)", las=2, xlab="", xaxt='n', outline=FALSE, 
+        col=col_vector[c(1,10,4,11,7,8,12,13,14,15)])
+axis(1, at = 1:10,labels=FALSE)
+text(x=1:10, y=35, species100, srt=45, xpd=TRUE, adj=1)
+text(x=9.5, y=310, label="100L Containers", font=2)
+```
+
 #Whats Next?
-Research visit #2 is set for Andreasens Green nursery from May 23-27, 2016. There is an option to visit Trees Impact and measure some larger trees shortly after. Then we will begin interstate visits. Specialty Trees and Fleming's nurseries next???
+Research visit #2 is set for Andreasens Green nursery from May 23-27, 2016. There is an option to visit Trees Impact and measure some larger trees shortly after. Then we will begin interstate visits. Speciality Trees and Fleming's Nurseries next???
 \
 \
 
