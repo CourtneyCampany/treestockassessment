@@ -140,6 +140,6 @@ plot(calliper300 ~ height_m, data=alpine_dat, xlab="Height (m)", ylab="Diameter 
 points(rcd ~ height_m, data=alpine_dat, cex=1.25, bg=col_vector[alpine_dat$species],pch=21)
 box()
 
-legend("topleft", c("Calliper @ 300mm", "Root Collar Diameter") ,pch=c(16, 1), bg="black", cex=1, bty='n', inset=.01)
+legend("topleft", c("Root Collar Diameter","Calliper @ 300mm") ,pch=c(16, 1), bg="black", cex=1, bty='n', inset=.01)
 
 
