@@ -64,11 +64,11 @@ silab <- expression(Size~index~range~~(calliper~x~height))
 greytrans <- scales::alpha("grey", alpha=0.25)
 blacktrans <- scales::alpha("black", alpha=0.6)
 ###large color palette
-n <- 23
+
 qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
 col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
 speciesnames <- unique(alpine_dat$species)
-speciesnames2 <- data.frame(species = speciesnames, colorspec = col_vector[1:23])
+speciesnames2 <- data.frame(species = speciesnames, colorspec = col_vector[1:22])
 
 redtrans <- scales::alpha("red4", alpha=0.5)
 appdat <- merge(appdat, speciesnames2)
@@ -124,13 +124,13 @@ pageWithSidebar(
                verbatimTextOutput("brushedPoints")
     ))
 
-
-    species_ss<- reactive({subset(appdat, species %in% input$whichgrowth)[,-c(3:4)] 
+      
+  output$plot1 <- renderPlot({
+    
+    species_ss<- reactive({subset(appdat, species %in% input$whichspecies)[,-c(1,4)] 
                       })
     species.color <- reactive({unique(subset(appdat, species %in% input$whichspecies)[,c(3,4)])
                       })
-      
-  output$plot1 <- renderPlot({
     
     par(mar=c(6,7,2,2),cex.axis=1.4, cex.lab=1.75,las=0,mgp=c(4.5,1,0))
     plot(appdat$logSI~ appdat$logvol,
