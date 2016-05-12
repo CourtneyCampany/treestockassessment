@@ -7,7 +7,10 @@ alpine_leaf <- read.csv("data/alpine_leaves.csv")
 alpine_leaf2 <- read.csv("data/alpine_leaves_lumped.csv") #leaves that could not be weighed seperate
 
 alpine_leaf$leafmass <- rowMeans(alpine_leaf[, c("leaf1", "leaf2", "leaf3")], na.rm=TRUE)
-leafmeans <- alpine_leaf[,c("batch_id", "tree", "meanleafmass")]
+
+leafmeans <- alpine_leaf[,c("batch_id", "tree", "leafmass")]
+
+
 
 leafmass_func <- function(dfr1, dfr2) {
   
