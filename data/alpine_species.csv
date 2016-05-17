@@ -1,0 +1,20 @@
+species_latin,species,leaf_type,native,growth_rate
+Acer freemanii ‘Autumn Blaze’,acer_freemanii_autumnblaze,Deciduous,Non Native,Moderate
+Angophora costata,angophora_costata,Evergreen,Native,Fast
+Araucaria heterophylla,araucaria_heterophylla,Evergreen,Non-Native,Fast
+Banksia integrifolia,banksia_integrifolia,Evergreen,Native,Moderate
+Brachychiton acerifolius,brachychiton_acerifolius,Deciduous,Native,Slow
+Callistemon ‘Kings Park Special’,callistemon_kingsparkspecial,Evergreen,Native,Fast
+Corymbia maculata,corymbia_maculata,Evergreen,Native,Fast
+Eucalyptus pilularis,eucalyptus_pilularis,Evergreen,Native,Fast
+Eucalyptus saligna,eucalyptus_saligna,Evergreen,Native,Fast
+Eucalyptus sideroxlyon,eucalyptus_sideroxylon,Evergreen,Native,Moderate
+Fraxinus griffithii,fraxinus_griffithii,Evergreen,Non,Fast
+Jacaranda mimosifolia ,jacaranda_mimosifolia,Deciduous,Non Native,Fast
+Lophostemon confertus,lophostemon_confertus,Evergreen,Native,Fast
+Magnolia grandiflora ‘Little Gem’,magnolia_grandiflora_littlegem,Evergreen,Non Native,Slow
+Magnolia grandiflora ‘Exmouth’,magnolia_grandiflora_exmouth,Evergreen,Non Native,Moderate
+Olea europea,olea_europea,Evergreen,Non Native,Slow
+Tristaniopsis laurina ‘Luscious’,tristaniopsis_laurina_luscious,Evergreen,Native,Slow
+Ulmus parvifolia ,ulmus_parvifolia,Deciduous,Non-Native,Fast
+Waterhousea floribunda,waterhousea_floribunda,Evergreen,Native,Fast
