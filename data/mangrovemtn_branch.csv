@@ -1,0 +1,17 @@
+batch_id, species,volume,apical,branchdirection
+001-A-051,magnolia_grandifolia_littlegem,200,no,u
+001-A-052,waterhousia_floribunda_ameroo,400,no,d
+002-A-052,elaeocarpus_reticulatus_primadonna,400,no,h
+001-A-076,lophostemon_confertus,75,yes,u
+001-A-045,araucaria_heterophylla,200,yes,h
+001-A-047,waterhousia_floribunda_ameroo,200,no,u
+001-A-053,ficus_rubiginosa,1500,no,d
+001-A-053,ficus_rubiginosa,2000,no,d
+003-A-035,ficus_rubiginosa,2000,no,d
+001-A-036,ficus_macrocarpa_flash,200,no,up
+001-A-039,jacaranda_mimosifolia,400,no,u
+005-A-042,lophostemon_confertus,200,no,u
+001-A-020,ficus_macrocarpa_flash,100,no,u
+002-A-021,elaeocarpus_reticulatus_primadonna,75,no,u
+001-A-035,tristaniopsis_laurina_luscious,400,no,u
+,,,,
