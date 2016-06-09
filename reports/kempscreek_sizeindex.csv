@@ -97,7 +97,7 @@ date,species,batch_id,volume,tree,height,diameter1,diameter2,rcd1,rcd2
 05/23/2016,angophora_costata,004-A-073,200,7,438.1,54.13,52.4,61.88,62.17
 05/23/2016,angophora_costata,004-A-073,200,8,365,50.81,54.04,64.84,66.48
 05/23/2016,angophora_costata,004-A-073,200,9,448,54.22,60.3,80.89,77.58
-05/23/2016,angophora_costata,004-A-073,200,10,32.1,45.88,47.91,67.73,66.78
+05/23/2016,angophora_costata,004-A-073,200,10,321,45.88,47.91,67.73,66.78
 05/23/2016,angophora_costata,004-A-073,200,11,434.7,60.91,63.25,71.04,76.28
 05/23/2016,angophora_costata,004-A-073,200,12,324.6,41.47,45.5,55.43,54.56
 05/23/2016,angophora_costata,004-A-073,200,13,404.4,43.4,40.85,60.37,59.23
@@ -308,7 +308,7 @@ date,species,batch_id,volume,tree,height,diameter1,diameter2,rcd1,rcd2
 05/23/2016,eucalyptus citriodora,002-S-059,14,8,135.2,9.54,9.56,17.78,17.78
 05/23/2016,eucalyptus citriodora,002-S-059,14,9,138.9,9.37,9.45,14.38,14.52
 05/23/2016,eucalyptus citriodora,002-S-059,14,10,131,8.92,9.27,14.4,13.68
-05/23/2016,eucalyptus citriodora,002-S-059,14,11,13.1,6.55,6.67,12.87,12.45
+05/23/2016,eucalyptus citriodora,002-S-059,14,11,131,6.55,6.67,12.87,12.45
 05/23/2016,eucalyptus citriodora,002-S-059,14,12,137.1,10.58,10.67,18.56,17.91
 05/23/2016,eucalyptus citriodora,002-S-059,14,13,174.4,11.64,11.73,15.75,17.45
 05/23/2016,eucalyptus citriodora,002-S-059,14,14,179.4,14.08,13.57,21.91,20.08
@@ -669,7 +669,7 @@ date,species,batch_id,volume,tree,height,diameter1,diameter2,rcd1,rcd2
 05/23/2016,lophostemon_confertus,003-A-080,45,39,291.5,25.31,25.72,32.76,33.76
 05/23/2016,lophostemon_confertus,003-A-080,45,40,213.1,25.1,26.02,36.7,35.83
 05/23/2016,lophostemon_confertus,003-A-080,45,41,271.5,22.01,22.49,34.49,34.47
-05/23/2016,lophostemon_confertus,003-A-080,45,42,211.5,2857,28.29,38.91,38.27
+05/23/2016,lophostemon_confertus,003-A-080,45,42,211.5,28.57,28.29,38.91,38.27
 05/23/2016,lophostemon_confertus,003-A-080,45,43,300.5,26.46,25.17,32.25,34.24
 05/23/2016,lophostemon_confertus,003-A-080,45,44,211.7,36.12,35.87,36.04,38.97
 05/23/2016,lophostemon_confertus,003-A-080,45,45,302.3,20.46,22.4,27.01,28.09

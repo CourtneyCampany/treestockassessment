@@ -349,7 +349,7 @@ batch_id,species,volume,treenumb,canopy_top,canopy_bottom,branchper30,maxbranchr
 001-A-064,waterhousea_floribunda_greenavenue,75,2,286.8,7,7,53,13.41,11.3,9.35,0.16,0.15,0.11
 001-A-064,waterhousea_floribunda_greenavenue,75,3,290.9,15,9,57,16.63,16.81,7.9,0.22,0.21,0.13
 001-A-064,waterhousea_floribunda_greenavenue,75,4,283,9.5,5,60,13.21,22.68,3.99,0.2,0.25,0.16
-001-A-064,waterhousea_floribunda_greenavenue,75,5,256.8,18,8,61,17.88,14.94,122.85,0.23,0.18,0.15
+001-A-064,waterhousea_floribunda_greenavenue,75,5,256.8,18,8,61,17.88,14.94,12.85,0.23,0.18,0.15
 001-A-064,waterhousea_floribunda_greenavenue,75,6,287.8,26,8,72,12.82,12.43,17.12,0.18,0.14,0.18
 001-A-064,waterhousea_floribunda_greenavenue,75,7,240.5,19,7,62,16.98,12.89,14.01,0.2,0.16,0.15
 001-A-064,waterhousea_floribunda_greenavenue,75,8,233.5,23,9,61,17.61,15.19,12.2,0.23,0.2,0.14
