@@ -2,12 +2,14 @@ source("functions_and_packages/plot_objects.R")
 
 ##standard
 standard <- read.csv("reports/container_assessment.csv")
-kemps_dat <- read.csv("reports/kempscreek_sizeindex.csv")
-mangrove_dat <- read.csv("reports/mangrovemtn_sizeindex.csv")
-
+kemps_dat <- read.csv("data/kempscreek_sizeindex.csv")
+  kemps_dat$site <- "Kemps Creek"
+mangrove_dat <- read.csv("data/mangrovemtn_sizeindex.csv")
+  mangrove_dat$site <- "Mangrove Mountain"
+  
 #need to seperate the trees with diameter tape and calculate size index
 mangrove_big <- mangrove_dat[is.na(mangrove_dat$diameter2),]
-mangrove_small <-  mangrove_dat[!is.na(mangrove_dat$diameter2),] ##use this in function
+mangrove_small <-  mangrove_dat[!is.na(mangrove_dat$diameter2),] 
 
 
 #function for andreasens nurseries--------------------------------------------------------
@@ -33,7 +35,7 @@ andreasensformat <- function (x){
   x$logD <- with(x, log10(calliper300))
   x$logRCD <- with(x, log10(rcd))
   print("log conversion worked")
-  x2 <- x[, c("date", "species","batch_id2","volume", "calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
+  x2 <- x[, c("date", "species","site", "batch_id2","volume", "calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
               "logH", "logD", "logRCD")]
   return(x2)
 }  
@@ -60,7 +62,7 @@ mangrovebig_format <- function(x){
   x$logD <- with(x, log10(calliper300))
   x$logRCD <- with(x, log10(rcd))
   print("log conversion worked")
-  x2 <- x[, c("date", "species","batch_id2","volume","calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
+  x2 <- x[, c("date", "species","site","batch_id2","volume","calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
               "logH", "logD", "logRCD")]
   return(x2)
 }
@@ -100,6 +102,8 @@ andreasens_si <- rbind(kemps_si, mangrove_si)
 andreasensspecies <- unique(andreasens_si$species)
 andreasensspecies2 <- data.frame(species = andreasensspecies, colorspec = col_vector[1:20])
 andreasens_si <- merge(andreasens_si, andreasensspecies2)
+
+write.csv(andreasens_si,"reports/andreasens_sizeindex.csv", row.names = FALSE)
   
 #1. size index vs volume
 windows(7,7)

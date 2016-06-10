@@ -1,0 +1,180 @@
+---
+title:    | 
+    | Andreasens Nursery Research Visit
+    | Kemps Creek and Mangrove Mtn
+author: "Hawkesbury Institute for the Environment Research Team"
+date: "May 23-27 2016"
+output: html_document
+---
+
+```{r setup, results='asis', echo=FALSE, warning=FALSE}
+library(knitr)
+opts_knit$set(root.dir = '../')
+
+```
+
+
+```{r data, echo=FALSE}
+#read data
+standard <- read.csv("data/container_assessment.csv")
+  standard$logminSI <- with(standard, log10(min_size_index))
+  standard$logmaxSI <- with(standard, log10(max_size_index))
+  standard$logvol <- with(standard, log10(container_volume))
+  minx <- min(standard$logvol)
+  maxx <- max(standard$logvol)
+  minsimin <- min(standard$logminSI)
+  maxsimin <- max(standard$logminSI)
+  minsimax <- min(standard$logmaxSI)
+  maxsimax <- max(standard$logmaxSI)
+  
+andreasens_si <- read.csv("reports/andreasens_sizeindex.csv")
+```
+
+## Research Visit Summary
+With the help of several staff at Andreasens Nursery we were able to measure 1116 trees. This included 20 tree species/varieties across 10 different container sizes. Container volumes covered the entrire spectrum of the AS2303 **Size Index** range. We assessed 53 total batches from the Kemps Creek and Mangrove Mountain sites combined. Due to the large amount of available stock we were genreally able to measure 20 trees per batch for larger sizes and 45 trees per batch for smaller sizes. The research visit was completed in a total of 4 days. Using a staging area, the above and belowground visual assessments were quickly completed for all tree stock in containers up to 45L. Larger containers were then assessed by visiting individual tree stock batches within the nursery. One tree was initially assessed for each batch. If this tree failed (i.e. J-rooting) then the option was given to the production manager to assess additional trees. Measurements of size index variables and categorical shape parameters were completed for all batches that passed the above and belowground testing process.
+
+## Data Summary
+
+#### How do the assessed tree stock at Andreasens Nursery fit in the range of **Size Index** values specified in AS2303?
+
+\
+
+```{r sikemp, warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7 , echo=FALSE}
+library(magicaxis)
+library(RColorBrewer)
+
+cr_dat <- andreasens_si[andreasens_si$site=="Kemps Creek",]
+
+##plotbits
+silab <- expression(Size~index~range~~(calliper~x~height))
+###large color palette
+n <- 30
+qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
+col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
+
+par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logSI ~ logvol, data=cr_dat, xlab="Container volume (L)", ylab=silab,   xlim=c(0.5,3.5),ylim=c(0.3,3.5),axes=FALSE, cex=1.25, bg=col_vector[cr_dat$species],pch=21)
+
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+#add assessment
+lines(log10(min_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+lines(log10(max_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+  
+legend("topleft", "AS2303 Size Index Range" ,lty=1, lwd=2,bty='n', inset=.01)
+title(main="Kemps Creek")
+  
+box()
+
+```
+
+```{r simang, warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7 , echo=FALSE}
+library(magicaxis)
+library(RColorBrewer)
+
+mm_dat <- andreasens_si[andreasens_si$site=="Mangrove Mountain",]
+
+##plotbits
+silab <- expression(Size~index~range~~(calliper~x~height))
+###large color palette
+n <- 30
+qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
+col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
+
+par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logSI ~ logvol, data=mm_dat, xlab="Container volume (L)", ylab=silab,   xlim=c(0.3,3.5),ylim=c(0.3,3.5),axes=FALSE, cex=1.25, 
+     bg=col_vector[mm_dat$species],pch=21)
+
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+#add assessment
+lines(log10(min_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+lines(log10(max_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+  
+legend("topleft", "AS2303 Size Index Range" ,lty=1, lwd=2,bty='n', inset=.01)
+title(main="Mangrove Mountain")
+  
+box()
+```
+
+#### Height and calliper are postively correlated, as expected.  The data which stick out are the large Ficus trees from mangrove mountain (1500 and 2000L) with obviously different stem structures.
+
+\
+
+```{r hieghtdiam,  warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
+par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(calliper300 ~ height_m, data=andreasens_si, xlab="Height (m)", ylab="Diameter (mm)",xlim=c(0,7), ylim=c(0,425),
+     cex=1.25, col=col_vector[andreasens_si$species],pch=1)
+
+points(rcd ~ height_m, data=andreasens_si, cex=1.25, bg=col_vector[andreasens_si$species],pch=21)
+box()
+
+legend("topleft", c("Root Collar Diameter","Calliper @ 300mm") ,pch=c(16, 1), bg="black", cex=1, bty='n', inset=.01)
+```
+
+#### Is variation in **Size Index** driven by either height or calliper?
+
+\
+
+```{r height,warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
+par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logH ~ logvol, data=andreasens_si, xlab="Container volume (L)", ylab="Height (m)",
+     axes=FALSE, cex=1.25, bg=col_vector[andreasens_si$species],pch=21, xlim=c(.5,3.75), ylim=c(-.5,1))
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+box()
+```
+
+\
+
+```{r calliper,warning=FALSE, message=FALSE,fig.align='center',fig.width = 7, fig.height = 7, echo=FALSE}
+par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logD ~ logvol, data=andreasens_si, xlab="Container volume (L)", ylab="Stem Calliper @ 300mm (mm)",
+     axes=FALSE, cex=1.25, bg=col_vector[andreasens_si$species],pch=21, xlim=c(.5,3.75), ylim=c(.5,2.8))
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+box()
+```
+
+#### Some of the species with many available sizes
+
+```{r species, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7, }
+species_dat <- andreasens_si[andreasens_si$species==c("angophora_costata","eucalyptus_maculata","magnolia_grandifolia_littlegem"),]
+
+par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logSI ~ logvol, data=species_dat, xlab="Container volume (L)", ylab=silab,   xlim=c(.7,3),ylim=c(.3,3),axes=FALSE, cex=1.25,
+     bg=col_vector[species_dat$species],pch=21)
+
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+#add assessment
+lines(log10(min_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+lines(log10(max_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+  
+legend("topleft", "AS2303 Size Index Range" ,lty=1, lwd=2,bty='n', inset=.01)
+legend("bottomright" ,c("angophora_costata","eucalyptus_maculata","magnolia_grandifolia_littlegem"),
+       pt.bg=c("#7FC97F","#FFFF99","#D95F02"),pch=21,inset=.01, bty='n')
+
+box()
+```
+
+#### Although Ficus has some weird structural anatomy they seem to fit well within AS2303
+
+```{r ficus, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7, }
+ficus_dat <- andreasens_si[andreasens_si$species==c("ficus_rubiginosa","ficus_macrocarpa_flash"),]
+
+par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logSI ~ logvol, data=ficus_dat, xlab="Container volume (L)", ylab=silab,   xlim=c(1.25,3.5),ylim=c(1,3.5),axes=FALSE, cex=1.25, 
+     bg=col_vector[ficus_dat$species],pch=21)
+
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+#add assessment
+lines(log10(min_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+lines(log10(max_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+  
+legend("topleft", "AS2303 Size Index Range" ,lty=1, lwd=2,bty='n', inset=.01)
+title(main="Ficus Species")
+  
+box()
+```
