@@ -58,9 +58,9 @@ plot(sla~volume, data=andeasens_sla, bg=col_vector[andeasens_sla$species],pch=21
 library(magicaxis)
 
 par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
-plot(log10(sla) ~ log10(volume), data=andreasens_sla, xlab="Container volume (L)", ylab="Specific Leaf Area",
-     axes=FALSE, cex=1.25, bg=col_vector[andreasens_sla$species],pch=21)
-magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+plot(sla ~ volume, data=andreasens_sla, xlab="Container volume (L)", ylab="Specific Leaf Area",
+     cex=1.25, bg=col_vector[andreasens_sla$species],pch=21)
+#magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
 box()
 
 
@@ -72,7 +72,7 @@ slafig <- bargraph.CI(species, sla, data=andreasens_sla2, ylim=c(0,125), col="bl
 text(slafig$xvals, par("usr")[3]-3.75 , srt = 40, adj = 1,labels = labels, xpd = TRUE)
 box()
 
-windows(7,7)
-par(mar=c(14,6,1,1))
-bar(sla,species,andreasens_sla2,ylim=c(0,125), legend=FALSE, ylab="", xlab="", las=2)
+# windows(7,7)
+# par(mar=c(14,6,1,1))
+# bar(sla,species,andreasens_sla2,ylim=c(0,125), legend=FALSE, ylab="", xlab="", las=2)
 

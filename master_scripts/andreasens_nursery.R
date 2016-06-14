@@ -67,7 +67,7 @@ mangrovebig_format <- function(x){
   return(x2)
 }
  
-#format data (merge mangrove datasets)
+#format data (merge mangrove datasets)-----------------------------------------------------------------------------------
  
 mangrove_small2 <- andreasensformat(mangrove_small)
 mangrove_big2 <- mangrovebig_format(mangrove_big)
@@ -75,42 +75,38 @@ mangrove_big2 <- mangrovebig_format(mangrove_big)
 mangrove_si <- rbind(mangrove_small2, mangrove_big2)
 kemps_si <- andreasensformat(kemps_dat)
 
-###means
-mangrove_agg <- doBy::summaryBy(sizeindex ~ species+batch_id2, fun=mean, data=mangrove_si, keep.names = TRUE)
-mangrove_vols <- doBy::summaryBy(sizeindex ~ species+volume, fun=mean, data=kemps_si, keep.names = TRUE)
-  
-  
-###plotting-------------------------------------------------------------------------------------------------------------
-library(magicaxis)
+
+##species color assign--------------------------------------------------------------------------------------------------
+
 library(RColorBrewer)
   
 ###large color palette
 qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
 col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
 
-#colors for species
-# mangrovespecies <- unique(mangrove_si$species)
-# mangrovespecies2 <- data.frame(species = mangrovespecies, colorspec = col_vector[1:9])
-# mangrove_si <- merge(mangrove_si, mangrovespecies2)
-# 
-# kempspecies <- unique(kemps_si$species)
-# kempspecies2 <- data.frame(species = kempspecies, colorspec = col_vector[1:15])
-# kemps_si <- merge(kemps_si, kempspecies2)
-
 ##Redo and combine both sites
-andreasens_si <- rbind(kemps_si, mangrove_si)
-andreasensspecies <- unique(andreasens_si$species)
-andreasensspecies2 <- data.frame(species = andreasensspecies, colorspec = col_vector[1:20])
-andreasens_si <- merge(andreasens_si, andreasensspecies2)
+andreasens_dat <- rbind(kemps_si, mangrove_si)
+
+andreasensspecies <- unique(andreasens_dat$species)
+andreasensspecies2 <- data.frame(species = andreasensspecies, colorspec = col_vector[1:20], stringsAsFactors = FALSE)
+
+andreasens_si <- merge(andreasens_dat, andreasensspecies2)
 
 write.csv(andreasens_si,"reports/andreasens_sizeindex.csv", row.names = FALSE)
-  
+
+##new dataframe of species volume totals
+andreasans_batch <- unique(andreasens_si[c("species", "site","volume")])
+andreasans_batch <- andreasans_batch[with(andreasans_batch, order(species, site,volume)),]
+write.csv(andreasans_batch,"reports/andreasans_batch.csv", row.names = FALSE)
+
+###plotting-------------------------------------------------------------------------------------------------------------
+library(magicaxis)
 #1. size index vs volume
 windows(7,7)
 #png(filename = "images/prelimdata.png", width = 5, height = 5, units = "in", res= 600)
 par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
 plot(logSI ~ logvol, data=andreasens_si, xlab="Container volume (L)", ylab=silab, xlim=c(0.5,3.5),ylim=c(0.3,3.5),
-       axes=FALSE, cex=1.25, bg=col_vector[andreasens_si$species],pch=21)
+       axes=FALSE, cex=1.25, bg=andreasens_si$colorspec,pch=21)
   magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
   
   #add assessment
@@ -121,8 +117,7 @@ legend("topleft", "AS2303 Size Index Range" ,lty=1, lwd=2,bty='n', inset=.01)
   
 box()
   
-  
-  
+
 #2.  height vs volume
 windows(7,7)
   
