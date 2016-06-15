@@ -31,3 +31,4 @@ andreasen_2000 <- andreasen[andreasen$volume == 2000,]
 
     
 table(andreasen_45$pass == "pass")
+
