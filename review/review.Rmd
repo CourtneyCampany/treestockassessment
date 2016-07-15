@@ -95,35 +95,20 @@ From a structural point of view, the shoot and root system should also be balanc
 Morphological parameters used to assess tree stock will likely have a high degree of variation across different production nurseries. Below we review many aspects of nursery practives which can feedback to overall root:shoot balance of tree stock.
 
 #1. Bareroot vs. container tree stock
-
-The root systems of bare-root seedlings are disrupted in the process of lifting, while containered seedlings typically maintain intact multidimensional root system [@tinus1974characteristics; @rose2005root]. Consequently, quality bareroot seedlings generally have root:shoot ratio of 1:3 or less and quality container seedlings have root:shoot ratio 1:2 or less [@haase2007morphological].  Container-grown trees have been shown to better meet the transpirational needs of the plant immediately after transplanting compared to bare root stock, since the root system is intact and many fine roots are on the outside of the root ball [@harris1993production].
-
-Containered seedlings then to have greater initial root growth during the following out-planting [@johnson1984root;@wilson2007root]*more(cites in gross2012)*. Although root grown seems to be enhanced, this has not always been shown to increase shoot growth and survivability in subsequent years following out-planting[@rose2005root].
-
-Overall,container production systems include better environmental control of the growing regime, shorter production cycles, increased stock uniformity and frequently superior field performance on poor quality sites (Brisette et al. 1991; Johnson et al. 1996).  Under drought conditions, seedlings in containers have higher field survival in sites with drought conditions [@grossnickle2005importance and references therein], which may have a significant role in many Australian out-plantings. Overall, containerized seedlings have a better survival rate, are easier to plant, have more immediate growth response benefits, and are cheaper to produce and plant than bare-root seedlings (Landis et al. 1990). For example, Survival increased by 22 % in *Pinus palustris* seedlings grown in container stock compared to bare-root seedlings across 21 studies [@south2005effect].
+Before lifting, stock quality assessments show bare-root seedlings have larger shoot systems because they are typically grown at lower densities, and in many instances longer time-frames, than container seedlings [@grossnicklebareroot]. The root systems of bare-root seedlings are disrupted in the process of lifting, however, while containered seedlings typically maintain intact multidimensional root system [@tinus1974characteristics; @rose2005root]. Consequently, quality bareroot seedlings generally have root:shoot ratio of 1:3 or less and quality container seedlings have root:shoot ratio 1:2 or less [@haase2007morphological]. This removal procedure for bare-root trees produces an imbalance in the shoot to root ratio and reduces the chance for successful field establishment and competitive growth of seedlings [@schultz1990nursery]. These fundamental differences between stock types are important for nursery decision making in the context of the ‘target seedling’ concept, as optimal seedling size conclusions still apply to both [@aphalo2003field].  
 
 \
-Additionally, plants grown in containers in general have different root morphology than field-grown plants [@nesmith1998effect].
-Container seedlings have the advantage of possessing complete root systems oriented downward, with at least one in a position to become a taproot [@mcdonald1991container]. After 10 years of field growth container grown seedlings of ponderosa and Jeffrey pine seedlings grew better than bare-root seedlings, with mean height and diameters [@mcdonald1991container].
+Container seedlings have the advantage of possessing complete root systems oriented downward, with at least one in a position to become a taproot [@mcdonald1991container]. Plants grown in containers generally also have a different root morphology than field-grown plants, including decreased taproot develepment, loss of primary roots and increases in the number of lateral roots [@nesmith1998effect and references therein]. Despite this, containered seedlings then to have greater initial root growth during the following out-planting than bare-root seedlings [@johnson1984root;@wilson2007root]*more(cites in gross2012)*. Container-grown trees are thus considered to better meet the transpirational needs of the plant immediately after transplanting compared to bare root stock [@harris1993production], however, these less distrbed root systems have not always been shown to increase shoot growth in subsequent years following out-planting [@rose2005root].
 
-both height and diameter 
+\
+Containerized seedlings have been generally shown to have greater survival percentage over bare-root seedlings [@south2005effect], including higher field survival in sites with drought conditions [@grossnickle2005importance and references therein]. Overall, containerized seedlings are easier to plant, have more immediate growth response benefits, and are cheaper to produce than bare-root seedlings [@landis1990containers]. Although bare-root and container stock types have distinct characteristics influencing their field survival, new nursery practices are developing bare-root seedlings with more balanced root to shoot systems[@grossnicklebareroot]. Consequently, it is still an essential need to develop relaible quality assessment protocols that distiguish between these two stock types.
 
-Stock quality assessments show bare-root seedlings have larger shoot systems because they are typically grown at lower densities, and in many instances longer time-frames, than container seedlings [@grossnicklebareroot]. This is important for nursery decision making, as although bare-root seedlings must additionally compete for resources belowground, the same optimal seedlings size conclusions still apply for both stock types [@aphalo2003field]. In terms of roots to shoot balance, bare-root seedlings have been found to be larger than containered seedlings with a greater S:R. [@rose2005root], due to the removal from planting beds.
+#2. Container type
 
-*bareroot tree balance*
-+ pruning practice 
-+ growing density
-+ root wrenching
-This loss produces an imbalance in the shoot to root ratio and reduces the chance for successful field establishment and competitive growth of seedlings [@schultz1990nursery].
+The container design used for tree stocktypes has a major influence on root systems [@landis1990containers, @chapman2006early], and this tree balance
+Trees grown in containers have been shown to develop root deformations [@ortega2006field], thus *active root management* is now common practice in managing healthy root systems during containerized nursery production. There are numerous container types and treatments applied to containers aimed at natural root pruning and manipulating root direction and division.  For example, air or mechanical pruning containers and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection. Container types designed to aid root pruning should produce seedlings with horizontally orientated structural roots and more stable root forms [@chapman2006early]. For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects].Containers that auto-prune roots may inadvertently alters natural patterns of tree biomass investment [@climent2008short], thus affecting root to shoot balance during nursery production. Although roots deflected inside containers are commonly associated with tree instability, little is known about root form in large nursery containers [@gilman2010root].
 
- Although bare-root and container stock types have distinct characteristics influencing their field survival, new nursery practices are developing bare-root seedlings with more balanced R:S and increasing large containers stock types [@grossnicklebareroot]. As a result, nursery tree stock standards should be more reliable between these two types..if they work at all (can be shown to be accurate)
-
-Root morphology likely different (cites from davis2005). 
-+ root direction
-+ size and shape
-
-###The container design used for tree stocktypes has a major influence on root systems [@landis1990containers, @chapman2006early], and this tree balance
-Trees grown in containers have been shown to develop root deformations [@ortega2006field], thus pruning managements (manual or container) is now common practice in managing healthy root systems during nursery production. There are numerous container types and treatments applied to containers aimed at natural root pruning and manipulating root direction and division.  For example, air or mechanical pruning containers and copper compounds applied to interior container surfaces are utilized in an attempt to decrease root deflection. Container types designed to aid root pruning should produce seedlings with horizontally orientated structural roots and more stable root forms [@chapman2006early]. For example, red maple seedling height and diameter were found to similar across a large range of container types after 24 weeks, however, root deflection was decreased in containers which air or chemically pruned roots compared to standard plastic containers [@marshall1998effects].Containers that auto-prune roots may inadvertently alters natural patterns of tree biomass investment [@climent2008short], thus affecting root to shoot balance during nursery production. Although roots deflected inside containers are commonly associated with tree instability, little is known about root form in large nursery containers [@gilman2010root].
+*tree balance??*
 
 #container volumes (surrogates for belowground)
 Across a longer timescale it is likely more economical to purchase and plant an expensive tree with a higher rate of survival that a less expenseive tree with a higher mortatiliy rate [@miller2015urban].  In terms of nursery production this often refers to larger trees grown in larger container volumes. In Australia these trees are commonly referred to as "" tree stock.
@@ -176,6 +161,11 @@ immediately after planting [@grossnickle2012seedlings]. This boils down to the g
 \
 *irrigation (amounts and hardening)*
 
+In a study of nursery irrigation late in the growing season (September to
+November), irrigated seedlings had significantly heavier root systems than did
+non-irrigated seedlings (Williams and others 1988). Thus, timing irrigation to
+coincide with a period of root growth can also enhance root development. brisste
+
 \
 *fertilization (amounts and deprevation)*
 Proper fertilization of nursery tree stock is essential for high seedlings quality, however, the degree of fertilization may also impact the production of carbohydrates.  Alleviation of nitrogen stress on seedlings may result in less fixed carbon allocated to storage [@green1994effects; @holopainen1995resource], which may then impact the availability of starch pools for new growth following out-planting or the ability to synthesize herbivory defense compounds. In addition, nutrient deficiencies (ie nitrogen or phosphorus) in nursery trees can cause decreases in leaf chlorophyll constant and the subsequent negative impact on leaf physiology can also lead to decreased carbohydrate production, tree slenderness, seedling height and RCD in nursery trees [@trubat2010nursery]. 
@@ -185,6 +175,12 @@ Shoot:Root ratio has also been shown to be responsive to fertilization regimes, 
 
 \
 Consequently, the management of fertilization of tree stock throughout the nursery period may have important consequences for seedling root:shoot balance, as well as future seedling establishment. The sensitivity to the positive effects of fertilization and irrigation practices on growth rates of seedlings, however, will likely vary by species [@canham1996biomass]. Additionally, if seedlings are intentionally nitrogen hardened before sell will reduce seedlings traits including height, rcd, leaf area and rgp [@trubat2008short], but may improve their field performance in semi-arid or drought sites [@trubat2011nutrient].
+
+Nitrogen (N) is of particular interest; it is traditionally supplied to
+nursery stock in topdressings throughout the early part of the growing season.
+Increasing the total amount of applied N increases the dry weight of both the
+shoots and the roots. The timing of N application can have significant effects increased root dry weight, but not
+shoot dry weight (brisste)
 
 \
 *media*
