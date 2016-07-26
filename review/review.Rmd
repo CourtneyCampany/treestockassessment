@@ -123,13 +123,13 @@ The use of different containers volumes has been shown to have morphological con
 The increasing demand for larger tree sizes for urban landscape plantings now dictates that a large range of container volumes used in nursery production. Large increases in container volume may result in natural shifts of root to shoot balance related to developemt as trees grow larger (ontogenetic drift). However, the majority of exisiting research investigating the impacts of container volume on tree balance and growth is concentrated on trees grown for reforestation and plantation purposes. This has led to a large knowledge gap, as the typical range of container sizes used for these purposes (<1 L) is massively smaller than now commonly used for nursery trees for landscape use (up to 2500 L). Increases, decreaes and no effect of container volume on root:shoot ratios have been observed across many species from forestry related studies [@carlson1976effect; @aphalo2003field; @close2003physical;@close2010influences; @climent2011biomass; @mariotti2015can], yet the maximum container size for any of these studies was < 20L. Future work is needed to test if above- and belowground balance of species grown for landscape use are altered by container size, especially large volumes, during nursery production.
 
 ###5. Irrigation and fertilization
-Within a nursery environments maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target]. The sensitivity to the positive effects of fertilization and irrigation practices on growth rates of seedlings, however, will likely vary by species [@canham1996biomass]. If not prooperly managed, nutrient deficiencies in nursery trees can cause negative impacts on leaf physiology and decreased carbohydrate production, tree slenderness, height and calliper [@trubat2010nursery]. 
+Within a nursery environments maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target]. The sensitivity to the positive effects of fertilization and irrigation practices on growth rates of seedlings, however, will likely vary by species [@canham1996biomass]. If not prooperly managed, nutrient deficiencies in nursery trees can cause negative impacts on leaf physiology and decreased carbohydrate production, tree slenderness, height and calliper [@trubat2010nursery]. Increasing the amount of applied fertilization (e.g nitrogen) increases the dry weight of both the shoots and the roots, but overfertilization can stimulate shoot growth more than root growth and may inhibit mycorrhizae development [@brissette1990development].
 
 *timing/amount*
 In a study of nursery irrigation late in the growing season (September to November), irrigated seedlings had significantly heavier root systems than did non-irrigated seedlings (Williams and others 1988). Thus, timing irrigation to coincide with a period of root growth can also enhance root development. brisste
-Nitrogen (N) is of particular interest; it is traditionally supplied to nursery stock in topdressings throughout the early part of the growing season. Increasing the total amount of applied N increases the dry weight of both the shoots and the roots. The timing of N application can have significant effects increased root dry weight, but not shoot dry weight (brisste)
 
-Proper fertilization of nursery tree stock is essential for high seedlings quality, however, the degree of fertilization also feedbacks to out-planting success. Alleviation of nitrogen stress during production may result in less fixed carbon allocated to storage [@green1994effects; @holopainen1995resource], which can then impact the availability of starch pools for new growth following out-planting or the ability to synthesize herbivory defense compounds. Alernatively, intentional nitrogen hardened before sell will reduce height, caliper, leaf area and root growth potentia; [@trubat2008short], but may improve their field performance in semi-arid or drought sites [@trubat2011nutrient].
+
+Proper fertilization of nursery tree stock is essential for high seedlings quality, however, the degree of fertilization also feedbacks to out-planting success. Alleviation of nitrogen stress during production may result in less fixed carbon allocated to storage [@green1994effects; @holopainen1995resource], which can then impact the availability of starch pools for new growth following out-planting or the ability to synthesize herbivory defense compounds. Alternatively, intentional nitrogen hardened before sell will reduce height, caliper, leaf area and root growth potential [@trubat2008short], but may improve their field performance in semi-arid or drought sites [@trubat2011nutrient].
 
 *balance* (low water and N can lead to low r:s)
 \
@@ -137,14 +137,25 @@ Shoot:Root ratio has also been shown to be responsive to fertilization regimes, 
 
 \
 *media*
+Growing media (potting soil) must be porous enough to provide efficient exchange of oxygen and carbon dioxide, while also having a sufficient water holding capacity to supply water to the plant [@landis1990containers].
+
+Root and mycorrhizal development in nursery stock depends on many factors that can be controlled in the nursery, including the structure, nutrition, pH, moisture, temperature, and aeration of the growing medium [@kazantseva2009effects].
+
 Different growing media can affect root system development and thus have down stream effects on out-planting seedling success [@heiskanen1998influence]. The use of different growing media may interact with climate and nursery practices to affect root development and thus tree balance.  Growing media imposes limitations on water and nutrient availability and thus seedling uptake.
 
 Management strategies for trees for landscape use must also be mindful of trees destined for harsh urban environments, including the use of more skeletal soil material profiles [@loh2003growth].
 ---interaction between media before and after
 
+this study
+showed that AFP is clearly associated with seedling
+growth, which suggests AFP to be a useful indicator
+for oxygen diffusion and aeration and, consequently,
+for plant growth. Improved aeration may also have
+stimulated microbiological activity and decomposition
+of organic matter in the growth medium, thus
+increasing nutrient availability @wall2003effect
 
-
-#effects of environment on nurseries and seedling performance
+#Impact of climate
 Seedling size in the nursery can be manipulated by the length of the growing season imposed by the timing of seed sowing [@close2006defining]. Additionally, the length of the growing season can vary across different climates zones, such as those present across Australia....what this means for evergreens, 
 
 Different environmental conditions across nursery locations can have important influences on functional traits of a common seedling type [@molla2006physiological]. Thus, assessments of seedling quality can also vastly differ among seedlings taken from different nurseries, even when they are produced from the same seed lot, over the same growing season [@pinto2011conducting]. 
