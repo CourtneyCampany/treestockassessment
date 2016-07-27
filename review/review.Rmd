@@ -127,35 +127,28 @@ Nursery tree production requires the use of large quantities of water [@bumgarne
 Alternatievly, drought hardening regimes can be applied in the nursery before planting to increase drought tolerance before out-planting into dry sites [@villar2004drought].
 
 \
-Within a nursery environments maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target]. Increasing the amount of applied fertilization (e.g nitrogen) increases the dry weight of both the shoots and the roots [@brissette1990development], while enhancing the capacity of new root formation [@villar2004nursery]. Fertilization tends to stimulate shoot growth more than root growth by reducing belowground resource limitation [@mcconnaughay1991physical; @canham1996biomass; @villar2004nursery; bumgarner2008subirrigation; @luis2009nursery; @jackson2012nursery]. If not prooperly managed, nutrient deficiencies in nursery trees can also cause negative impacts on leaf physiology and decreased carbohydrate production, tree slenderness, height and calliper [@trubat2010nursery]. Overall, above- and belowground balance of nursery tree stock can be significantly affected or specifically managed through fertilization regimes. Fertlization regimes also feedback to out-planting sucess as alleviation of nitrogen stress may decrease carbon allocated to storage [@green1994effects; @holopainen1995resource] or nitrogen hardening may improve field performance in semi-arid or drought planting sites [@trubat2008short; @trubat2011nutrient]. 
+Within a nursery environments maximum shoot growth occurs at high soil water regimes and moderate to high fertility levels [@mexal1990target]. Increasing the amount of applied fertilization (e.g nitrogen) increases the dry weight of both the shoots and the roots [@brissette1990development], while enhancing the capacity of new root formation [@villar2004nursery]. Fertilization tends to stimulate shoot growth more than root growth by reducing belowground resource limitation [@mcconnaughay1991physical; @canham1996biomass; @villar2004nursery; bumgarner2008subirrigation; @luis2009nursery; @jackson2012nursery]. If not prooperly managed, nutrient deficiencies in nursery trees can also cause negative impacts on leaf physiology and decreased carbohydrate production, tree slenderness, height and calliper [@trubat2010nursery]. Overall, above- and belowground balance of nursery tree stock can be significantly affected or specifically managed through fertilization regimes. Fertlization regimes also feedback to out-planting sucess as alleviation of nitrogen stress may decrease carbon allocated to storage [@green1994effects; @holopainen1995resource] or nitrogen hardening may improve field performance in semi-arid or drought planting sites [@villar2004nursery; @trubat2008short; @trubat2011nutrient]. 
 
 \
 Growing media (potting soil) must be porous enough to provide efficient exchange of oxygen and carbon dioxide, while also having a sufficient water holding capacity to supply water to the plant [@landis1990containers; @heiskanen1993favourable]. The use of different growing media, to control soil structure, nutrition, pH, moisture, temperature, and aeration, can be used to manage root development of nursery tree stock [@heiskanen1998influence; @kazantseva2009effects]. Choice of growing media can also impact the nutrient status of soil, which then feedbacks to both root and shoot growth. For example, improved aeration may stimulate microbiological activity and decomposition of organic matter, thus increasing nutrient availability [@wall2003effect]. Management strategies for trees for landscape use must also be mindful of trees destined for harsh urban environments, which may include the use of more skeletal soils during nursery production [@loh2003growth]. Overall, fertilization, irrigation and growing media interact duing containerized tree production to influence resource availability growth of root and shoots.
 
-#Impact of climate
+#Does climate play a role?
+Different environmental conditions across nursery locations can have important influences on functional traits of common seedling types [@molla2006physiological]. Thus, assessments of seedling quality can also vastly differ among seedlings taken from different nurseries, even when they are produced from the same seed lot, over the same growing season [@pinto2011conducting]. Geographical differences in nurseries will thus likely play a large role in growth of similar stock types, especially regarding temperature.
+
+*tree balance here*
+Nurseries in different climate zones may also choose to actively manage aspects of root:shoot balance differently when tree stock are destined to be out-planted arid or mesic environments.
+
+
 Seedling size in the nursery can be manipulated by the length of the growing season imposed by the timing of seed sowing [@close2006defining]. Additionally, the length of the growing season can vary across different climates zones, such as those present across Australia....what this means for evergreens, 
-
-Different environmental conditions across nursery locations can have important influences on functional traits of a common seedling type [@molla2006physiological]. Thus, assessments of seedling quality can also vastly differ among seedlings taken from different nurseries, even when they are produced from the same seed lot, over the same growing season [@pinto2011conducting]. 
-
-ex.  affects on cold hardiness (Pinus radiata and in Pseudotsuga menziesii (Menzies et al., 1981; Schuch et al., 1989)
-ex. drought tolerance in meditaranian climates [
-ex. possible differences in length of growing season/day length
 
 q.ilex  root growth, frost resistance and drought tolerance attributed to climate in which seedlings were grown (nursery location)
 [@molla2006physiological].
 
 Different nursery thermal regime can have an effect on survival of seedlings (Aleppo pine), but not all (Holm olk) [@pardos2003effect]. 
+Often studies related to overwintering of deciduous tree stock or coastal versus inland nurseries in Mediterranean climates.  In these circumstances, seedlings can become pheonologically out of phase if dormancy is affected by temperature during over wintering.
 
-Temperature extremes limit growth and can cause seedling mortality, with larger diameter seedlings having greater insulating
-corky tissue to dissipate excess heat [@cleary1978regenerating].
-
-Often studies related on overwintering of deciduous tree stock or coastal versus inland nurseries in Mediterranean climates.  In these circumstances, seedlings can become pheonologically out of phase if dormancy is affected by temperature during over wintering.
-Geographical differences in nurseries will thus likely play a large role in growth of similar stock types, especially regarding temperature.
-Management practices include N hardening to increase drought tolerance [@trubat2008short; @villar2004nursery]
-
-  Overall, a nursery may also choose to actively manage aspects of root:shoot balance differently when tree stock are destined to be out-planted in either arid or well irrigated environments.
-
-This potential impact of climate on nursery production in Australia has been relatively unexplored, in which tree nurseries propagate plants from tropical to temperate climates.  If differing climates affect either morphological or physiological parameters of seedling health then the extrapolation of results across sites will be less accurate. This raises the question of how large of an impact does climate variability on nursery stock tree growth. Much of the past research has focused on growing season cycles and dormancy periods in temperate climate zones. Although much can be drawn from this research, it does not fully represent the growing climate/species (evergreen) patterns of Australia.
+\
+This potential impact of climate on nursery production in Australia has been relatively unexplored, in which tree nurseries propagate plants from tropical to temperate climates, each with varying growing seasons.  If differing climates affect either morphological or physiological parameters of seedling health then the extrapolation of results across sites will be less accurate. This raises the question of how large of an impact does climate variability on nursery stock tree growth. Much of the past research has focused on growing season cycles and dormancy periods in temperate climate zones. Although much can be drawn from this research, it does not fully represent the growing climate/species (evergreen) patterns of Australia.
 
  **Here sum up nursery culture and climate by saying need to include co-variates when evaluting seedling quality across Australia.**  
  **Next say that age, time since transplant and species must also be accoutned for.**
