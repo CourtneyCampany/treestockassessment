@@ -132,26 +132,33 @@ Within a nursery environments maximum shoot growth occurs at high soil water reg
 \
 Growing media (potting soil) must be porous enough to provide efficient exchange of oxygen and carbon dioxide, while also having a sufficient water holding capacity to supply water to the plant [@landis1990containers; @heiskanen1993favourable]. The use of different growing media, to control soil structure, nutrition, pH, moisture, temperature, and aeration, can be used to manage root development of nursery tree stock [@heiskanen1998influence; @kazantseva2009effects]. Choice of growing media can also impact the nutrient status of soil, which then feedbacks to both root and shoot growth. For example, improved aeration may stimulate microbiological activity and decomposition of organic matter, thus increasing nutrient availability [@wall2003effect]. Management strategies for trees for landscape use must also be mindful of trees destined for harsh urban environments, which may include the use of more skeletal soils during nursery production [@loh2003growth]. Overall, fertilization, irrigation and growing media interact duing containerized tree production to influence resource availability growth of root and shoots.
 
-#Does climate play a role?
-Different environmental conditions across nursery locations can have important influences on functional traits of common seedling types [@molla2006physiological]. Thus, assessments of seedling quality can also vastly differ among seedlings taken from different nurseries, even when they are produced from the same seed lot, over the same growing season [@pinto2011conducting]. Geographical differences in nurseries will thus likely play a large role in growth of similar stock types, especially regarding temperature.
+#Impact of climate on nursery tree stock
+Different environmental conditions can have important influences on functional traits of common seedling types [@molla2006physiological], which is of specific importance when designing seedling quality standards for large geographic regions. Consequently, seedling quality grading may differ vastly among similar species from different nurseries, even when they are produced from the same seed source and over the same growing season [@pinto2011conducting]. Geographic locations of nurseries across Australia may likely play a large role in growth and tree balance of similar stock types, especially regarding prevailing air temperatures.
 
-*tree balance here*
+\
+Existing research on the impacts of climate on nursery stock focuses on heavily on growing season cycles and dormancy periods of deciduous tree stock or with comparisons of coastal versus inland nusery locations in Mediterranen climates. For example, shoot and root growth, frost resistance and drought tolerance were related to winter climate conditions at different nursery locations for several Mediterranen species [@pardos2003effect @molla2006physiological]. Although this research is informative for deciduous tree stock, it does not address the impacts of climate on the large variety of native evergreen tree stock grown in Australian nurseries. Thus, the potential impact of climate on nursery tree growth in Australia has been largely unexplored, where nurseries propagate trees from tropical to temperate climates.
+
+\
+Due to the large size of the Australian continent, six different climatic zones exists with two distinct seasonal patterns (http://www.bom.gov.au, Figure 1). Most production nurseries in Australia grow containerized trees in open environments. As seedling growth is heavily influenced by levels of moisture, temperature, light [@cleary1978regenerating], these open air tree stock are likely to face immensely different environmental conditions based on the prevailing climate of each nursery location. This raises the question of whether differing growing climates affect seedlings morphological parameters related to tree balance and then how large of an impact does climate variability across Australia have on growth of nursery stock? 
+
+*tree balance here*---potentail.....
 Nurseries in different climate zones may also choose to actively manage aspects of root:shoot balance differently when tree stock are destined to be out-planted arid or mesic environments.
 
 
-Seedling size in the nursery can be manipulated by the length of the growing season imposed by the timing of seed sowing [@close2006defining]. Additionally, the length of the growing season can vary across different climates zones, such as those present across Australia....what this means for evergreens, 
-
-q.ilex  root growth, frost resistance and drought tolerance attributed to climate in which seedlings were grown (nursery location)
-[@molla2006physiological].
-
-Different nursery thermal regime can have an effect on survival of seedlings (Aleppo pine), but not all (Holm olk) [@pardos2003effect]. 
-Often studies related to overwintering of deciduous tree stock or coastal versus inland nurseries in Mediterranean climates.  In these circumstances, seedlings can become pheonologically out of phase if dormancy is affected by temperature during over wintering.
-
-\
-This potential impact of climate on nursery production in Australia has been relatively unexplored, in which tree nurseries propagate plants from tropical to temperate climates, each with varying growing seasons.  If differing climates affect either morphological or physiological parameters of seedling health then the extrapolation of results across sites will be less accurate. This raises the question of how large of an impact does climate variability on nursery stock tree growth. Much of the past research has focused on growing season cycles and dormancy periods in temperate climate zones. Although much can be drawn from this research, it does not fully represent the growing climate/species (evergreen) patterns of Australia.
+Seedling size in the nursery can be manipulated by the length of the growing season imposed by the timing of seed sowing [@close2006defining]. Additionally, the length of the growing season can vary across different climates zones, such as those present across Australia. 
+adds difficutly in assessing and grading tree balance.
 
  **Here sum up nursery culture and climate by saying need to include co-variates when evaluting seedling quality across Australia.**  
- **Next say that age, time since transplant and species must also be accoutned for.**
+\
+```{r ausclimate, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
+library(png)
+climate <- readPNG("images/climatezone_aus1.png")
+par(mar=c(0,0,0,0))
+plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
+rasterImage(climate, xleft = 0, ybottom = 0, xright = 1, ytop =1)
+
+```
+ Figure 1. Major climate regions of Austrlia.  
  
 #Assessing root:shoot balance in nurseries
 The issue of a lack of standardized method for determining root:shoot balance in nursery plants raised by @lavender1984plant still exists today. It is difficult to determine a quantity of roots that should exist for individual tree stock [@thompson1985seedling]. However, volume based methods are still destructive and not necessarily cost effective for production nurseries. Under managed nurseries environments, catered to support tree stock growth, it will be difficult to develop an adequate index of root:shoot balance that will cover the saleable period for any given stock type. From an economic standpoint, nurseries must minimize the amount of seedlings that they destructively harvest when evaluating root shoot balance.  Thus, non-destructive morphological parameters are commonly used to assess tree stock balance. How effective these are is still a matter of contention.
@@ -164,10 +171,12 @@ Out planting success depends on the interactions between tree attributes and the
 
 Larger trees grown in large containers have been shown to have a higher degree of transplant shock [@]
  
-#Evaluating the Australian standard: 
+#Evaluating the Australian standard: (introduce size index)
 Quality assessments for nusery tree stock generally focus on the 3 core parameters (height, diameter and root system size) to assess tree stock balance, albeit in different ways.
 little emphasis on physiological assessment in the nursery. The question remains on whether the morphological 
 indices defined in the standard represent proper root:shoot balance for the most common and widely distributed stock types in Australia. The newly adopted AUS standard assess tree balance with 'Size Index' as a function of container volume or rootball diameter for containerized or bare-root tree stock, respectively. Size index is calculated as the product of height (m) and caliper (at 300 mm), and is expected to represent the physical bulk of the tree aboveground [@clark2003specifying]. A cost effective sampling procedure is needed, limiting destructive sampling, as every seedling to be out-planted cannot be measured or assessed easily with current techniques [@puttonen1997looking]. 
+
+Although plants use all the same resources for growth, the construction, lifespan and relative allocation of leaves, stems, and roots vary between species [@westoby2002plant]. As plants have developed different strategies to uptake resources and to utilize resouces to maximize growth in a specific way, large varition in size, shape and growth rate exists among tree speices. As a result, plant growth rate heavily depends on this biomass partitioning to different parts, expecially to leaves. 
 
 Tree root to shoot balance is commonly believed to play a major role in water status of an out-planted seedling, and plays a critical role in survival in droughted field conditions. In urban systems, this balance may critically define the success of planted tree stock as (hotter drier cite). Drying is the most stress-causing factor influencing the young seedlings [@wrzesinski2015influence], requiring proper root to shoot balance for seedling success. 
 
@@ -185,73 +194,31 @@ Alternatively, the "Size Index" specification in AS2303 is meant integrated meas
 Additionally, each of these other standard classify tree stock into groups (i.e spreading, upright, evergreen , deciduous), with quality specifications for each group.  The AS2303 simplifies quality assessmens by including only one guideline for all tree stock.
 
 ##Capturing inherent variation within nursery tree stock
-\
-```{r ausclimate2, echo=FALSE, error=TRUE,fig.width=7, fig.height=7,dev="png", dpi=600, dev.args=list(type="cairo")}
-library(png)
-climate2 <- readPNG("images/variation_concepty.png")
-par(mar=c(0,0,0,0))
-plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
-rasterImage(climate2, xleft = 0, ybottom = 0, xright = 1, ytop =1)
-
-```
 
 *natural variation*
 Intraspecific variation refers to phenotypic variation that naturally occurs within-species.
-In production nurseries, this effect is a curious issue as the seed source for individual stock types is.....
-
-Or even between provenances of a single species, relying on additional information on seed origin.
 
 *species variation*
-Although plants use all the same resources for growth, the construction, lifespan and relative allocation of leaves, stems, and roots vary between species [@westoby2002plant]. As plants have developed different strategies to uptake resources and to utilize resouces to maximize growth in a specific way, large varition in size, shape and growth rate exists among tree speices. As a result, plant growth rate heavily depends on this biomass partitioning to different parts, expecially to leaves. For example, evergreen species have ....compared to deciduous species []. 
+For example, evergreen species have ....compared to deciduous species []. 
 
 Species with high growth rates are more competitive in acquiring resources, whereas species with low growth rates are more conservative with the scarce resources they have obtained (Grime, 1977; Berendse and Elberse, 1989; Reich et al., 2003b; Poorter and Garnier, 2007).
 
-poorter 2012..
-
-relates to as2303=
-does it capture this (much greater than within species variation)
-It entirely possible for certain morphologies to commonly fall out of exceptable range if SI is too narrower.  As with other nursery standards, should stock type groups be assessed differently in order to accurartely assess qualtiy within different morphotypes?
-
-types = evergreens (spreading or upright)
 
 Although parameters such as height diameter have been shown to strongly correlate with root growth and field success, how will species differences affect the ability to set minimum/maximum standards for the entire industry. 
 Does SI account for large variation between types with different forms?
 
-###What is the species effect?  Is root to shoot balance conserved?  fast, slow, native -non native, temperate decidous??? Can stocktypes be grouped?
+Depending on container size and type, there is an age window where plants exhibit optimum physiology and size, eliminating issues with low rootball occupancy or too old with root binding and defected root systems [@ford2014improving].  However, this window is likely different for species with different growth rates, as well as with decidusous or evergreen trees or species origin (native/non-native). This makes evaulating quality difficult
+
+Container size in relation to plant size will vary with geographical location and grower established practice already mentioned *canstand*, ozstand but not specifically tested.
 
 
 
-*nursery practices*
-Depending on container size and type, there is an age window where plants exhibit optimum physiology and size, eliminating issues with low rootball occupancy or too old with root binding and defected root systems [@ford2014improving].  Container size in relation to plant size will vary with geographical location and grower established practice *canstand*
-
-
-
-*climate* (potential impacts on indices)
-Due to the large size of the Australian continent, there are six different climatic zones and two distinct seasonal patterns [bom.gov]. It is recognized that climatic conditions in different sections of the country produce plants of different caliper height proportions and variance also exists in caliper height proportion from species to species. 
-
-The climate of Australia means that many tree stock are container grown in open environments, and thus are exposed to .....
-Seedling growth is is heavily influenced by levels of moisture, temperature, light, and nutrition [@cleary1978regenerating]. 
-
-
- stats: range of temp and precip (plants grown and out-planted in variable locations) (these are interdependent variables)
-Australia already represents an area of high aridity, nutrient soil deficiency(P), etc.  It is also designated as being more susceptible to extreme climate events (IPCC).  In this sense nursery standards developed to deal with an already inhospitable out-planting environment Additionally, if successfully these standards could possibly be used as a surrogate for understand the needs of other countries who are or will be facing future hotter and drier climates.
-
-\
-```{r ausclimate, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
-library(png)
-climate <- readPNG("images/climatezone_aus1.png")
-par(mar=c(0,0,0,0))
-plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
-rasterImage(climate, xleft = 0, ybottom = 0, xright = 1, ytop =1)
-
-```
-
-#Outcomes
+#Outcomes (introduce ?s)
 As information is gained with local nurseries, recommendations and size specifications for containerized plants are likely to change to more accurately match site, species, and planting time to individual stock type [@nelson1996container]. Operational quantification of some morphological variables are not practical for nurseries to implement on a large scale, but if superior predictors can be identified it may be possible to modify nursery cultural techniques to improve quality [@wilson2006quality].
 
+It entirely possible for certain morphologies to commonly fall out of exceptable range if SI is too narrower,  As with other nursery standards, should stock type groups be assessed differently in order to accurartely assess qualtiy within different morphotypes?
 
 In should be explicitly mentioned that robust survival and field establishment experimental trials should be undertaken in accordance with each current version of the Australian standard.  Importantly, this must include aspects of that test not only the variable climate across Australia but urban environments as well.  This will ensure that the current and future visions for urban greening are met and that the tree nursery growers remain the strength of partnership between the .....
-
 
 
 
