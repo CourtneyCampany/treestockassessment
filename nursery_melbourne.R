@@ -9,8 +9,6 @@ flem_dat <- read.csv("data/flemings_sizeindex.csv")
 ett_dat <- read.csv("data/ett_sizeindex.csv")
 
 
- 
-
 
 melbs_format <- function (x){
   
