@@ -164,7 +164,7 @@ The issue of a lack of standardized method for determining root:shoot balance in
 \
 In AS2303, a simplified aboveground volume based parameter (Size Index) is generated from the product of stem caliper and height [@ozstandard]. This parameter, generalized for all species, is then related to the size of the container at dispatch. The assessment criteria stipulate that root occupancy inside of the container must be high, thus allowing container volume to provide an reasonable indice of root system size. Minimum and maximum acceptable values of Size Index are then specified for the extremely large range of container volumes used in Australian production tree nuseries for landscape use. This grading criteria provides a new method to assess the overall balance of a nursery tree different from other international nursery standards.
 
-##Tree balance in other national nursery standards?
+##Tree balance in other national nursery standards? (shorten into 2-3 sentences)
 
 albeit in different ways
 
