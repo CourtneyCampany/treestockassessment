@@ -153,16 +153,42 @@ rasterImage(climate, xleft = 0, ybottom = 0, xright = 1, ytop =1)
  Figure 1. Major climate regions of Australia.  
  
 ##Using tree balance to mitigate transplant stock
-The three primary types of stress that influence seedling quality are moisture, temperature, and physical stress.[@haase2007morphological]. Nursery seedlings can be profoundly impacted by each of these stresses during nursery production, including culturing, lifting, packing, grading, handling, pruning, storage, and transport. Additionally, seedlings will undergo varying degrees of environmental stresses not experienced during nursery production. The varying degrees of harshness inherit by out-planted seedlings determine the length and severity of seedling of 'transplant shock'. Transplant shock represents the negative effects on growth and survival when nursery-raised stock are out-planted and is associated with acclimatization of seedlings to the new environmental conditions [@close2005physiological]. It takes longer for larger transplanted trees to becomes established due to the longer time required to resestablishe a root:shoot raio comparable to non-transplanted trees [@Watson2005], which increases the potential for transplant shock in tree stock for landscape use.
+The three primary types of stress that influence seedling quality are moisture, temperature, and physical stress.[@haase2007morphological]. Nursery seedlings can be profoundly impacted by each of these stresses during nursery production, including culturing, lifting, packing, grading, handling, pruning, storage, and transport. Additionally, seedlings will undergo varying degrees of environmental stresses not experienced during nursery production. The varying degrees of harshness inherit by out-planted seedlings determine the length and severity of seedling of 'transplant shock'. Transplant shock represents the negative effects on growth and survival when nursery-raised stock are out-planted and is associated with acclimatization of seedlings to the new environmental conditions [@close2005physiological]. It takes longer for larger transplanted trees to becomes established due to the longer time required to resestablishe a root:shoot raio comparable to non-transplanted trees [@Watson2005], which increases the potential for transplant shock in tree stock grown for landscape use.
 
 \
-Out-planting success depends on the interactions between tree attributes and the environmental components of the site, with high quality morphological/physiological attributes especially important under harsh field conditions [@stape2001relationships]. To overcome transplant stress after planting the root system must meet the transpiration demands of the shoot system [@grossnickle2005importance; @ford2014improving]. Consquently, reductions in stress can be actively managed with nursery practices that acheive proper above and belowground balance of tree planting stock. Planned increases in urban green spaces combined with varying climate and soil constraints that typically define Australian ecosystems make minimizing transplant shock is highly relevant issue for tree stock in Australia. Conequently, proper tree balance criteria are now specified in quality assessments of Australian tree stock [@clark2003specifying; @ozstandard].
+Out-planting success depends on the interactions between tree attributes and the environmental components of the site, with high quality morphological/physiological attributes especially important under harsh field conditions [@stape2001relationships]. To overcome transplant stress after planting the root system must meet the transpiration demands of the shoot system [@grossnickle2005importance; @ford2014improving]. Consquently, reductions in stress can be actively managed with nursery practices that acheive proper above and belowground balance of tree planting stock. Planned increases in urban green spaces combined with varying climate and soil constraints that typically define Australian ecosystems make minimizing transplant shock a highly relevant issue for nusery tree stock. Conequently, proper tree balance criteria are now specified in quality assessments of Australian tree stock [@clark2003specifying; @ozstandard].
 
-#Assessing root:shoot balance in tree nurseries
-The issue of a lack of standardized method for determining root:shoot balance in nursery plants raised by @lavender1984plant still exists today. It is difficult to determine a quantity of roots that should exist for individual tree stock [@thompson1985seedling]. However, volume based methods are still destructive and not necessarily cost effective for production nurseries. Under managed nurseries environments, catered to support tree stock growth, it will be difficult to develop an adequate index of root:shoot balance that will cover the sale-able period for any given stock type. From an economic standpoint, nurseries must minimize the amount of seedlings that they destructively harvest when evaluating the balance between roots and shoots. Although non-destructive morphological parameters are commonly used to assess tree stock balance, how effective they are is still a matter of contention. Additionally, the degree to which nursery practives and climate alter above and belowground growth and balance in Australia add add difficulty in establishing grading protocols and accurately assessing seedling quality for all tree stock.
+#Assessing root:shoot balance in Australian tree nurseries for landscape use
+The issue of a lack of standardized method for determining root:shoot balance in nursery plants raised by @lavender1984plant still exists today. It is difficult to determine a quantity of roots that should exist for individual tree stock [@thompson1985seedling], but volume provides a simple characterization of root system morphology [@jacobs2005relative]. Actual measurements of root volume, however, may not be practical or cost effective for landscape-based nurseries producing large trees. Estimates of the size of a tree aboveground are commonly generated in foresty research using the relationship between tree height and diameter [@zianis2005biomass; @picard2012manual; @hulshof2015tree]. The relationship between diameter and height (usually diameter at breast heihgt^2 * height) represents the stem formation in order to resist bulking related to weight or wind forcing [@dean1986validity], and thus is commonly used to estimate the size of the aboveground portion of an individual tree. This is advantagous to the nursery industry as these two measurements are commonly utilized morphological characterizations of seedling quality, and can provide a method to assess the aboveground bulk of a nursery tree at any given time [@clark2003specifying].
+
+\
+In AS2303, a simplified aboveground volume based parameter (Size Index) is generated from the product of stem caliper and height [@ozstandard]. This parameter, generalized for all species, is then related to the size of the container at dispatch. The assessment criteria stipulate that root occupancy inside of the container must be high, thus allowing container volume to provide an reasonable indice of root system size. Minimum and maximum acceptable values of Size Index are then specified for the extremely large range of container volumes used in Australian production tree nuseries for landscape use. This grading criteria provides a new method to assess the overall balance of a nursery tree different from other international nursery standards.
+
+##Tree balance in other national nursery standards?
+
+albeit in different ways
+
+In the **European technical & quality standards for nursery stock** the container and plant size are expected to be in reasonable proportion [@eurostandard]. In this standard only minimum height for container stock in specified, with no specific guidelines for large container sizes. 
+
+The Americanhort's **American standard for nursery stock** in 2014 acceptable ranges for plant height and rootball dimensions based on caliper/height specifications [@usastandard]. 
+
+In the **Canadian Standard for Nusery Stock** containerized stock is graded with an acceptable range of either height or canopy spread for different container sizes [@candastandard].
+
+Typical container sizes for measured ranges of stem caliper, measured at 1 m [@britstandard] or rootball proportiante to girth for bare root.
+
+Additionally, several of these other standard classify tree stock into groups (i.e spreading, upright, evergreen , deciduous), with quality specifications for each group.  The AS2303 simplifies quality assessments by including only one guideline for all tree stock.
+
+**which are mandatory and which are not**
+
+
+
+**comment on what is different**
+
 
 #Evaluating the Australian standard: (introduce size index)
 Quality assessments for nursery tree stock generally focus on the 3 core parameters (height, diameter and root system size) to assess tree stock balance, albeit in different ways.
+
+
 little emphasis on physiological assessment in the nursery. The question remains on whether the morphological 
 indices defined in the standard represent proper root:shoot balance for the most common and widely distributed stock types in Australia. The newly adopted AUS standard assess tree balance with 'Size Index' as a function of container volume or rootball diameter for containerized or bare-root tree stock, respectively. Size index is calculated as the product of height (m) and caliper (at 300 mm), and is expected to represent the physical bulk of the tree aboveground [@clark2003specifying]. A cost effective sampling procedure is needed, limiting destructive sampling, as every seedling to be out-planted cannot be measured or assessed easily with current techniques [@puttonen1997looking]. 
 
@@ -170,18 +196,14 @@ Although plants use all the same resources for growth, the construction, lifespa
 
 Tree root to shoot balance is commonly believed to play a major role in water status of an out-planted seedling, and plays a critical role in survival in drought field conditions. In urban systems, this balance may critically define the success of planted tree stock as (hotter drier cite). Drying is the most stress-causing factor influencing the young seedlings [@wrzesinski2015influence], requiring proper root to shoot balance for seedling success. 
 
-Root volume provides a simple, accurate, and non-destructive characterization of root system morphology [@jacobs2005relative], and if rootball occupancy has meet the standard, then can container volume be used to predict aboveground growth? 
 
-One major issue is that prevailing temperatures and climate, as well as different irrigation and fertilization regimes, will affect seedling quality during nursery production [@mattsson1997predicting].
+contention: (size index to simple, how large should the specified range be)
 
-Rob bodenstaff here
+Given the variation in tree form and growth properties, species-specific allometries are desirable as allometric equations do not transfer without error across all sites [@hunter2013biomass]
 
-##Tree balance in other national nursery standards?
-In the **European technical & quality standards for nursery stock** the container and plant size are expected to be in reasonable proportion [@eurostandard]. In this standard only minimum height for container stock in specified, with no specific guidelines for large container sizes. The Americanhort's **American standard for nursery stock** in 2014 acceptable ranges for plant height and rootball dimensions based on caliper/height specifications [@usastandard]. In the **Canadian Standard for Nusery Stock** containerized stock is graded with an acceptable range of either height or canopy spread for different container sizes *cite*.
+One major issue is that prevailing temperatures and climate, as well as different irrigation and fertilization regimes, will affect seedling quality during nursery production [@mattsson1997predicting]. The degree to which nursery practives and climate alter above and belowground growth and balance in Australia adds difficulty in establishing grading protocols and accurately assessing general seedling quality for all tree stock.
 
-Alternatively, the "Size Index" specification in AS2303 is meant integrated measurement of aboveground bulk of the tree relative to the size of the container [@clark2003specifying; @ozstandard]. This specific quantification of tree balance marks an important distinction between AS2303 and seedlings quality standards from other major market countries in with the evaluation of tree balance.
 
-Additionally, each of these other standard classify tree stock into groups (i.e spreading, upright, evergreen , deciduous), with quality specifications for each group.  The AS2303 simplifies quality assessments by including only one guideline for all tree stock.
 
 ##Capturing inherent variation within nursery tree stock
 
@@ -190,7 +212,6 @@ Intraspecific variation refers to phenotypic variation that naturally occurs wit
 
 *species variation*
 For example, evergreen species have ....compared to deciduous species []. 
-
 Species with high growth rates are more competitive in acquiring resources, whereas species with low growth rates are more conservative with the scarce resources they have obtained (Grime, 1977; Berendse and Elberse, 1989; Reich et al., 2003b; Poorter and Garnier, 2007).
 
 
