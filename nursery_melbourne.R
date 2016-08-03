@@ -1,4 +1,5 @@
 source("functions_and_packages/plot_objects.R")
+source("functions_and_packages/size_index_format.R")
 
 ##standard
 standard <- read.csv("reports/container_assessment.csv")
@@ -8,48 +9,35 @@ mtwilly_dat <- read.csv("data/mtwilly_sizeindex.csv")
 flem_dat <- read.csv("data/flemings_sizeindex.csv")
 ett_dat <- read.csv("data/ett_sizeindex.csv")
 
+##format data-
 
-
-melbs_format <- function (x){
-  
-  x$date <- as.Date(x$date, format = "%m/%d/%Y", tz="AEST")
-  print("date conversion worked")
-
-  #need new id at Andreseans (batch_id may duplicate across species)
-  x$batch_id2 <- paste(x$batch_id, x$species, sep="-")
-  
-  ###need to seperate dfr in function whether used diameter tape or not, then caluclate parameters and remerge
-  dat1 <- x[is.na(x$diameter2),]
-  dat2 <-  x[!is.na(x$diameter2),]
-  
-  #calulate indices seperately for each dat1/2
-  dat1$calliper300 <- with(dat1, (diameter1+diameter2)/2)
-  dat1$rcd <- with(dat1, (rcd1+rcd2)/2)
-  dat1$height_m <- dat1$height/100
-  dat1$sizeindex <- with(dat1, height_m * calliper300)
-  print("dat1 format worked")
-  
-  dat2$calliper300 <- with(dat2, (diameter1/pi)*10)
-  dat2$rcd <- with(dat2, (rcd1/pi)*10)
-  dat2$height_m <- dat2$height/100
-  dat2$sizeindex <- with(dat2, height_m * calliper300)
-  
-  print("dat2 format worked")
-  
-  #remerge and log data for plotting
-  dat3 <- merge(dat1, dat2)
-  print("dat 1format worked")
-  
-  dat3$logSI <- with(dat3, log10(sizeindex))
-  dat3$volume <- as.numeric(dat3$volume)
-  dat3$logvol <- with(dat3, log10(volume))
-  dat3$logH <- with(dat3, log10(height_m))
-  dat3$logD <- with(dat3, log10(calliper300))
-  dat3$logRCD <- with(dat3, log10(rcd))
-  print("log conversion worked")
-  dat4 <- dat3[, c("date", "species", "batch_id", "batch_id2","volume", "calliper300",
-              "rcd", "height_m", "sizeindex", "logSI", "logvol", "logH", "logD", "logRCD")]
-  return(dat4)
-}  
-
+speciality <- melbs_format(st_dat)
 mywilly <- melbs_format(mtwilly_dat)
+ett <- melbs_format(ett_dat)
+fleming <- melbs_format(flem_dat)
+
+#size index plotting--------------------------------------------------------------------------------------------------------
+
+library(magicaxis)
+library(RColorBrewer)
+
+##plotbits
+silab <- expression(Size~index~range~~(calliper~x~height))
+
+par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
+plot(logSI ~ logvol, data=speciality, xlab="Container volume (L)", ylab=silab,   xlim=c(0.5,3.8),ylim=c(0.3,3.5),
+     axes=FALSE, cex=1.25, bg="red",pch=21)
+
+magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
+
+#add assessment
+lines(log10(min_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+lines(log10(max_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
+
+points(logSI ~ logvol, data=mywilly, cex=1.25, bg="blue",pch=21)
+points(logSI ~ logvol, data=ett, cex=1.25, bg="forestgreen",pch=21)
+points(logSI ~ logvol, data=fleming, cex=1.25, bg="gold",pch=21)
+
+legend("topleft", "AS2303 Size Index Range" ,lty=1, lwd=2,bty='n', inset=.01)
+
+box()
