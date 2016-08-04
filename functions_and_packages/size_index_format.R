@@ -2,7 +2,7 @@
 
 melbs_format <- function (x){
   
-  x$date <- as.Date(x$date, format = "%m/%d/%Y", tz="AEST")
+  x$date <- as.Date(x$date, format = "%d/%m/%Y", tz="AEST")
   print("date conversion worked")
   
   #need new id at Andreseans (batch_id may duplicate across species)

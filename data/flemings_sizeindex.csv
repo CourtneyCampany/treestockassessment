@@ -678,7 +678,7 @@ date,species,batch_id,volume,tree,height,diameter1,diameter2,rcd1,rcd2
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,16,216.5,22.69,22.79,30.58,31.58
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,17,227,29.9,28.54,33.96,33.2
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,18,234.1,23.17,22.78,33.07,30.85
-27/06/2016,lagerstroemia_indica_natchez,lin_45,45,19,22.2,26.4,26.28,30.61,30.33
+27/06/2016,lagerstroemia_indica_natchez,lin_45,45,19,222,26.4,26.28,30.61,30.33
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,20,225.6,25.88,26.15,32.83,32.2
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,21,203,22.45,22.43,24.2,24.16
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,22,232.2,25.61,24.93,29.45,28.99
@@ -701,7 +701,7 @@ date,species,batch_id,volume,tree,height,diameter1,diameter2,rcd1,rcd2
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,39,184.4,22.21,22.22,27.28,26.29
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,40,190.1,21.76,21.22,25.17,24.15
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,41,239,24.81,24.79,29.12,27
-27/06/2016,lagerstroemia_indica_natchez,lin_45,45,42,22.6,23.46,23.6,27.29,27.19
+27/06/2016,lagerstroemia_indica_natchez,lin_45,45,42,226,23.46,23.6,27.29,27.19
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,43,217.2,23.49,23.52,31.49,34.13
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,44,227,24.03,24.37,27.21,27.01
 27/06/2016,lagerstroemia_indica_natchez,lin_45,45,45,239.2,23.64,23.37,27.85,27.02
@@ -1033,7 +1033,7 @@ date,species,batch_id,volume,tree,height,diameter1,diameter2,rcd1,rcd2
 27/06/2016,ulmus_parvifolia_allee,upal_750,750,4,423,70.56,73.2,78.81,58.55
 27/06/2016,ulmus_parvifolia_allee,upal_750,750,5,416.6,69.29,77.15,76.18,84.89
 27/06/2016,ulmus_parvifolia_allee,upal_750,750,6,393.6,64.4,68.33,77.25,77.51
-27/06/2016,ulmus_parvifolia_allee,upal_750,750,7,44.7,71.36,73.17,90.47,86.88
+27/06/2016,ulmus_parvifolia_allee,upal_750,750,7,447,71.36,73.17,90.47,86.88
 27/06/2016,ulmus_parvifolia_allee,upal_750,750,8,456.3,73.04,68.57,77.78,75.05
 27/06/2016,ulmus_parvifolia_allee,upal_750,750,9,374,68.5,68.38,78.18,73.24
 27/06/2016,ulmus_parvifolia_allee,upal_750,750,10,402,67.61,71.96,94.07,92.37
@@ -1069,7 +1069,7 @@ date,species,batch_id,volume,tree,height,diameter1,diameter2,rcd1,rcd2
 27/06/2016,ulmus_parvifolia_reflection,upr_150,150,4,355.3,43.4,43.3,63.63,66.13
 27/06/2016,ulmus_parvifolia_reflection,upr_150,150,5,343.2,39.01,37.85,55.07,56.94
 27/06/2016,ulmus_parvifolia_reflection,upr_150,150,6,350.9,39.59,40.33,56.85,60.51
-27/06/2016,ulmus_parvifolia_reflection,upr_150,150,7,34.4,40.99,35.58,60.42,60.28
+27/06/2016,ulmus_parvifolia_reflection,upr_150,150,7,344,40.99,35.58,60.42,60.28
 27/06/2016,ulmus_parvifolia_reflection,upr_150,150,8,367.8,41.94,40.49,57.36,56.67
 27/06/2016,ulmus_parvifolia_reflection,upr_150,150,9,328,42.85,43.27,59.13,59.98
 27/06/2016,ulmus_parvifolia_reflection,upr_150,150,10,354,40.4,38.86,54.17,54.01
