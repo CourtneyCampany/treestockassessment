@@ -4,10 +4,11 @@ source("functions_and_packages/plot_objects.R")
 standard <- read.csv("reports/container_assessment.csv")
 alpine_dat <- read.csv("reports/alpine_sizeindex.csv")
 
-
 #function to calculate size index, etc from nursery data---------------
 
 #format raw dataframe
+
+alpine_dat$batch_id2 <- paste(alpine_dat$batch_id, alpine_dat$species, sep="-")
 
 ##need to replace 'mm' plots with appropriate volume
 alpine_dat$volume <- gsub("300mm", 15, alpine_dat$volume)
@@ -40,6 +41,12 @@ alpine_dat$logD <- with(alpine_dat, log10(calliper300))
 alpine_dat$logRCD <- with(alpine_dat, log10(rcd))
 alpine_dat$logslender <- with(alpine_dat, log10(slenderness2))
 
+### clean data saved ------------------------------------------------------------------------------------------------
+alp2 <- alpine_dat[, c("nursery","date", "species","batch_id","batch_id2","volume","calliper300","rcd", 
+                       "height_m", "sizeindex", "logSI", "logvol", "logH", "logD", "logRCD")]
+write.csv(alp2, "calculated_data/alpine_clean.csv", row.names = FALSE)
+
+
 #total number of observations
 print(paste(nrow(alpine_dat), "trees measured"))
 
@@ -52,8 +59,6 @@ length(unique(alpine_agg$species))
 length(unique(alpine_dat$volume))
 
 alpinevols <- doBy::summaryBy(sizeindex ~ species+volume, fun=mean, data=alpine_dat, keep.names = TRUE)
-
-
 
 
 ###plotting-------------------------------------------------------------------------------------------------------------

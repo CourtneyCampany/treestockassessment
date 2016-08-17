@@ -35,7 +35,7 @@ andreasensformat <- function (x){
   x$logD <- with(x, log10(calliper300))
   x$logRCD <- with(x, log10(rcd))
   print("log conversion worked")
-  x2 <- x[, c("date", "species","site", "batch_id2","volume", "calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
+  x2 <- x[, c("nursery","date", "species","site", "batch_id","batch_id2","volume", "calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
               "logH", "logD", "logRCD")]
   return(x2)
 }  
@@ -62,7 +62,7 @@ mangrovebig_format <- function(x){
   x$logD <- with(x, log10(calliper300))
   x$logRCD <- with(x, log10(rcd))
   print("log conversion worked")
-  x2 <- x[, c("date", "species","site","batch_id2","volume","calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
+  x2 <- x[, c("nursery","date", "species","site","batch_id","batch_id2","volume","calliper300","rcd", "height_m", "sizeindex", "logSI", "logvol", 
               "logH", "logD", "logRCD")]
   return(x2)
 }
@@ -75,6 +75,13 @@ mangrove_big2 <- mangrovebig_format(mangrove_big)
 mangrove_si <- rbind(mangrove_small2, mangrove_big2)
 kemps_si <- andreasensformat(kemps_dat)
 
+##save andreseasns sites data formatted
+write.csv(mangrove_si, "calculated_data/mangrove_clean.csv", row.names = FALSE)
+write.csv(kemps_si, "calculated_data/kemps_clean.csv", row.names = FALSE)
+
+#number of species?
+length(unique(mangrove_si$species))
+length(unique(kemps_si$species))
 
 ##species color assign--------------------------------------------------------------------------------------------------
 
