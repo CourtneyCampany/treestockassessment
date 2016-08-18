@@ -98,3 +98,44 @@ darwin_format <- function (x){
                    "rcd", "height_m", "sizeindex", "logSI", "logvol", "logH", "logD", "logRCD")]
   return(dat4)
 } 
+
+#------in or out of range
+doesfit_func <- function(x) {
+  x$balanced <- ifelse(x$volume == 5 & x$sizeindex >=7.7 & x$sizeindex <=11.3, "pass", "fail")
+  x$balanced <- ifelse(x$volume == 14 & x$sizeindex >=18.6 & x$sizeindex <=27.5, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 15 & x$sizeindex >=19.7 & x$sizeindex <=29, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 18 & x$sizeindex >=23 & x$sizeindex <=34, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 20 & x$sizeindex >=24 & x$sizeindex <=37, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 25 & x$sizeindex >=31 & x$sizeindex <=45, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 30 & x$sizeindex >=36 & x$sizeindex <=53, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 35 & x$sizeindex >=41 & x$sizeindex <=61, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 45 & x$sizeindex >=51 & x$sizeindex <=75, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 50 & x$sizeindex >=56 & x$sizeindex <=82, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 65 & x$sizeindex >=70 & x$sizeindex <=113, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 75 & x$sizeindex >=79 & x$sizeindex <=117, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 100 & x$sizeindex >=102 & x$sizeindex <=150, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 150 & x$sizeindex >=144 & x$sizeindex <=212, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 200 & x$sizeindex >=185 & x$sizeindex <=272, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 400 & x$sizeindex >=330 & x$sizeindex <=494, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 500 & x$sizeindex >=407 & x$sizeindex <=599, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 600 & x$sizeindex >=476 & x$sizeindex <=700, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 750 & x$sizeindex >=577 & x$sizeindex <=849, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 800 & x$sizeindex >=610 & x$sizeindex <=898, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 1000 & x$sizeindex >=739 & x$sizeindex <=1087, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 1200 & x$sizeindex >=865 & x$sizeindex <=1272, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 1500 & x$sizeindex >=1048 & x$sizeindex <=1542, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 2000 & x$sizeindex >=1343 & x$sizeindex <=1975, "pass", x$balanced)
+  x$balanced <- ifelse(x$volume == 2500 & x$sizeindex >=1627 & x$sizeindex <=2393, "pass", x$balanced)
+  return(x)
+}
+
+#--add climate zone
+add_campaign_region <- function(x){
+  
+  x$climate_region <-ifelse(x$nursery == "dph", "Northern Territory", "huh")
+  x$climate_region <-ifelse(x$nursery == "alp" | x$nursery == "a_kc" | x$nursery == "a_mm", "New South Wales", x$climate_region)
+  x$climate_region <-ifelse(x$nursery == "flem" | x$nursery == "spec" | x$nursery == "ett" | x$nursery == "mtwil", 
+                            "Victoria", x$climate_region )
+  x$climate_region <- as.factor(x$climate_region)
+  return(x)
+}
