@@ -133,9 +133,11 @@ doesfit_func <- function(x) {
 add_campaign_region <- function(x){
   
   x$climate_region <-ifelse(x$nursery == "dph", "Northern Territory", "huh")
-  x$climate_region <-ifelse(x$nursery == "alp" | x$nursery == "a_kc" | x$nursery == "a_mm", "New South Wales", x$climate_region)
-  x$climate_region <-ifelse(x$nursery == "flem" | x$nursery == "spec" | x$nursery == "ett" | x$nursery == "mtwil", 
-                            "Victoria", x$climate_region )
+  x$climate_region <-ifelse(x$nursery == "alp" | x$nursery == "a_kc" | x$nursery == "a_mm", 
+                            "New South Wales", x$climate_region)
+  x$climate_region <-ifelse(x$nursery == "flem" | x$nursery == "spec" | x$nursery == "ett" | 
+                              x$nursery == "mtwil", "Victoria", x$climate_region )
+  x$climate_region <-ifelse(x$nursery == "ellenby", "Perth", x$climate_region)
   x$climate_region <- as.factor(x$climate_region)
   return(x)
 }
