@@ -1,33 +1,24 @@
-
 # read data ---------------------------------------------------------------
-
 source("functions_and_packages/plot_objects.R")
 source("functions_and_packages/size_index_format.R")
 
 #standard
 standard <- read.csv("reports/container_assessment.csv")
 
-#nursery data (3 total)
+#nursery data from other NSW nurseries
 
-arbor_dat <- read.csv("data/arborwest_sizeindex.csv")
-ellenby_dat <- read.csv("data/ellenby_sizeindex.csv")
-benara_dat <- read.csv("data/benara_sizeindex.csv")
+impact_dat <- read.csv("data/treesimpact_sizeindex.csv")
 
 # format and write data ---------------------------------------------------
+treesimpact <- melbs_format(impact_dat)
 
-arbor <- melbs_format(arbor_dat)
-ellenby <- melbs_format(ellenby_dat)
-benara <- melbs_format(benara_dat)
+#save formatted nsw data
+write.csv(treesimpact, "calculated_data/treesimpact_clean.csv", row.names = FALSE)
 
-#save formatted perth data
-write.csv(arbor, "calculated_data/arborwest_clean.csv", row.names = FALSE)
-write.csv(ellenby, "calculated_data/ellenby_clean.csv", row.names = FALSE)
-write.csv(benara, "calculated_data/benara_clean.csv", row.names = FALSE)
+length(unique(treesimpact$species))
+which(is.na(treesimpact$sizeindex))
 
-length(unique(benara$species))
-which(is.na(ellenby$sizeindex))
-
-# perth plotting to test for bad data -------------------------------------
+#plotting to test for bad data -------------------------------------
 
 library(magicaxis)
 library(RColorBrewer)
@@ -40,7 +31,7 @@ silab <- expression(Size~index~range~~(calliper~x~height))
 windows(7,7)
 
 par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
-plot(logSI ~ logvol, data=benara, xlab="Container volume (L)", ylab=silab,   xlim=c(0.5,3.8),ylim=c(0.3,3.5),
+plot(logSI ~ logvol, data=treesimpact, xlab="Container volume (L)", ylab=silab,   xlim=c(0.5,3.8),ylim=c(0.3,3.5),
      axes=FALSE, cex=1.25, col=halfblack,pch=1)
 
 magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)

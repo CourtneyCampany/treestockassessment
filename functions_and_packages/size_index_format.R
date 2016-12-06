@@ -132,12 +132,18 @@ doesfit_func <- function(x) {
 #--add climate zone
 add_campaign_region <- function(x){
   
-  x$climate_region <-ifelse(x$nursery == "dph", "Northern Territory", "huh")
-  x$climate_region <-ifelse(x$nursery == "alp" | x$nursery == "a_kc" | x$nursery == "a_mm", 
-                            "New South Wales", x$climate_region)
+  x$climate_region <-ifelse(x$nursery == "dph", "Northern Territory", "imlost")
+  x$climate_region <-ifelse(x$nursery == "alp" | x$nursery == "a_kc" | x$nursery == "a_mm" 
+                            |x$nursery=="treesimpact", "New South Wales", x$climate_region)
   x$climate_region <-ifelse(x$nursery == "flem" | x$nursery == "spec" | x$nursery == "ett" | 
-                              x$nursery == "mtwil", "Victoria", x$climate_region )
-  x$climate_region <-ifelse(x$nursery == "ellenby", "Perth", x$climate_region)
+                            x$nursery == "mtwil", "Victoria", x$climate_region )
+  x$climate_region <-ifelse(x$nursery == "ellenby"|x$nursery == "benara"|x$nursery =="arborwest", 
+                            "Western Australia", x$climate_region)
+  x$climate_region <-ifelse(x$nursery == "heynes"|x$nursery == "cleveland"|x$nursery =="manor"|
+                            x$nursery == "freshford"|x$nursery == "adelaideadvanced"|
+                            x$nursery == "adelaidetreefarm",
+                            "South Australia", x$climate_region)
   x$climate_region <- as.factor(x$climate_region)
+  print("no trees appear lost")
   return(x)
 }

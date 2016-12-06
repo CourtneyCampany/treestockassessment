@@ -1,47 +1,68 @@
+
+# read nursery clean data -------------------------------------------------
+
 source("functions_and_packages/plot_objects.R")
 source("functions_and_packages/size_index_format.R")
-
-### Size Index for all nurseries
-
-##read data 
-darwin<- read.csv("calculated_data/darwin_clean.csv")
-ett<- read.csv("calculated_data/ett_clean.csv")
-fleming<- read.csv("calculated_data/fleming_clean.csv")
-kemps<- read.csv("calculated_data/kemps_clean.csv")
-mangrove<- read.csv("calculated_data/mangrove_clean.csv")
-mtwilly<- read.csv("calculated_data/mtwilly_clean.csv")
-speciality<- read.csv("calculated_data/speciality_clean.csv")
-ellenby<- read.csv("calculated_data/ellenby_clean.csv")
-
-alpine<- read.csv("calculated_data/alpine_clean.csv")
-  alpine$batch_id <- as.factor(alpine$batch_id)
 
 ##standard
 standard <- read.csv("reports/container_assessment.csv")
 
-##merge all data
-oz_sizeindex <- rbind(darwin, ett)
-oz_sizeindex <- rbind(oz_sizeindex, fleming)
-oz_sizeindex <- rbind(oz_sizeindex, mtwilly)
-oz_sizeindex <- rbind(oz_sizeindex, speciality)
-oz_sizeindex <- rbind(oz_sizeindex, alpine)
-oz_sizeindex <- rbind(oz_sizeindex, kemps[, !names(kemps) %in% "site"])
-oz_sizeindex <- rbind(oz_sizeindex, mangrove[, !names(mangrove) %in% "site"])
-oz_sizeindex <- rbind(oz_sizeindex, ellenby)
+  ##NSW
+  alpine<- read.csv("calculated_data/alpine_clean.csv")
+    alpine$batch_id <- as.factor(alpine$batch_id)
+  treesimpact <- read.csv("calculated_data/treesimpact_clean.csv")
+    treesimpact$batch_id <- as.factor(treesimpact$batch_id)
+  kemps<- read.csv("calculated_data/kemps_clean.csv")
+  mangrove<- read.csv("calculated_data/mangrove_clean.csv")
+  
+  ##NT
+  darwin<- read.csv("calculated_data/darwin_clean.csv")
+  
+  ##SA
+  freshford<- read.csv("calculated_data/freshford_clean.csv")
+  manor<- read.csv("calculated_data/manor_clean.csv")
+  adelaideadvanced<- read.csv("calculated_data/aat_clean.csv")
+  adelaidetreefarm<- read.csv("calculated_data/atf_clean.csv")
+  heynes<- read.csv("calculated_data/heynes_clean.csv")
+  cleveland<- read.csv("calculated_data/cleveland_clean.csv")
+
+  ##VIC
+  ett<- read.csv("calculated_data/ett_clean.csv")
+  fleming<- read.csv("calculated_data/fleming_clean.csv")
+  mtwilly<- read.csv("calculated_data/mtwilly_clean.csv")
+  speciality<- read.csv("calculated_data/speciality_clean.csv")
+  
+  ##WA
+  ellenby<- read.csv("calculated_data/ellenby_clean.csv")
+  arborwest<- read.csv("calculated_data/arborwest_clean.csv")
+  benara<- read.csv("calculated_data/benara_clean.csv")
+
+# merge data to a master file ---------------------------------------------
+oz_sizeindex<- Reduce(function(...) merge(..., all=TRUE), 
+               list(darwin, ett, fleming,mtwilly,speciality,ellenby,benara,arborwest, freshford,manor, heynes,
+                    cleveland, adelaidetreefarm, adelaideadvanced, treesimpact , 
+                    alpine, kemps[, !names(kemps) %in% "site"],mangrove[, !names(mangrove) %in% "site"]))
+               
+
+# variable formatting -----------------------------------------------------
 
 ##add climate zone
 oz_sizeindex <- add_campaign_region(oz_sizeindex)
 
+##variety and species
+  oz_sizeindex$speciesgenus <- strsplit()
+  oz_sizeindex$variety <- 
+  
+length(unique(oz_sizeindex$species))
+length(unique(oz_sizeindex$volume))
+range(oz_sizeindex$volume) 
+  
 #save masterfile of sizeindex data
 write.csv(oz_sizeindex, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
 
 
-length(unique(oz_sizeindex$species))
-length(unique(oz_sizeindex$volume))
-range(oz_sizeindex$volume)
+# Fit Size Index? ---------------------------------------------------------
 
-
-##Determine total amount of species that do not fit in as2303
 oz_sizeindex <- doesfit_func(oz_sizeindex)
 library(plyr)
 count(oz_sizeindex, var="balanced")
@@ -80,4 +101,4 @@ legend("bottomright", c("New South Wales", "Northern Territory", "Perth", "Victo
 box()
 
 #dev.copy2pdf(file="master_scripts/oz_sizeindex.pdf")
-dev.off()
+# dev.off()
