@@ -89,7 +89,7 @@ length(unique(oz_sizeindex2$volume))
 range(oz_sizeindex2$volume) 
   
 2#save masterfile of sizeindex data
-write.csv(oz_sizeindex, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
+write.csv(oz_sizeindex2, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
 
 
 # Does Fit Size Index? ---------------------------------------------------------
