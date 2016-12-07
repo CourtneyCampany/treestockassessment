@@ -46,12 +46,37 @@ oz_sizeindex<- Reduce(function(...) merge(..., all=TRUE),
 
 # variable formatting -----------------------------------------------------
 
-##add climate zone
-oz_sizeindex <- add_campaign_region(oz_sizeindex)
-
-##variety and species
-  oz_sizeindex$speciesgenus <- strsplit()
-  oz_sizeindex$variety <- 
+  ##add climate zone
+  oz_sizeindex <- add_campaign_region(oz_sizeindex)
+  
+  ##simplify hybrids (remove genus_x_hybrid)
+  oz_sizeindex$species_simple <- oz_sizeindex$species  
+  oz_sizeindex$species_simple <- gsub("_x_", "_", oz_sizeindex$species_simple)
+  
+  ## function to create add genus species and variety columns
+  
+species_variety_func <- function(x){  
+  
+  dat <- x$species_simple
+  
+  splitnames <- strsplit(test, "_")
+  
+  variety <- lapply(splitnames, FUN=function(x){x[3]})
+    variety_dat <- data.frame(matrix(unlist(variety), ncol=1, byrow=TRUE))
+    names(variety_dat)[1] <- "variety"
+    
+  genus_species <- lapply(splitnames, FUN=function(x){x[1:2]})
+    genus_species_dat <- data.frame(matrix(unlist(genus_species), ncol=2, byrow=TRUE))
+      names(genus_species_dat)[1:2] <- c("genus", "species")
+      genus_species_dat$genus_species <- paste(genus_species_dat$genus, genus_species_dat$species, sep="_")
+      
+  speciescolumns <- cbind(genus_species_dat[3],variety_dat)    
+  
+ alldat <- cbind(x, speciescolumns)
+ return(alldat)
+   
+}
+  
   
 length(unique(oz_sizeindex$species))
 length(unique(oz_sizeindex$volume))
