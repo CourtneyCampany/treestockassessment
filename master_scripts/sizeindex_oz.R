@@ -52,48 +52,55 @@ oz_sizeindex<- Reduce(function(...) merge(..., all=TRUE),
   ##simplify hybrids (remove genus_x_hybrid)
   oz_sizeindex$species_simple <- oz_sizeindex$species  
   oz_sizeindex$species_simple <- gsub("_x_", "_", oz_sizeindex$species_simple)
+
   
-  ## function to create add genus species and variety columns
-  
+# genus-species-variety function ------------------------------------------
+
 species_variety_func <- function(x){  
   
   dat <- x$species_simple
   
-  splitnames <- strsplit(test, "_")
-  
-  variety <- lapply(splitnames, FUN=function(x){x[3]})
+  splitnames <- strsplit(dat, "_")
+  #new column with only variety
+  variety <- lapply(splitnames, FUN=function(y){y[3]})
     variety_dat <- data.frame(matrix(unlist(variety), ncol=1, byrow=TRUE))
     names(variety_dat)[1] <- "variety"
-    
-  genus_species <- lapply(splitnames, FUN=function(x){x[1:2]})
+  print("variety made successfully")  
+  #new column with only genus species  
+  genus_species <- lapply(splitnames, FUN=function(z){z[1:2]})
     genus_species_dat <- data.frame(matrix(unlist(genus_species), ncol=2, byrow=TRUE))
       names(genus_species_dat)[1:2] <- c("genus", "species")
       genus_species_dat$genus_species <- paste(genus_species_dat$genus, genus_species_dat$species, sep="_")
-      
-  speciescolumns <- cbind(genus_species_dat[3],variety_dat)    
+  print("genus-species made successfully")
   
- alldat <- cbind(x, speciescolumns)
+  speciescolumns <- cbind(genus_species_dat[3],variety_dat)    
+  alldat <- cbind(x, speciescolumns)
+  alldat$variety <- as.character(alldat$variety)
+  print("merge with orginal dfr worked")
+  
  return(alldat)
    
 }
   
+oz_sizeindex2 <-   species_variety_func(oz_sizeindex)  
+
+length(unique(oz_sizeindex2$genus_species))
+length(unique(oz_sizeindex2$volume))
+range(oz_sizeindex2$volume) 
   
-length(unique(oz_sizeindex$species))
-length(unique(oz_sizeindex$volume))
-range(oz_sizeindex$volume) 
-  
-#save masterfile of sizeindex data
+2#save masterfile of sizeindex data
 write.csv(oz_sizeindex, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
 
 
-# Fit Size Index? ---------------------------------------------------------
+# Does Fit Size Index? ---------------------------------------------------------
 
+######I need to add new volumes to this function likely......(post adelaide)
 oz_sizeindex <- doesfit_func(oz_sizeindex)
 library(plyr)
 count(oz_sizeindex, var="balanced")
 
 
-#size index plotting--------------------------------------------------------------------------------------------------------
+#size index plotting--------------------------------------------------------
 
 library(magicaxis)
 library(RColorBrewer)
