@@ -18,4 +18,4 @@ nursery_met <- get_worldclim_prectemp(nursery, worldclim=wc)
 # MAT, MAP mean annual T and precip
 
 
-write.csv(nursery_met, "climate_data/nursery_climate_history", row.names = FALSE)
+write.csv(nursery_met, "climate_data/nursery_climate_history.csv", row.names = FALSE)

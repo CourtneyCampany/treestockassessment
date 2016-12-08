@@ -50,15 +50,13 @@ oz_sizeindex<- Reduce(function(...) merge(..., all=TRUE),
   oz_sizeindex <- add_campaign_region(oz_sizeindex)
   
   ##simplify hybrids (remove genus_x_hybrid)
-  oz_sizeindex$species_simple <- oz_sizeindex$species  
-  oz_sizeindex$species_simple <- gsub("_x_", "_", oz_sizeindex$species_simple)
-
+  oz_sizeindex$species <- gsub("_x_", "_", oz_sizeindex$species)
   
 # genus-species-variety function ------------------------------------------
 
 species_variety_func <- function(x){  
   
-  dat <- x$species_simple
+  dat <- x$species
   
   splitnames <- strsplit(dat, "_")
   #new column with only variety
@@ -88,7 +86,7 @@ length(unique(oz_sizeindex2$genus_species))
 length(unique(oz_sizeindex2$volume))
 range(oz_sizeindex2$volume) 
   
-2#save masterfile of sizeindex data
+#save masterfile of sizeindex data
 write.csv(oz_sizeindex2, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
 
 
