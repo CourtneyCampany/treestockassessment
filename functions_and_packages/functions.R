@@ -126,3 +126,29 @@ bar <- function(dv, factors, dataframe, percentage=FALSE, errbar=!percentage, ha
     do.call(axis, c(side=2, args.yaxis))
   }
 }
+
+species_variety_func <- function(x){  
+  
+  dat <- x$species
+  
+  splitnames <- strsplit(dat, "_")
+  #new column with only variety
+  variety <- lapply(splitnames, FUN=function(y){y[3]})
+  variety_dat <- data.frame(matrix(unlist(variety), ncol=1, byrow=TRUE))
+  names(variety_dat)[1] <- "variety"
+  print("variety made successfully")  
+  #new column with only genus species  
+  genus_species <- lapply(splitnames, FUN=function(z){z[1:2]})
+  genus_species_dat <- data.frame(matrix(unlist(genus_species), ncol=2, byrow=TRUE))
+  names(genus_species_dat)[1:2] <- c("genus", "species")
+  genus_species_dat$genus_species <- paste(genus_species_dat$genus, genus_species_dat$species, sep="_")
+  print("genus-species made successfully")
+  
+  speciescolumns <- cbind(genus_species_dat[3],variety_dat)    
+  alldat <- cbind(x, speciescolumns)
+  alldat$variety <- as.character(alldat$variety)
+  print("merge with orginal dfr worked")
+  
+  return(alldat)
+  
+}
