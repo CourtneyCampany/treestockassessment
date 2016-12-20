@@ -84,10 +84,17 @@ oz_sizeindex2 <-   species_variety_func(oz_sizeindex)
 
 length(unique(oz_sizeindex2$genus_species))
 length(unique(oz_sizeindex2$volume))
+length(unique(oz_sizeindex2$species))
 range(oz_sizeindex2$volume) 
-  
+
+
+# merge species origin ----------------------------------------------------
+
+origin <- read.csv("data/species_origin.csv")
+oz_sizeindex3 <- merge(oz_sizeindex2, origin, all=TRUE)
+
 #save masterfile of sizeindex data
-write.csv(oz_sizeindex2, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
+write.csv(oz_sizeindex3, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
 
 
 # Does Fit Size Index? ---------------------------------------------------------

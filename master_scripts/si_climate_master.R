@@ -17,6 +17,10 @@ temp5 <- read.csv("climate_data/max_temp_history.csv")
   oz_si_agg <- summaryBy(calliper300+rcd+height_m+sizeindex ~ species + nursery+volume, data=oz_si, FUN=c(mean, se))
 
   spec <- data.frame(unique(oz_si_agg$species))
+  write.csv(spec, "calculated_data/species_list.csv", row.names = FALSE)
+  
+
+  
   ##remove trees with only one tree (AR_OG - ETT / FBeng500 - DPH / FBenj100 - DPH / LIT200 - ETT) / WF100 - alp)
   ##as data is clean here just remove values with NA (and drop levels)
   oz_si_agg2 <- complete.cases(oz_si_agg)
