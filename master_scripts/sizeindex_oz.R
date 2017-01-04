@@ -52,6 +52,9 @@ oz_sizeindex<- Reduce(function(...) merge(..., all=TRUE),
   ##simplify hybrids (remove genus_x_hybrid)
   oz_sizeindex$species <- gsub("_x_", "_", oz_sizeindex$species)
   
+  ##drop batch_id2
+  oz_sizeindex <- oz_sizeindex[,  !names(oz_sizeindex) %in% "batch_id2"]
+  
 # genus-species-variety function ------------------------------------------
 
 species_variety_func <- function(x){  
@@ -93,8 +96,30 @@ range(oz_sizeindex2$volume)
 origin <- read.csv("data/species_origin.csv")
 oz_sizeindex3 <- merge(oz_sizeindex2, origin, all=TRUE)
 
+
+# reformat nursery names --------------------------------------------------
+
+nurseryname_format <- function(x) {
+  x$nursery <- gsub("alp", "alpine", x$nursery)
+  x$nursery <- gsub("a_mm", "mangrove mountain", x$nursery)
+  x$nursery <- gsub("treesimpact", "trees impact", x$nursery)
+  x$nursery <- gsub("a_kc", "andreasens", x$nursery)
+  x$nursery <- gsub("flem", "flemings", x$nursery)
+  x$nursery <- gsub("spec", "speciality", x$nursery)
+  x$nursery <- gsub("mtwil", "mt william", x$nursery)
+  x$nursery <- gsub("dph", "darwin plant wholesalers", x$nursery)
+  x$nursery <- gsub("ett", "established tree transplanters", x$nursery)
+  x$nursery <- gsub("adelaideadvanced", "adelaide advanced", x$nursery)
+  x$nursery <- gsub("adelaidetreefarm", "adelaide tree farm", x$nursery)
+  x$nursery <- gsub("ellenby", "ellenby tree farm  tree farm", x$nursery)
+  return(x)
+} 
+
+oz_sizeindex4 <- nurseryname_format(oz_sizeindex3)
+
+
 #save masterfile of sizeindex data
-write.csv(oz_sizeindex3, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
+write.csv(oz_sizeindex4, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
 
 
 # Does Fit Size Index? ---------------------------------------------------------
