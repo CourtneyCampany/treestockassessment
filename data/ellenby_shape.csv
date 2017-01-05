@@ -1,54 +1,54 @@
 batch_id,species,volume,treenumb,canopy_top,canopy_bottom,branchper30,maxbranchradius,leafarea1,leafarea2,leafarea3,leafmass1,leafmass2,leafmass3
-12973,agonis flexuosa,35,1,140,44,2,54,12.7,5.1,4.3,0.29,0.2,0.17
-12973,agonis flexuosa,35,2,141.9,15,9,72,9,4.2,5.1,0.24,0.15,0.17
-12973,agonis flexuosa,35,3,108.6,20,7,108,8.8,6.7,7.4,0.23,0.22,0.22
-12973,agonis flexuosa,35,4,131.2,35,6,110,8,8.8,6,0.23,0.22,0.19
-12973,agonis flexuosa,35,5,115,22,8,64,4.4,4.6,7.4,0.15,0.15,0.2
-12973,agonis flexuosa,35,6,166.1,15,6,86,7.3,3.9,7.1,0.2,0.12,0.21
-12973,agonis flexuosa,35,7,152.4,22,11,80,6.5,5.6,3.6,0.24,0.2,0.14
-12973,agonis flexuosa,35,8,115.3,24,10,70,3.4,4.6,12.3,0.14,0.17,0.27
-12973,agonis flexuosa,35,9,123.4,18,6,83,7,6.9,6.4,0.21,0.22,0.2
-12973,agonis flexuosa,35,10,190.5,31,7,56,14,10.4,12.4,0.39,0.31,0.37
-14192,agonis flexuosa,75,1,119.5,5,14,62,6.3,8.1,6,0.115,0.138,0.108
-14192,agonis flexuosa,75,2,152.7,7,11,75,5.4,7.1,8.3,0.106,0.132,0.158
-14192,agonis flexuosa,75,3,127.5,17,7,73,8.3,8.5,9.7,0.181,0.172,0.194
-14192,agonis flexuosa,75,4,170.5,21,7,90,8.3,8,9.2,0.164,0.142,0.183
-14192,agonis flexuosa,75,5,217.6,26,12,84,5.2,4.8,4.6,0.088,0.084,0.069
-14192,agonis flexuosa,75,6,151,14,11,77,6.9,8.9,10.3,0.122,0.165,0.191
-14192,agonis flexuosa,75,7,165.9,13,11,79,5.6,7.1,6.8,0.102,0.121,0.131
-14192,agonis flexuosa,75,8,179.8,2,9,60,4,3.4,3.7,0.073,0.059,0.066
-14192,agonis flexuosa,75,9,145.2,16,9,89,6.8,8,8.8,0.099,0.117,0.12
-14192,agonis flexuosa,75,10,156.1,18,12,82,5,5.5,5.7,0.083,0.103,0.098
-13705,agonis flexuosa,150,1,199,33,6,99,4.95,6.96,4.9,0.03,0.11,0.07
-13705,agonis flexuosa,150,2,176.7,30,8,94,5,4.7,4.21,0.04,0.06,0.04
-13705,agonis flexuosa,150,3,188.7,40,4,98,6,5.6,4.9,0.08,0.07,0.05
-13705,agonis flexuosa,150,4,261.2,47,5,119,4.34,5.67,4.9,0.04,0.09,0.1
-13705,agonis flexuosa,150,5,175.8,32,5,64,3.59,2.4,3.82,0.06,0.04,0.07
-13705,agonis flexuosa,150,6,185.4,28,7,84,4.7,5.83,5.02,0.09,0.11,0.09
-13705,agonis flexuosa,150,7,193.1,28,7,88,6.01,6.05,5.9,0.11,0.08,0.09
-13705,agonis flexuosa,150,8,186.3,39,5,134,15.94,6.78,9.18,0.24,0.12,0.12
-13705,agonis flexuosa,150,9,198.5,33,3,92,8.12,6.64,9.68,0.12,0.09,0.14
-13705,agonis flexuosa,150,10,202.7,36,6,71,7.2,7.81,4.9,0.09,0.11,0.06
-13765,agonis flexuosa,300,1,269,92,6,179,9.4,6.9,6,0.214,0.153,0.114
-13765,agonis flexuosa,300,2,234.3,62,9,127,3.3,3.3,2.3,0.05,0.05,0.053
-13765,agonis flexuosa,300,3,229.4,55,6,158,3,3.2,3.1,0.062,0.059,0.056
-13765,agonis flexuosa,300,4,315.7,44,8,132,4.5,5.3,3.2,0.08,0.084,0.057
-13765,agonis flexuosa,300,5,249.8,52,5,132,5.1,3.7,6.3,0.105,0.075,0.124
-13765,agonis flexuosa,300,6,270.7,65,7,131,4,6,5.6,0.079,0.121,0.111
-13765,agonis flexuosa,300,7,306.5,46,8,120,3.1,4.2,4.6,0.076,0.09,0.084
-13765,agonis flexuosa,300,8,300.7,52,8,183,10.7,9.3,6.9,0.125,0.148,0.08
-13765,agonis flexuosa,300,9,326.3,114,3,171,6.2,4.4,6.9,0.131,0.088,0.128
-13765,agonis flexuosa,300,10,354.6,85,2,223,8.5,5.5,5.3,0.158,0.078,0.069
-11980,agonis flexuosa,500,1,403,164,7,210,5.01,4.42,5,0.07,0.11,0.11
-11980,agonis flexuosa,500,2,428.5,84,3,149,7.51,6.64,5.71,0.19,0.17,0.15
-11980,agonis flexuosa,500,3,402.7,95,2,188,5.2,4.7,5.51,0.07,0.05,0.09
-11980,agonis flexuosa,500,4,422.5,114,1,215,6.63,6.44,6.31,0.18,0.16,0.12
-11980,agonis flexuosa,500,5,483.4,184,3,141,4.59,5.02,4.19,0.08,0.1,0.11
-11980,agonis flexuosa,500,6,389.6,117,3,138,4.29,3.76,4.48,0.12,0.07,0.11
-11980,agonis flexuosa,500,7,453.7,103,3,140,4.16,3.74,3.33,0.12,0.12,0.08
-11980,agonis flexuosa,500,8,534,185,3,118,5.24,4.48,4.72,0.18,0.09,0.14
-11980,agonis flexuosa,500,9,422.7,123,2,154,4.95,4.01,4.69,0.07,0.13,0.08
-11980,agonis flexuosa,500,10,472.4,172,3,157,4.49,5.81,5.57,0.11,0.07,0.1
+12973,agonis_flexuosa,35,1,140,44,2,54,12.7,5.1,4.3,0.29,0.2,0.17
+12973,agonis_flexuosa,35,2,141.9,15,9,72,9,4.2,5.1,0.24,0.15,0.17
+12973,agonis_flexuosa,35,3,108.6,20,7,108,8.8,6.7,7.4,0.23,0.22,0.22
+12973,agonis_flexuosa,35,4,131.2,35,6,110,8,8.8,6,0.23,0.22,0.19
+12973,agonis_flexuosa,35,5,115,22,8,64,4.4,4.6,7.4,0.15,0.15,0.2
+12973,agonis_flexuosa,35,6,166.1,15,6,86,7.3,3.9,7.1,0.2,0.12,0.21
+12973,agonis_flexuosa,35,7,152.4,22,11,80,6.5,5.6,3.6,0.24,0.2,0.14
+12973,agonis_flexuosa,35,8,115.3,24,10,70,3.4,4.6,12.3,0.14,0.17,0.27
+12973,agonis_flexuosa,35,9,123.4,18,6,83,7,6.9,6.4,0.21,0.22,0.2
+12973,agonis_flexuosa,35,10,190.5,31,7,56,14,10.4,12.4,0.39,0.31,0.37
+14192,agonis_flexuosa,75,1,119.5,5,14,62,6.3,8.1,6,0.115,0.138,0.108
+14192,agonis_flexuosa,75,2,152.7,7,11,75,5.4,7.1,8.3,0.106,0.132,0.158
+14192,agonis_flexuosa,75,3,127.5,17,7,73,8.3,8.5,9.7,0.181,0.172,0.194
+14192,agonis_flexuosa,75,4,170.5,21,7,90,8.3,8,9.2,0.164,0.142,0.183
+14192,agonis_flexuosa,75,5,217.6,26,12,84,5.2,4.8,4.6,0.088,0.084,0.069
+14192,agonis_flexuosa,75,6,151,14,11,77,6.9,8.9,10.3,0.122,0.165,0.191
+14192,agonis_flexuosa,75,7,165.9,13,11,79,5.6,7.1,6.8,0.102,0.121,0.131
+14192,agonis_flexuosa,75,8,179.8,2,9,60,4,3.4,3.7,0.073,0.059,0.066
+14192,agonis_flexuosa,75,9,145.2,16,9,89,6.8,8,8.8,0.099,0.117,0.12
+14192,agonis_flexuosa,75,10,156.1,18,12,82,5,5.5,5.7,0.083,0.103,0.098
+13705,agonis_flexuosa,150,1,199,33,6,99,4.95,6.96,4.9,0.03,0.11,0.07
+13705,agonis_flexuosa,150,2,176.7,30,8,94,5,4.7,4.21,0.04,0.06,0.04
+13705,agonis_flexuosa,150,3,188.7,40,4,98,6,5.6,4.9,0.08,0.07,0.05
+13705,agonis_flexuosa,150,4,261.2,47,5,119,4.34,5.67,4.9,0.04,0.09,0.1
+13705,agonis_flexuosa,150,5,175.8,32,5,64,3.59,2.4,3.82,0.06,0.04,0.07
+13705,agonis_flexuosa,150,6,185.4,28,7,84,4.7,5.83,5.02,0.09,0.11,0.09
+13705,agonis_flexuosa,150,7,193.1,28,7,88,6.01,6.05,5.9,0.11,0.08,0.09
+13705,agonis_flexuosa,150,8,186.3,39,5,134,15.94,6.78,9.18,0.24,0.12,0.12
+13705,agonis_flexuosa,150,9,198.5,33,3,92,8.12,6.64,9.68,0.12,0.09,0.14
+13705,agonis_flexuosa,150,10,202.7,36,6,71,7.2,7.81,4.9,0.09,0.11,0.06
+13765,agonis_flexuosa,300,1,269,92,6,179,9.4,6.9,6,0.214,0.153,0.114
+13765,agonis_flexuosa,300,2,234.3,62,9,127,3.3,3.3,2.3,0.05,0.05,0.053
+13765,agonis_flexuosa,300,3,229.4,55,6,158,3,3.2,3.1,0.062,0.059,0.056
+13765,agonis_flexuosa,300,4,315.7,44,8,132,4.5,5.3,3.2,0.08,0.084,0.057
+13765,agonis_flexuosa,300,5,249.8,52,5,132,5.1,3.7,6.3,0.105,0.075,0.124
+13765,agonis_flexuosa,300,6,270.7,65,7,131,4,6,5.6,0.079,0.121,0.111
+13765,agonis_flexuosa,300,7,306.5,46,8,120,3.1,4.2,4.6,0.076,0.09,0.084
+13765,agonis_flexuosa,300,8,300.7,52,8,183,10.7,9.3,6.9,0.125,0.148,0.08
+13765,agonis_flexuosa,300,9,326.3,114,3,171,6.2,4.4,6.9,0.131,0.088,0.128
+13765,agonis_flexuosa,300,10,354.6,85,2,223,8.5,5.5,5.3,0.158,0.078,0.069
+11980,agonis_flexuosa,500,1,403,164,7,210,5.01,4.42,5,0.07,0.11,0.11
+11980,agonis_flexuosa,500,2,428.5,84,3,149,7.51,6.64,5.71,0.19,0.17,0.15
+11980,agonis_flexuosa,500,3,402.7,95,2,188,5.2,4.7,5.51,0.07,0.05,0.09
+11980,agonis_flexuosa,500,4,422.5,114,1,215,6.63,6.44,6.31,0.18,0.16,0.12
+11980,agonis_flexuosa,500,5,483.4,184,3,141,4.59,5.02,4.19,0.08,0.1,0.11
+11980,agonis_flexuosa,500,6,389.6,117,3,138,4.29,3.76,4.48,0.12,0.07,0.11
+11980,agonis_flexuosa,500,7,453.7,103,3,140,4.16,3.74,3.33,0.12,0.12,0.08
+11980,agonis_flexuosa,500,8,534,185,3,118,5.24,4.48,4.72,0.18,0.09,0.14
+11980,agonis_flexuosa,500,9,422.7,123,2,154,4.95,4.01,4.69,0.07,0.13,0.08
+11980,agonis_flexuosa,500,10,472.4,172,3,157,4.49,5.81,5.57,0.11,0.07,0.1
 14195,angophora_costata,100,1,226.3,46,7,86,22.78,22.79,30.09,0.42,0.41,0.59
 14195,angophora_costata,100,2,257.5,50,10,76,15.23,19.71,19.38,0.25,0.31,0.31
 14195,angophora_costata,100,3,231.4,59,5,72,20.98,19.73,22.18,0.28,0.29,0.34
@@ -69,33 +69,33 @@ batch_id,species,volume,treenumb,canopy_top,canopy_bottom,branchper30,maxbranchr
 13655,angophora_costata,150,8,320.6,104,7,82,22.8,22.3,14.6,0.39,0.39,0.28
 13655,angophora_costata,150,9,309.4,105,7,63,23.5,24,24.1,0.5,0.52,0.47
 13655,angophora_costata,150,10,275.4,60,6,92,24,19.8,19.4,0.5,0.35,0.33
-13097,araucaria heterophylla,75,1,189.1,40,18,58,,,,,,
-13097,araucaria heterophylla,75,2,133.4,38,16,53,,,,,,
-13097,araucaria heterophylla,75,3,119.6,36,20,51,,,,,,
-13097,araucaria heterophylla,75,4,121.6,30,15,52,,,,,,
-13097,araucaria heterophylla,75,5,111.9,31,12,52,,,,,,
-13097,araucaria heterophylla,75,6,127.2,32,19,56,,,,,,
-13097,araucaria heterophylla,75,7,113.3,30,17,54,,,,,,
-13097,araucaria heterophylla,75,8,127,33,16,53,,,,,,
-13097,araucaria heterophylla,75,9,139.2,35,15,59,,,,,,
-13097,araucaria heterophylla,75,10,135.2,33,15,40,,,,,,
-13763,araucaria heterophylla,500,1,393.3,121,9,135,,,,,,
-13763,araucaria heterophylla,500,2,308.9,139,10,136,,,,,,
-13763,araucaria heterophylla,500,3,349.1,119,13,113,,,,,,
-13763,araucaria heterophylla,500,4,321.7,117,19,114,,,,,,
-13763,araucaria heterophylla,500,5,350.2,123,11,100,,,,,,
-13763,araucaria heterophylla,500,6,432.5,123,10,137,,,,,,
-13763,araucaria heterophylla,500,7,425.5,126,11,98,,,,,,
-14717,araucaria heterophylla,1000,1,435.7,160,10,110,,,,,,
-14717,araucaria heterophylla,1000,2,411.3,162,11,181,,,,,,
-14717,araucaria heterophylla,1000,3,388.8,176,10,149,,,,,,
-14717,araucaria heterophylla,1000,4,478.6,162,4,163,,,,,,
-14717,araucaria heterophylla,1000,5,562,181,13,170,,,,,,
-14717,araucaria heterophylla,1000,6,493.4,171,10,159,,,,,,
-14717,araucaria heterophylla,1000,7,487.6,148,12,125,,,,,,
-14717,araucaria heterophylla,1000,8,389.2,72,10,123,,,,,,
-14717,araucaria heterophylla,1000,9,436.4,197,13,187,,,,,,
-14717,araucaria heterophylla,1000,10,569,157,10,147,,,,,,
+13097,araucaria_heterophylla,75,1,189.1,40,18,58,,,,,,
+13097,araucaria_heterophylla,75,2,133.4,38,16,53,,,,,,
+13097,araucaria_heterophylla,75,3,119.6,36,20,51,,,,,,
+13097,araucaria_heterophylla,75,4,121.6,30,15,52,,,,,,
+13097,araucaria_heterophylla,75,5,111.9,31,12,52,,,,,,
+13097,araucaria_heterophylla,75,6,127.2,32,19,56,,,,,,
+13097,araucaria_heterophylla,75,7,113.3,30,17,54,,,,,,
+13097,araucaria_heterophylla,75,8,127,33,16,53,,,,,,
+13097,araucaria_heterophylla,75,9,139.2,35,15,59,,,,,,
+13097,araucaria_heterophylla,75,10,135.2,33,15,40,,,,,,
+13763,araucaria_heterophylla,500,1,393.3,121,9,135,,,,,,
+13763,araucaria_heterophylla,500,2,308.9,139,10,136,,,,,,
+13763,araucaria_heterophylla,500,3,349.1,119,13,113,,,,,,
+13763,araucaria_heterophylla,500,4,321.7,117,19,114,,,,,,
+13763,araucaria_heterophylla,500,5,350.2,123,11,100,,,,,,
+13763,araucaria_heterophylla,500,6,432.5,123,10,137,,,,,,
+13763,araucaria_heterophylla,500,7,425.5,126,11,98,,,,,,
+14717,araucaria_heterophylla,1000,1,435.7,160,10,110,,,,,,
+14717,araucaria_heterophylla,1000,2,411.3,162,11,181,,,,,,
+14717,araucaria_heterophylla,1000,3,388.8,176,10,149,,,,,,
+14717,araucaria_heterophylla,1000,4,478.6,162,4,163,,,,,,
+14717,araucaria_heterophylla,1000,5,562,181,13,170,,,,,,
+14717,araucaria_heterophylla,1000,6,493.4,171,10,159,,,,,,
+14717,araucaria_heterophylla,1000,7,487.6,148,12,125,,,,,,
+14717,araucaria_heterophylla,1000,8,389.2,72,10,123,,,,,,
+14717,araucaria_heterophylla,1000,9,436.4,197,13,187,,,,,,
+14717,araucaria_heterophylla,1000,10,569,157,10,147,,,,,,
 14727,banksia_integrifolia,75,1,165.7,33,3,47,30.04,16.93,26.58,0.78,0.42,0.65
 14727,banksia_integrifolia,75,2,231.5,0,0,11,28.71,27.15,28.01,0.64,0.61,0.71
 14727,banksia_integrifolia,75,3,233.5,105,2,29,30.23,28.41,43.19,0.72,0.64,1.16
@@ -434,46 +434,46 @@ jm1800,jacaranda_mimosifolia,1800,,752.7,235.7,3,224,,,,,,
 10489,magnolia_grandiflora_littlegem,500,8,372.2,52,4,82,45.5,86.9,35.8,0.96,0.63,0.8
 10489,magnolia_grandiflora_littlegem,500,9,372.5,27,6,79,41.1,34.9,36.7,0.98,0.88,0.86
 10489,magnolia_grandiflora_littlegem,500,10,390,52,7,78,38.8,28,39.7,0.74,0.57,0.82
-11971,melaleuca rhaphiophylla,35,1,79.1,29,18,40,,,,,,
-11971,melaleuca rhaphiophylla,35,2,217.3,48,9,46,,,,,,
-11971,melaleuca rhaphiophylla,35,3,236.5,51,8,95,,,,,,
-11971,melaleuca rhaphiophylla,35,4,162.4,23,17,40,,,,,,
-11971,melaleuca rhaphiophylla,35,5,138.5,27,14,40,,,,,,
-11971,melaleuca rhaphiophylla,35,6,139.9,20,10,34,,,,,,
-11971,melaleuca rhaphiophylla,35,7,148.2,28,15,31,,,,,,
-11971,melaleuca rhaphiophylla,35,8,145.8,26,13,37,,,,,,
-11971,melaleuca rhaphiophylla,35,9,148,27,13,32,,,,,,
-11971,melaleuca rhaphiophylla,35,10,127,29,9,37,,,,,,
-12241,melaleuca rhaphiophylla,75,1,203,59,12,96,,,,,,
-12241,melaleuca rhaphiophylla,75,2,188.5,45,6,91,,,,,,
-12241,melaleuca rhaphiophylla,75,3,168.2,52,6,91,,,,,,
-12241,melaleuca rhaphiophylla,75,4,195.3,39,11,81,,,,,,
-12241,melaleuca rhaphiophylla,75,5,204.6,32,3,86,,,,,,
-12241,melaleuca rhaphiophylla,75,6,174,44,5,68,,,,,,
-12241,melaleuca rhaphiophylla,75,7,168.9,34,10,64,,,,,,
-12241,melaleuca rhaphiophylla,75,8,198.6,24,5,94,,,,,,
-12241,melaleuca rhaphiophylla,75,9,193.7,31,9,77,,,,,,
-12241,melaleuca rhaphiophylla,75,10,188.8,42,13,80,,,,,,
-14011,melaleuca rhaphiophylla,150,1,264,57,11,68,,,,,,
-14011,melaleuca rhaphiophylla,150,2,178.7,52,14,53,,,,,,
-14011,melaleuca rhaphiophylla,150,3,179.8,48,8,42,,,,,,
-14011,melaleuca rhaphiophylla,150,4,214.9,46,21,57,,,,,,
-14011,melaleuca rhaphiophylla,150,5,264.1,57,14,124,,,,,,
-14011,melaleuca rhaphiophylla,150,6,207.3,53,16,94,,,,,,
-14011,melaleuca rhaphiophylla,150,7,218.2,59,18,63,,,,,,
-14011,melaleuca rhaphiophylla,150,8,247,66,16,91,,,,,,
-14011,melaleuca rhaphiophylla,150,9,264.7,56,18,67,,,,,,
-14011,melaleuca rhaphiophylla,150,10,254.5,64,5,101,,,,,,
-12454,melaleuca rhaphiophylla,500,1,228,48,4,167,,,,,,
-12454,melaleuca rhaphiophylla,500,2,185.1,55,4,135,,,,,,
-12454,melaleuca rhaphiophylla,500,3,179,44,3,140,,,,,,
-12454,melaleuca rhaphiophylla,500,4,266.6,57,8,136,,,,,,
-12454,melaleuca rhaphiophylla,500,5,218.1,34,2,162,,,,,,
-12454,melaleuca rhaphiophylla,500,6,180.4,53,3,125,,,,,,
-12454,melaleuca rhaphiophylla,500,7,239.6,57,6,164,,,,,,
-12454,melaleuca rhaphiophylla,500,8,299.2,79,3,125,,,,,,
-12454,melaleuca rhaphiophylla,500,9,311.9,51,4,121,,,,,,
-12454,melaleuca rhaphiophylla,500,10,233.2,56,5,124,,,,,,
+11971,melaleuca_rhaphiophylla,35,1,79.1,29,18,40,,,,,,
+11971,melaleuca_rhaphiophylla,35,2,217.3,48,9,46,,,,,,
+11971,melaleuca_rhaphiophylla,35,3,236.5,51,8,95,,,,,,
+11971,melaleuca_rhaphiophylla,35,4,162.4,23,17,40,,,,,,
+11971,melaleuca_rhaphiophylla,35,5,138.5,27,14,40,,,,,,
+11971,melaleuca_rhaphiophylla,35,6,139.9,20,10,34,,,,,,
+11971,melaleuca_rhaphiophylla,35,7,148.2,28,15,31,,,,,,
+11971,melaleuca_rhaphiophylla,35,8,145.8,26,13,37,,,,,,
+11971,melaleuca_rhaphiophylla,35,9,148,27,13,32,,,,,,
+11971,melaleuca_rhaphiophylla,35,10,127,29,9,37,,,,,,
+12241,melaleuca_rhaphiophylla,75,1,203,59,12,96,,,,,,
+12241,melaleuca_rhaphiophylla,75,2,188.5,45,6,91,,,,,,
+12241,melaleuca_rhaphiophylla,75,3,168.2,52,6,91,,,,,,
+12241,melaleuca_rhaphiophylla,75,4,195.3,39,11,81,,,,,,
+12241,melaleuca_rhaphiophylla,75,5,204.6,32,3,86,,,,,,
+12241,melaleuca_rhaphiophylla,75,6,174,44,5,68,,,,,,
+12241,melaleuca_rhaphiophylla,75,7,168.9,34,10,64,,,,,,
+12241,melaleuca_rhaphiophylla,75,8,198.6,24,5,94,,,,,,
+12241,melaleuca_rhaphiophylla,75,9,193.7,31,9,77,,,,,,
+12241,melaleuca_rhaphiophylla,75,10,188.8,42,13,80,,,,,,
+14011,melaleuca_rhaphiophylla,150,1,264,57,11,68,,,,,,
+14011,melaleuca_rhaphiophylla,150,2,178.7,52,14,53,,,,,,
+14011,melaleuca_rhaphiophylla,150,3,179.8,48,8,42,,,,,,
+14011,melaleuca_rhaphiophylla,150,4,214.9,46,21,57,,,,,,
+14011,melaleuca_rhaphiophylla,150,5,264.1,57,14,124,,,,,,
+14011,melaleuca_rhaphiophylla,150,6,207.3,53,16,94,,,,,,
+14011,melaleuca_rhaphiophylla,150,7,218.2,59,18,63,,,,,,
+14011,melaleuca_rhaphiophylla,150,8,247,66,16,91,,,,,,
+14011,melaleuca_rhaphiophylla,150,9,264.7,56,18,67,,,,,,
+14011,melaleuca_rhaphiophylla,150,10,254.5,64,5,101,,,,,,
+12454,melaleuca_rhaphiophylla,500,1,228,48,4,167,,,,,,
+12454,melaleuca_rhaphiophylla,500,2,185.1,55,4,135,,,,,,
+12454,melaleuca_rhaphiophylla,500,3,179,44,3,140,,,,,,
+12454,melaleuca_rhaphiophylla,500,4,266.6,57,8,136,,,,,,
+12454,melaleuca_rhaphiophylla,500,5,218.1,34,2,162,,,,,,
+12454,melaleuca_rhaphiophylla,500,6,180.4,53,3,125,,,,,,
+12454,melaleuca_rhaphiophylla,500,7,239.6,57,6,164,,,,,,
+12454,melaleuca_rhaphiophylla,500,8,299.2,79,3,125,,,,,,
+12454,melaleuca_rhaphiophylla,500,9,311.9,51,4,121,,,,,,
+12454,melaleuca_rhaphiophylla,500,10,233.2,56,5,124,,,,,,
 13634,platanus_x_acerifolia,400,1,633.5,179,2,168,,,,,,
 13634,platanus_x_acerifolia,400,2,652.8,176,4,186,,,,,,
 13634,platanus_x_acerifolia,400,3,695.4,173,3,159,,,,,,
@@ -494,16 +494,16 @@ jm1800,jacaranda_mimosifolia,1800,,752.7,235.7,3,224,,,,,,
 12254,platanus_x_acerifolia,1000,8,703.7,158,3,156,,,,,,
 12254,platanus_x_acerifolia,1000,9,734.5,151,4,202,,,,,,
 12254,platanus_x_acerifolia,1000,10,722.7,184,4,132,,,,,,
-13378,pyrus_calleryana _chanticleer,100,1,128.4,55,5,22,,,,,,
-13378,pyrus_calleryana _chanticleer,100,2,256,55,3,35,,,,,,
-13378,pyrus_calleryana _chanticleer,100,3,261.8,45,3,36,,,,,,
-13378,pyrus_calleryana _chanticleer,100,4,148.2,48,5,26,,,,,,
-13378,pyrus_calleryana _chanticleer,100,5,132.1,48,5,20,,,,,,
-13378,pyrus_calleryana _chanticleer,100,6,134.1,51,4,35,,,,,,
-13378,pyrus_calleryana _chanticleer,100,7,137.8,48,3,28,,,,,,
-13378,pyrus_calleryana _chanticleer,100,8,170.3,52,5,32,,,,,,
-13378,pyrus_calleryana _chanticleer,100,9,94.5,36,5,12,,,,,,
-13378,pyrus_calleryana _chanticleer,100,10,139.1,52,2,25,,,,,,
+13378,pyrus_calleryana_chanticleer,100,1,128.4,55,5,22,,,,,,
+13378,pyrus_calleryana_chanticleer,100,2,256,55,3,35,,,,,,
+13378,pyrus_calleryana_chanticleer,100,3,261.8,45,3,36,,,,,,
+13378,pyrus_calleryana_chanticleer,100,4,148.2,48,5,26,,,,,,
+13378,pyrus_calleryana_chanticleer,100,5,132.1,48,5,20,,,,,,
+13378,pyrus_calleryana_chanticleer,100,6,134.1,51,4,35,,,,,,
+13378,pyrus_calleryana_chanticleer,100,7,137.8,48,3,28,,,,,,
+13378,pyrus_calleryana_chanticleer,100,8,170.3,52,5,32,,,,,,
+13378,pyrus_calleryana_chanticleer,100,9,94.5,36,5,12,,,,,,
+13378,pyrus_calleryana_chanticleer,100,10,139.1,52,2,25,,,,,,
 11813,pyrus_calleryana_chanticleer,400,1,490.8,149,13,114,,,,,,
 11813,pyrus_calleryana_chanticleer,400,2,450.9,141,10,124,,,,,,
 11813,pyrus_calleryana_chanticleer,400,3,465.9,161,6,98,,,,,,

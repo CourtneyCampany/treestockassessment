@@ -43,10 +43,10 @@ araucaria_heterophylla,ah_300,300,1,475,37,11,140,,,,,,
 araucaria_heterophylla,ah_300,300,2,460.1,55,9,156,,,,,,
 araucaria_heterophylla,ah_1500,1500,1,692,55,4,235,,,,,,
 araucaria_heterophylla,ah_1500,1500,2,652.4,56,10,256,,,,,,
-brachychiton_acerifolia,ba_750,750,1,490.5,165,5,143,113.6,132.1,136.1,0.86,1.93,2.15
-brachychiton_acerifolia,ba_750,750,2,520.7,200,5,150,126.6,140.1,139,1.81,2.02,2.21
-brachychiton_acerifolia,ba_750,750,3,490.8,159,4,145,58.2,117.8,139.7,0.71,1.59,1.7
-brachychiton_acerifolia,ba_750,750,4,515.5,143,4,135,83.9,78.7,89.9,0.94,1,1.65
+brachychiton_acerifolius,ba_750,750,1,490.5,165,5,143,113.6,132.1,136.1,0.86,1.93,2.15
+brachychiton_acerifolius,ba_750,750,2,520.7,200,5,150,126.6,140.1,139,1.81,2.02,2.21
+brachychiton_acerifolius,ba_750,750,3,490.8,159,4,145,58.2,117.8,139.7,0.71,1.59,1.7
+brachychiton_acerifolius,ba_750,750,4,515.5,143,4,135,83.9,78.7,89.9,0.94,1,1.65
 brachychiton_acerifolius,ba_150,150,1,314.3,124,5,72,74.8,73.2,61.6,0.79,0.66,0.78
 brachychiton_acerifolius,ba_150,150,2,305.7,154,6,70,125.7,142.8,163.7,1.76,2.27,3.86
 brachychiton_acerifolius,ba_150,150,3,313.2,123,4,92,60.8,81.2,66.4,1.04,0.89,1.2
@@ -73,26 +73,26 @@ callistemon_kingsparkspecial,ck_45_c239,45,7,265.3,51,7,83,5.2,5,5.6,0.11,0.08,0
 callistemon_kingsparkspecial,ck_45_c239,45,8,278.6,18,1,79,5.8,4.9,4.1,0.12,0.08,0.06
 callistemon_kingsparkspecial,ck_45_c239,45,9,278.2,13,10,72,4.8,5.9,5.5,0.08,0.11,0.08
 callistemon_kingsparkspecial,ck_45_c239,45,10,251.4,16,5,84,6.5,8.5,4,0.1,0.19,0.04
-corymbia_citrodora,cc_100,100,1,336.3,51,4,114,35.6,26.9,42.2,0.43,0.32,0.58
-corymbia_citrodora,cc_100,100,2,337.3,57,4,94,41.5,38.9,,0.63,0.52,
-corymbia_citrodora,cc_100,100,3,315.8,52,1,67,18.1,28.7,21.3,0.19,0.33,0.21
-corymbia_citrodora,cc_100,100,4,350.5,95,4,110,22.9,21.5,18.2,0.24,0.19,0.18
-corymbia_citrodora,cc_100,100,5,322.2,57,8,83,18.6,22.7,36.7,0.22,0.32,0.45
-corymbia_citrodora,cc_100,100,6,301.8,59,3,84,32.3,23.6,24.2,0.36,0.26,0.27
-corymbia_citrodora,cc_100,100,7,338.8,38,6,99,25.9,25.1,14.4,0.31,0.27,0.13
-corymbia_citrodora,cc_100,100,8,358.8,69,5,118,38.3,39.6,34.8,0.39,0.38,0.35
-corymbia_citrodora,cc_100,100,9,386.5,83,2,92,28.2,29,37.5,0.32,0.37,0.52
-corymbia_citrodora,cc_100,100,10,327.4,81,3,91,20.8,28.6,30.5,0.28,0.25,0.58
-fraxinus pennsylvanica urbanite,fpu_45,45,1,253.9,53,5,39,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,2,250.7,63,5,42,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,3,238.2,62,4,33,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,4,233.6,51,3,41,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,5,273.2,71,5,40,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,6,235,58,2,39,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,7,248,53,3,40,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,8,246.7,74,5,45,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,9,234.1,54,4,39,,,,,,
-fraxinus pennsylvanica urbanite,fpu_45,45,10,245.2,54,4,42,,,,,,
+corymbia_citriodora,cc_100,100,1,336.3,51,4,114,35.6,26.9,42.2,0.43,0.32,0.58
+corymbia_citriodora,cc_100,100,2,337.3,57,4,94,41.5,38.9,,0.63,0.52,
+corymbia_citriodora,cc_100,100,3,315.8,52,1,67,18.1,28.7,21.3,0.19,0.33,0.21
+corymbia_citriodora,cc_100,100,4,350.5,95,4,110,22.9,21.5,18.2,0.24,0.19,0.18
+corymbia_citriodora,cc_100,100,5,322.2,57,8,83,18.6,22.7,36.7,0.22,0.32,0.45
+corymbia_citriodora,cc_100,100,6,301.8,59,3,84,32.3,23.6,24.2,0.36,0.26,0.27
+corymbia_citriodora,cc_100,100,7,338.8,38,6,99,25.9,25.1,14.4,0.31,0.27,0.13
+corymbia_citriodora,cc_100,100,8,358.8,69,5,118,38.3,39.6,34.8,0.39,0.38,0.35
+corymbia_citriodora,cc_100,100,9,386.5,83,2,92,28.2,29,37.5,0.32,0.37,0.52
+corymbia_citriodora,cc_100,100,10,327.4,81,3,91,20.8,28.6,30.5,0.28,0.25,0.58
+fraxinus_pennsylvanica_urbanite,fpu_45,45,1,253.9,53,5,39,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,2,250.7,63,5,42,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,3,238.2,62,4,33,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,4,233.6,51,3,41,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,5,273.2,71,5,40,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,6,235,58,2,39,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,7,248,53,3,40,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,8,246.7,74,5,45,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,9,234.1,54,4,39,,,,,,
+fraxinus_pennsylvanica_urbanite,fpu_45,45,10,245.2,54,4,42,,,,,,
 fraxinus_pennsylvanica_cimmaron,fpc_45,45,1,248.3,60,6,25,,,,,,
 fraxinus_pennsylvanica_cimmaron,fpc_45,45,2,287.1,112,7,17,,,,,,
 fraxinus_pennsylvanica_cimmaron,fpc_45,45,3,253.1,48,5,34,,,,,,
@@ -103,16 +103,16 @@ fraxinus_pennsylvanica_cimmaron,fpc_45,45,7,258.1,48,6,35,,,,,,
 fraxinus_pennsylvanica_cimmaron,fpc_45,45,8,266.2,55,6,43,,,,,,
 fraxinus_pennsylvanica_cimmaron,fpc_45,45,9,266.9,60,7,30,,,,,,
 fraxinus_pennsylvanica_cimmaron,fpc_45,45,10,262.4,53,3,40,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,1,191.2,16,5,27,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,2,196.5,47,6,29,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,3,190.4,41,6,25,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,4,194,5,2,18,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,5,219,46,7,26,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,6,206.5,47,5,21,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,7,182.2,46,6,25,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,8,187.4,49,6,25,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,9,209.2,48,6,22,,,,,,
-gleditsia triacanthos elegantissima,gte_45,45,10,203.1,52,6,23,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,1,191.2,16,5,27,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,2,196.5,47,6,29,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,3,190.4,41,6,25,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,4,194,5,2,18,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,5,219,46,7,26,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,6,206.5,47,5,21,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,7,182.2,46,6,25,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,8,187.4,49,6,25,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,9,209.2,48,6,22,,,,,,
+gleditsia_triacanthos_elegantissima,gte_45,45,10,203.1,52,6,23,,,,,,
 gleditsia_triacanthos_continental,gtc_45,45,1,254,52,3,27,,,,,,
 gleditsia_triacanthos_continental,gtc_45,45,2,235.1,55,4,18,,,,,,
 gleditsia_triacanthos_continental,gtc_45,45,3,253,46,4,37,,,,,,
@@ -133,26 +133,26 @@ gleditsia_triacanthos_sunburst,gts_45,45,7,258.6,57,1,103,,,,,,
 gleditsia_triacanthos_sunburst,gts_45,45,8,325.3,102,3,110,,,,,,
 gleditsia_triacanthos_sunburst,gts_45,45,9,282.3,55,3,89,,,,,,
 gleditsia_triacanthos_sunburst,gts_45,45,10,265.9,65,2,100,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,1,186,42,7,54,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,2,213.2,70,7,61,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,3,213.4,71,6,67,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,4,208.3,45,3,53,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,5,234.1,54,2,63,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,6,209.2,66,8,55,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,7,225.6,52,4,56,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,8,255.1,73,10,45,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,9,244.8,64,5,54,,,,,,
-Lagerstroemia_fauriei_fantasy,lff_45,45,10,210.2,41,3,61,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,1,315.8,44,10,70,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,2,332,63,9,63,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,3,306.4,56,16,74,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,4,330.7,45,15,67,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,5,302.3,40,15,81,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,6,309,49,9,59,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,7,311.7,67,8,66,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,8,293,39,14,69,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,9,324.4,54,17,64,,,,,,
-lagerstroemia_indica tuscarora,lit_150,150,10,318,53,17,71,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,1,186,42,7,54,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,2,213.2,70,7,61,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,3,213.4,71,6,67,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,4,208.3,45,3,53,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,5,234.1,54,2,63,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,6,209.2,66,8,55,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,7,225.6,52,4,56,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,8,255.1,73,10,45,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,9,244.8,64,5,54,,,,,,
+lagerstroemia_fauriei_fantasy,lff_45,45,10,210.2,41,3,61,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,1,315.8,44,10,70,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,2,332,63,9,63,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,3,306.4,56,16,74,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,4,330.7,45,15,67,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,5,302.3,40,15,81,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,6,309,49,9,59,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,7,311.7,67,8,66,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,8,293,39,14,69,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,9,324.4,54,17,64,,,,,,
+lagerstroemia_indica_tuscarora,lit_150,150,10,318,53,17,71,,,,,,
 lagerstroemia_indica_biloxi,lib_45,45,1,301.8,73,4,75,,,,,,
 lagerstroemia_indica_biloxi,lib_45,45,2,280.9,48,6,82,,,,,,
 lagerstroemia_indica_biloxi,lib_45,45,3,274.1,57,8,64,,,,,,

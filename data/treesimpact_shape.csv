@@ -99,8 +99,8 @@ batch_id,species,volume,treenumb,canopy_top,canopy_bottom,branchper30,maxbranchr
 3709.1,ulmus_parvifolia_todd,700,2,584.2,192,7,110,21.2,17,13.8,0.173,0.172,0.134
 3709.1,ulmus_parvifolia_todd,700,3,649.1,182,5,159,16.1,15.9,14,0.172,0.166,0.145
 3709.1,ulmus_parvifolia_todd,700,4,591,184,4,140,19.7,17.7,17.4,0.208,0.188,0.174
-3784.9,waterhousia_floribunda,600,1,562.5,140,3,211,24.8,32.7,30.7,0.31,0.46,0.43
-3784.9,waterhousia_floribunda,600,2,512,140,3,200,26.6,20.5,33.1,0.25,0.23,0.4
+3784.9,waterhousea_floribunda,600,1,562.5,140,3,211,24.8,32.7,30.7,0.31,0.46,0.43
+3784.9,waterhousea_floribunda,600,2,512,140,3,200,26.6,20.5,33.1,0.25,0.23,0.4
 3994,zelkova_serrata_greenvase,400,1,503.7,173,3,140,10.2,11.7,10.6,0.064,0.075,0.069
 3994,zelkova_serrata_greenvase,400,2,486.4,153,2,158,22.1,19.1,14.3,0.124,0.098,0.069
 3994,zelkova_serrata_greenvase,400,3,482.4,150,2,134,9,9.2,11.7,0.037,0.063,0.081
