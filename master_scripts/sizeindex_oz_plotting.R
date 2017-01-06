@@ -1,7 +1,7 @@
 source("plot_objects.R")
 
 ### Size Index for all nurseries
-oz_sizeindex <- read.csv("oz_sizeindex.csv")
+oz_sizeindex <- read.csv("calculated_data/oz_sizeindex.csv")
 
 ##standard
 standard <- read.csv("container_assessment.csv")

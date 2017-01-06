@@ -44,13 +44,13 @@ for (i in 1:18){
       return(x)
     }
 
-shape_files <- lapply(shape_files, function(x) add_campaign_region(x))    
+shape_data <- lapply(shape_files, function(x) add_campaign_region(x))    
 
 ##i need to remove first nursery visit (alpine) as its data is in a different format
-shape_data <- shape_files[-3]    
+# shape_data <- shape_files[-3]    
     
 ##simplify hybrids (remove genus_x_hybrid)
-for (i in 1:17){
+for (i in 1:18){
   shape_data[[i]]$species <- gsub("_x_", "_", shape_data[[i]]$species)
 }
 
@@ -68,11 +68,11 @@ shape_data <- lapply(shape_data, function(x) species_variety_func(x))
       x$nursery <- gsub("ett", "established tree transplanters", x$nursery)
       x$nursery <- gsub("adelaideadvanced", "adelaide advanced", x$nursery)
       x$nursery <- gsub("adelaidetreefarm", "adelaide tree farm", x$nursery)
-      x$nursery <- gsub("ellenby", "ellenby tree farm  tree farm", x$nursery)
+      x$nursery <- gsub("ellenby", "ellenby tree farm", x$nursery)
       return(x)
     } 
 
-shape_files <- lapply(shape_files, function(x) nurseryname_format(x))   
+shape_data <- lapply(shape_data, function(x) nurseryname_format(x))   
 
 
 # extract shape and leaf data seperately--------------------------------------
@@ -98,12 +98,15 @@ shape_data <- lapply(shape_clean, function(x) {x[[1]]})
 
 library(plyr)
 treeshape <-rbind.fill(shape_data)
+  treeshape <- treeshape[,c(1:6, 11, 7:10)]
+
 leafmassarea <- rbind.fill(leaf_data)
 
 
 ### clean species names before write
-test <- unique(treeshape$species)
+unique(treeshape$species)
 
+write.csv(treeshape, "calculated_data/crown_shape.csv", row.names = FALSE)
 
 
 
