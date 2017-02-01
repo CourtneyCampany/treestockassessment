@@ -36,12 +36,20 @@ standard <- read.csv("reports/container_assessment.csv")
   ellenby<- read.csv("calculated_data/ellenby_clean.csv")
   arborwest<- read.csv("calculated_data/arborwest_clean.csv")
   benara<- read.csv("calculated_data/benara_clean.csv")
+  
+  ##QLD
+  logans <- read.csv("calculated_data/logans_clean.csv")
+  pallara <- read.csv("calculated_data/pallara_clean.csv")
+  greenstock <- read.csv("calculated_data/greenstock_clean.csv")
+  ibrox <- read.csv("calculated_data/ibrox_clean.csv")
+  plantsdirect <- read.csv("calculated_data/plantsdirect_clean.csv")
 
 # merge data to a master file ---------------------------------------------
 oz_sizeindex<- Reduce(function(...) merge(..., all=TRUE), 
                list(darwin, ett, fleming,mtwilly,speciality,ellenby,benara,arborwest, freshford,manor, heynes,
                     cleveland, adelaidetreefarm, adelaideadvanced, treesimpact , 
-                    alpine, kemps[, !names(kemps) %in% "site"],mangrove[, !names(mangrove) %in% "site"]))
+                    alpine, kemps[, !names(kemps) %in% "site"],mangrove[, !names(mangrove) %in% "site"],
+                    logans, pallara, greenstock, ibrox, plantsdirect))
                
 
 # variable formatting -----------------------------------------------------
@@ -112,6 +120,8 @@ nurseryname_format <- function(x) {
   x$nursery <- gsub("adelaideadvanced", "adelaide advanced", x$nursery)
   x$nursery <- gsub("adelaidetreefarm", "adelaide tree farm", x$nursery)
   x$nursery <- gsub("ellenby", "ellenby tree farm", x$nursery)
+  x$nursery <- gsub("plantsdirect", "plants direct", x$nursery)
+  x$nursery <- gsub("ellenby", "ellenby tree farm", x$nursery)
   return(x)
 } 
 
@@ -125,9 +135,9 @@ write.csv(oz_sizeindex4, "calculated_data/oz_sizeindex.csv", row.names = FALSE)
 # Does Fit Size Index? ---------------------------------------------------------
 
 ######I need to add new volumes to this function likely......(post adelaide)
-oz_sizeindex <- doesfit_func(oz_sizeindex)
-library(plyr)
-count(oz_sizeindex, var="balanced")
+# oz_sizeindex <- doesfit_func(oz_sizeindex)
+# library(plyr)
+# count(oz_sizeindex, var="balanced")
 
 
 # #size index plotting--------------------------------------------------------

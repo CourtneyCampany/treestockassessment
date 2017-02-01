@@ -143,6 +143,9 @@ add_campaign_region <- function(x){
                             x$nursery == "freshford"|x$nursery == "adelaideadvanced"|
                             x$nursery == "adelaidetreefarm",
                             "South Australia", x$climate_region)
+  x$climate_region <-ifelse(x$nursery == "logans"|x$nursery == "ibrox"|x$nursery =="pallara"|
+                              x$nursery == "greenstock"|x$nursery == "plantsdirect",
+                            "Queensland", x$climate_region)
   x$climate_region <- as.factor(x$climate_region)
   print("no trees appear lost")
   return(x)

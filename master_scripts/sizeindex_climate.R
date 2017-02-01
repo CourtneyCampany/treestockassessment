@@ -31,4 +31,11 @@ write.csv(genusspec, "calculated_data/genusspecies_list.csv", row.names = FALSE)
   
 # merge size index with nursery climate history -----------------------
   sizeindex_clim <- merge(oz_si_agg2, temp5, by="nursery")
+  sizeindex_clim <- merge(sizeindex_clim, climate30, by="nursery")
 
+  
+###simple plotting with climate variable
+  with()
+  
+  
+  

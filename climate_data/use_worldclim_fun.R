@@ -17,5 +17,4 @@ nursery_met <- get_worldclim_prectemp(nursery, worldclim=wc)
 # tmean_1 is january, and so on
 # MAT, MAP mean annual T and precip
 
-
 write.csv(nursery_met, "climate_data/nursery_climate_history.csv", row.names = FALSE)
