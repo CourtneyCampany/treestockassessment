@@ -121,7 +121,6 @@ nurseryname_format <- function(x) {
   x$nursery <- gsub("adelaidetreefarm", "adelaide tree farm", x$nursery)
   x$nursery <- gsub("ellenby", "ellenby tree farm", x$nursery)
   x$nursery <- gsub("plantsdirect", "plants direct", x$nursery)
-  x$nursery <- gsub("ellenby", "ellenby tree farm", x$nursery)
   return(x)
 } 
 

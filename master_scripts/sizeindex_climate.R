@@ -20,22 +20,26 @@ write.csv(genusspec, "calculated_data/genusspecies_list.csv", row.names = FALSE)
 # means dataset of size index parameters ----------------------
 
   library(doBy)  
-  oz_si_agg <- summaryBy(calliper300+rcd+height_m+sizeindex ~ species + nursery+volume, 
+  oz_si_agg <- summaryBy(calliper300+rcd+height_m+sizeindex ~ species + genus_species + nursery+volume +
+                           climate_region+origin+leaf_type, 
                          data=oz_si, FUN=c(mean, se))
 
   ##remove trees with only one tree (AR_OG - ETT / FBeng500 - DPH / FBenj100 - DPH / LIT200 - ETT) / WF100 - alp)
   ##as data is clean here just remove values with NA (and drop levels)
   oz_si_agg2 <- oz_si_agg[complete.cases(oz_si_agg),]
   
-  write.csv(oz_si_agg2, "calculated_data/oz_sizeindex_means.csv", row.names = FALSE)
-  
-# merge size index with nursery climate history -----------------------
-  sizeindex_clim <- merge(oz_si_agg2, temp5, by="nursery")
-  sizeindex_clim <- merge(sizeindex_clim, climate30, by="nursery")
 
   
-###simple plotting with climate variable
-  with()
+# merge size index with nursery climate history  -----------------------
+  #sizeindex_clim <- merge(oz_si_agg2, temp5, by="nursery")
   
+  si_means_clim <- merge(oz_si_agg2, climate30, by="nursery", all=TRUE)
+  
+  si_clim <-   merge(oz_si, climate30, by="nursery")
+
+  
+#write data setes    
+write.csv(si_means_clim, "master_scripts/si_means_climate.csv", row.names = FALSE) 
+write.csv(si_clim, "master_scripts/si_climate.csv", row.names = FALSE)  
   
   
