@@ -77,5 +77,5 @@ legend("topright", "Container Volume = 400 L",bty='n', inset=.01)
 hist(si_range[si_range$volum ==1000,"sizeindex"], breaks=15, xlab = "sizeindex", main="", ylim=c(0,30))
 box()
 rect(739,0,1087,50, border=NA, col=transcol)
-legend("topright", "Container Volume = 1000 L",bty='n', inset=.01)
+legend("topleft", "Container Volume = 1000 L",bty='n', inset=.001)
 

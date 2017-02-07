@@ -79,9 +79,6 @@ kemps_si <- andreasensformat(kemps_dat)
 write.csv(mangrove_si, "calculated_data/mangrove_clean.csv", row.names = FALSE)
 write.csv(kemps_si, "calculated_data/kemps_clean.csv", row.names = FALSE)
 
-#number of species?
-length(unique(mangrove_si$species))
-length(unique(kemps_si$species))
 
 ##species color assign--------------------------------------------------------------------------------------------------
 
@@ -105,67 +102,4 @@ write.csv(andreasens_si,"reports/andreasens_sizeindex.csv", row.names = FALSE)
 andreasans_batch <- unique(andreasens_si[c("species", "site","volume")])
 andreasans_batch <- andreasans_batch[with(andreasans_batch, order(species, site,volume)),]
 write.csv(andreasans_batch,"reports/andreasans_batch.csv", row.names = FALSE)
-
-###plotting-------------------------------------------------------------------------------------------------------------
-library(magicaxis)
-#1. size index vs volume
-windows(7,7)
-#png(filename = "images/prelimdata.png", width = 5, height = 5, units = "in", res= 600)
-par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
-plot(logSI ~ logvol, data=andreasens_si, xlab="Container volume (L)", ylab=silab, xlim=c(0.5,3.5),ylim=c(0.3,3.5),
-       axes=FALSE, cex=1.25, bg=andreasens_si$colorspec,pch=21)
-  magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
-  
-  #add assessment
-  lines(log10(min_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
-  lines(log10(max_size_index[1:36])~log10(container_volume[1:36]), data=standard,lwd=2)
-  
-legend("topleft", "AS2303 Size Index Range" ,lty=1, lwd=2,bty='n', inset=.01)
-  
-box()
-  
-
-#2.  height vs volume
-windows(7,7)
-  
-par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
-plot(logH ~ logvol, data=andreasens_si, xlab="Container volume (L)", ylab="Height (m)",
-       axes=FALSE, cex=1.25, bg=col_vector[andreasens_si$species],pch=21)
-magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
-  
-box()
-  
-#3.  calliper vs volume
-windows(7,7)
-  
-par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
-plot(logD ~ logvol, data=andreasens_si, xlab="Container volume (L)", ylab="Stem Calliper @ 300mm (mm)",
-       axes=FALSE, cex=1.25, bg=col_vector[andreasens_si$species],pch=21, xlim=c(.5,3.75), ylim=c(.5,2.25))
-magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
-  
-box()
-  
-#4.  rcd vs volume
-windows(7,7)
-  
-par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
-plot(logRCD ~ logvol, data=andreasens_si, xlab="Container volume (L)", ylab="Root Collar Diameter (mm)",
-       axes=FALSE, cex=1.25, bg=col_vector[andreasens_si$species],pch=21)
-magicaxis::magaxis(side=c(1,2), unlog=c(1,2), frame.plot=FALSE)
-  
-box()
-  
-
-#5. height vs diameter
-windows(7,7)
-  
-par(mar=c(5,5,1,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
-plot(calliper300 ~ height_m, data=andreasens_si, xlab="Height (m)", ylab="Diameter (mm)",xlim=c(0,8), ylim=c(0,175),
-       cex=1.25, col=col_vector[andreasens_si$species],pch=1)
-  
-points(rcd ~ height_m, data=andreasens_si, cex=1.25, bg=col_vector[andreasens_si$species],pch=21)
-box()
-  
-legend("topleft", c("Root Collar Diameter","Calliper @ 300mm") ,pch=c(16, 1), bg="black", cex=1, bty='n', inset=.01)
-  
 

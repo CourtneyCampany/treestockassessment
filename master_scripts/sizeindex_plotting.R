@@ -52,7 +52,7 @@ windows(7,7)
 
 par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
 
-plot(logSI ~ logvol, data=oz_si_range, xlab="Container volume (L)", 
+plot(logSI ~ logvol, data=si_range, xlab="Container volume (L)", 
      ylab=silab, xlim=c(1,3.7),ylim=c(0.3,3.7),
      axes=FALSE, cex=.6, col=climate_region, pch=16)
 
@@ -88,7 +88,7 @@ for(i in unique(si_range$volume)){
 lines(container_volume[1:36] ~ min_size_index[1:36], data=standard,lwd=1, col="grey")
 lines(container_volume[1:36] ~ max_size_index[1:36], data=standard,lwd=1, col="grey")
 
-# plot hieght data -----------------------------------------------------------
+# plot height data -----------------------------------------------------------
 
 ##means
 windows(7,7)
@@ -110,7 +110,7 @@ windows(7,7)
 
 par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
 
-plot(logH ~ logvol, data=oz_si_range, xlab="Container volume (L)", 
+plot(logH ~ logvol, data=si_range, xlab="Container volume (L)", 
      ylab="Hieght (m)", xlim=c(1,3.7),ylim=c(-.3,1),
      axes=FALSE, cex=.6, col=climate_region, pch=16)
 
@@ -143,7 +143,7 @@ windows(7,7)
 
 par(mar=c(5,5,2,1),cex.axis=1, cex.lab=1.25,las=0,mgp=c(3,1,0))
 
-plot(logD ~ logvol, data=oz_si_range, xlab="Container volume (L)", 
+plot(logD ~ logvol, data=si_range, xlab="Container volume (L)", 
      ylab="Diameter @ 30cm (mm)", xlim=c(1,3.7),ylim=c(.75,2.75),
      axes=FALSE, cex=.6, col=climate_region, pch=16)
 

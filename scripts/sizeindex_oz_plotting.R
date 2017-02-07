@@ -1,18 +1,17 @@
-source("plot_objects.R")
+source("functions_and_packages/plot_objects.R")
 
 ### Size Index for all nurseries
 oz_sizeindex <- read.csv("calculated_data/oz_sizeindex.csv")
 
 ##standard
-standard <- read.csv("container_assessment.csv")
+standard <- read.csv("data/container_assessment.csv")
 
-#size index plotting--------------------------------------------------------------------------------------------------------
+#plotbits --------------------------------------------------------------------------------------------------------
 
 library(magicaxis)
 library(RColorBrewer)
 library(scales)
 
-##plotbits
 halfblack <- alpha("darkblue", .25)
 silab <- expression(Size~index~range~~(calliper~x~height))
 
@@ -21,7 +20,7 @@ cols <-  brewer.pal(6, "Set1")
 cols2 <- c(alpha(cols[5], .65), alpha(cols[3], .65), alpha(cols[2], .65), alpha(cols[1], .65))
 
 
-
+# size index plots --------------------------------------------------------
 
 windows(7,7)
 
@@ -80,15 +79,3 @@ addpoly(log10(as.numeric(rownames(tb))), log10(tb[,1]), log10(tb[,2]), col=NA, b
 pot100 <- subset(oz_sizeindex_a, volume == 100)
 
 
-oz_sizeindex$predsizeindex <- 0.452 + 0.861 * oz_sizeindex$volume
-
-
-# github.com/remkoduursma/plover
-library(plover)
-
-hist_bygroup(sizeindex-predsizeindex, climate_region, data=oz_sizeindex, breaks=300, 
-             col=cols2, what="density", xlim=c(-200,200))
-
-
-trees100 <- subset(oz_sizeindex,volume==100)
-hist_bygroup(sizeindex-predsizeindex, climate_region, dataset=trees100, breaks=25, col=cols2, what="density", xlim=c(-200,200))
