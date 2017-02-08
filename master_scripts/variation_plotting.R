@@ -4,15 +4,13 @@ library(magicaxis)
 library(RColorBrewer)
 library(scales)
 
-devtools::install_github("remkoduursma/plover")
-library(plover)
-
 # read data ---------------------------------------------------------------
 
 si_means_clim <- read.csv("master_scripts/si_means_climate.csv") 
 si_clim <- read.csv("master_scripts/si_climate.csv")
 standard <- read.csv("reports/container_assessment.csv")
 
+##drop small containers (5L and 14L)
 si_range <- si_clim[si_clim$volume >= 18,]
 si_means_range <- si_means_clim[si_means_clim$volume >= 18,]
 
@@ -33,9 +31,6 @@ transcol <- alpha("firebrick1", alpha=.4)
 table(si_means_range$volume)
 ##20, 45, 100, 200, 400, 1000
 
-
-##grouped histogram 
-hist_bygroup(sizeindex, volume, si_clim)
 
 ##20 liter
 
