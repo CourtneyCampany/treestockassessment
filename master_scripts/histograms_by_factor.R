@@ -1,11 +1,14 @@
 
+# read data ---------------------------------------------------------------
+
 si_means_clim <- read.csv("master_scripts/si_means_climate.csv") 
 si_clim <- read.csv("master_scripts/si_climate.csv")
 
 standard <- read.csv("reports/container_assessment.csv")
 
 
-###grouped histograms
+# plot bits ---------------------------------------------------------------
+
 
 si_clim$predsizeindex <- 0.452 + 0.861 * si_clim$volume
 
@@ -20,9 +23,12 @@ palette(c(alpha("forestgreen", .4), alpha("goldenrod1",.4), alpha("navyblue", .4
 
 
 
-# github.com/remkoduursma/plover
+# grouped histograms from plover ------------------------------------------
+
+devtools::install_github("remkoduursma/plover")
 library(plover)
 
+##all data
 hist_bygroup(sizeindex-predsizeindex, climate_region, data=si_clim, breaks=300, 
              col=cols2, what="density", xlim=c(-200,200))
 
