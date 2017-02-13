@@ -1,6 +1,5 @@
 standard <- read.csv("reports/container_assessment.csv")
 
-
 #min coefs
 with(standard, plot(log10(min_size_index)~log10(container_volume)))
 abline(minmod <- lm(log10(standard$min_size_index) ~ log10(standard$container_volume)))
@@ -10,6 +9,12 @@ minpred <- coef(minmod)
 with(standard, plot(log10(max_size_index)~log10(container_volume)))
 abline(maxmod <- lm(log10(standard$max_size_index) ~ log10(standard$container_volume)))
 maxpred <- coef(maxmod)
+
+##determine missing SI ranges for field measured containers
+testmin <- minpred[2]*log10(3000) + minpred[1]
+testmax <- maxpred[2]*log10(3000) + maxpred[1]
+10^testmin
+10^testmax
 
 
 ##determine missing SI ranges for field measured containers
