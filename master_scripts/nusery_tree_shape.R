@@ -44,6 +44,11 @@ nursery_shape <- lapply(shape_list, function(x) treeshape_func(x))
 library(plyr)
 nursery_shape2 <- rbind.fill(nursery_shape)
 
+##remove trees with only one tree (AR_OG - ETT / FBeng500 - DPH / FBenj100 - DPH / LIT200 - ETT) / WF100 - alp)
+nursery_shape2 <- nursery_shape2[!nursery_shape2$batch_id =="ar_200" & !nursery_shape2$batch_id =="lt_200"
+                        & !nursery_shape2$batch_id =="fb_tb_500" & !nursery_shape2$batch_id =="fb_113_100"
+                        & !nursery_shape2$batch_id =="26083",]
+
 
 # variable formatting -----------------------------------------------------
 
@@ -52,6 +57,7 @@ nurseryname_format <- function(x) {
   x$nursery <- gsub("mangrovemtn", "mangrove mountain", x$nursery)
   x$nursery <- gsub("treesimpact", "trees impact", x$nursery)
   x$nursery <- gsub("mtwill", "mt william", x$nursery)
+  x$nursery <- gsub("fleming", "flemings", x$nursery)
   x$nursery <- gsub("dph", "darwin plant wholesalers", x$nursery)
   x$nursery <- gsub("ett", "established tree transplanters", x$nursery)
   x$nursery <- gsub("adelaideadvanced", "adelaide advanced", x$nursery)
@@ -69,7 +75,7 @@ add_campaign_region <- function(x){
   x$climate_region <-ifelse(x$nursery == "darwin plant wholesalers", "Northern Territory", "imlost")
   x$climate_region <-ifelse(x$nursery == "alpine" | x$nursery == "andreasens" | x$nursery == "mangrove mountain" 
                             |x$nursery=="trees impact", "New South Wales", x$climate_region)
-  x$climate_region <-ifelse(x$nursery == "fleming" | x$nursery == "speciality" | 
+  x$climate_region <-ifelse(x$nursery == "flemings" | x$nursery == "speciality" | 
                               x$nursery == "established tree transplanters" | 
                               x$nursery == "mt william", "Victoria", x$climate_region )
   x$climate_region <-ifelse(x$nursery == "ellenby tree farm"|x$nursery == "benara"|x$nursery =="arborwest", 
