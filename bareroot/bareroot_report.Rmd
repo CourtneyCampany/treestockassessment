@@ -1,0 +1,222 @@
+---
+title: "Bareroot Experiment @ Fleming's Nurseries"
+author: "Court Campany & Leanne Gillies"
+date: ""
+output: html_document
+---
+
+```{r setup, results='asis', echo=FALSE, warning=FALSE}
+library(knitr)
+opts_knit$set(root.dir = '../')
+```
+
+
+```{r, echo=FALSE}
+se <- function(x) sd(x)/sqrt(length(x))
+#load and formate bareroot data
+bareroot2 <- read.csv("bareroot/bareroot_clean.csv")
+    
+# split pre and post planting data 
+pre_br <- bareroot2[bareroot2$date == "2016-06-27",]
+    
+bareroot3 <- bareroot2[! bareroot2$date == "2016-06-27",]
+bareroot3$unique_id <- with(bareroot3, paste(species, grade, sep="-"))
+
+bareroot_agg <- doBy::summaryBy(height_m+calliper+sizeindex ~ date+grade+unique_id+genus_species+variety+species,
+                          data=bareroot3, FUN=c(mean, se))
+  bareroot_agg$species <- as.factor(bareroot_agg$species)
+  bareroot_agg$date <- as.Date(bareroot_agg$date)
+  
+speclab2 <- c("Acer rubrum bowhall","Acer rubrum octoberglory","Fraxinus pennsylvanica cimmaron",
+                "Fraxinus pennsylvanica urbanite","Platanus acerifolia","Platanus acerifolia liberty",
+                "Pyrus calleryana capital","Pyrus calleryana chanticleer")  
+```
+
+## Hi Leanne !!!
+
+## Methods
+
+
+
+
+##Pre-planting bareroot data
+
+```{r start, echo=FALSE}
+pre_br_agg <- doBy::summaryBy(height_m+calliper+sizeindex ~ date+species+grade, data=pre_br, FUN=c(mean, se))
+silab <- expression(Size~index~range~~(calliper~x~height))
+gradecols <- c("deepskyblue2", "firebrick3")
+speclab <- c("Acer rubrum bowhall","Acer rubrum octoberglory","Fraxinus pennsylvanica \ncimmaron",
+             "Fraxinus pennsylvanica \nurbanite","Platanus acerifolia","Platanus acerifolia liberty",
+             "Pyrus calleryana \ncapital","Pyrus calleryana \nchanticleer")
+pre_br_sort <- plyr::arrange(pre_br, species)
+pre_br_sort$id <- with(pre_br_sort, paste(species, grade, sep="-"))
+```
+
+
+```{r start plot, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7}
+par(mar=c(9,5,2,2))
+boxplot(sizeindex ~ id, data = pre_br_sort,col=gradecols, xaxt='n',  ylab=silab,
+        at=c(1,2, 4,5, 7,8, 10,11, 13,14, 16,17, 19, 20, 22,23), outline=FALSE)
+axis(1, at=c(1.5, 4.5, 7.5, 10.5, 13.5, 16.5, 19.5, 22.5), labels=FALSE)
+legend("topright", c("Advanced", "Regular"), pch=22, pt.bg=gradecols, inset=.01, bty='n', pt.cex=1.5)
+text(c(2,5,8,11,14,17,20,23), par("usr")[3]-4,  srt=45,labels=speclab,xpd=TRUE, pos=2)
+
+#Calliper
+par(mar=c(9,5,2,2))
+boxplot(calliper ~ id, data = pre_br_sort,col=gradecols, xaxt='n',  ylab="Calliper @ 30cm (mm)",
+        at=c(1,2, 4,5, 7,8, 10,11, 13,14, 16,17, 19, 20, 22,23), outline=FALSE)
+axis(1, at=c(1.5, 4.5, 7.5, 10.5, 13.5, 16.5, 19.5, 22.5), labels=FALSE)
+legend("topright", c("Advanced", "Regular"), pch=22, pt.bg=gradecols, inset=.01, bty='n', pt.cex=1.5)
+text(c(2,5,8,11,14,17,20,23), par("usr")[3]-1,  srt=45,labels=speclab,xpd=TRUE, pos=2)
+
+#Height
+par(mar=c(9,5,2,2))
+boxplot(height_m ~ id, data = pre_br_sort,col=gradecols, xaxt='n',  ylab="Height (m)",
+        at=c(1,2, 4,5, 7,8, 10,11, 13,14, 16,17, 19, 20, 22,23), outline=FALSE)
+axis(1, at=c(1.5, 4.5, 7.5, 10.5, 13.5, 16.5, 19.5, 22.5), labels=FALSE)
+legend("topright", c("Advanced", "Regular"), pch=22, pt.bg=gradecols, inset=.01, bty='n', pt.cex=1.5)
+text(c(2,5,8,11,14,17,20,23), par("usr")[3]-.1,  srt=45,labels=speclab,xpd=TRUE, pos=2)
+
+
+```
+
+## Size Index in 45L through time
+
+You can also embed plots, for example:
+
+```{r sizeindex, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7}
+mypal <- RColorBrewer::brewer.pal(8, "Dark2")
+palette(mypal)
+
+reg <- bareroot_agg[bareroot_agg$grade=="regular",]
+adv <- bareroot_agg[bareroot_agg$grade=="advanced",]
+xAT <- unique(reg$date)
+
+# Size Index --------------------------------------------------------------
+par(las=1,mgp=c(3.5,1,0),mfrow=c(2,1), mar=c(0,5,1,1))   
+#plot regular trees
+plot(sizeindex.mean~date, data=reg, ylab="", xaxt='n',xlab="", type='n', ylim=c(0,90))
+axis.Date(1, at=xAT, labels=FALSE)
+
+ids <- unique(reg$unique_id)
+for(id in ids){
+  points(sizeindex.mean ~ date, data=reg, lwd=2, 
+         subset=unique_id==id, type='o', col=mypal[as.factor(species)])
+
+with(reg[reg$unique_id==id,], arrows(date, sizeindex.mean, date, sizeindex.mean+sizeindex.se,
+                                     angle=90,length=0.03, cex=2,col=mypal[species]))
+
+with(reg[reg$unique_id==id,], arrows(date, sizeindex.mean, date, sizeindex.mean-sizeindex.se,
+                                     angle=90,length=0.03, cex=2,col=mypal[species]))
+}
+legend("bottomright", expression(bold("Regular")), inset=.01, bty='n')
+mtext(silab,2,line=-2.5, outer = TRUE, at=.5, las=0)
+legend("topleft", legend = speclab2, lty=1,lwd=2, col=palette(),bty='n', cex=.8)
+#advanced
+par(mar=c(5,5,0,1))
+plot(sizeindex.mean~date, data=adv, ylab="", xaxt='n',xlab="", type='n', ylim=c(0,90))
+axis.Date(1, at=xAT)
+
+ids <- unique(adv$unique_id)
+for(id in ids){
+  points(sizeindex.mean ~ date, data=adv, lwd=2, 
+         subset=unique_id==id, type='o', col=mypal[as.factor(species)])
+  
+  with(adv[adv$unique_id==id,], arrows(date, sizeindex.mean, date, sizeindex.mean+sizeindex.se,
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+
+  with(adv[adv$unique_id==id,], arrows(date, sizeindex.mean, date, sizeindex.mean-sizeindex.se,
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+}
+legend("bottomright", expression(bold("Advanced")), inset=.01, bty='n')
+
+```
+
+## Height in 45L through time
+
+You can also embed plots, for example:
+```{r height, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7}
+par(las=1,mgp=c(3.5,1,0),mfrow=c(2,1), mar=c(0,5,1,1))   
+#plot regular trees
+plot(height_m.mean~date, data=reg, ylab="", xaxt='n',xlab="", type='n', ylim=c(0.5,3))
+axis.Date(1, at=xAT, labels=FALSE)
+
+ids <- unique(reg$unique_id)
+for(id in ids){
+  points(height_m.mean ~ date, data=reg, lwd=2, 
+         subset=unique_id==id, type='o', col=mypal[as.factor(species)])
+  
+  with(reg[reg$unique_id==id,], arrows(date, height_m.mean, date, height_m.mean+height_m.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+  
+  with(reg[reg$unique_id==id,], arrows(date, height_m.mean, date, height_m.mean-height_m.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+}
+legend("bottomright", expression(bold("Regular")), inset=.01, bty='n')
+mtext("Height (m)",2,line=-2.5, outer = TRUE, at=.5, las=0)
+legend("topleft", legend = speclab2, lty=1,lwd=2, col=palette(),bty='n', cex=.8)
+#advanced
+par(mar=c(5,5,0,1))
+plot(height_m.mean~date, data=adv, ylab="", xaxt='n',xlab="", type='n', ylim=c(0.5,3))
+axis.Date(1, at=xAT)
+
+ids <- unique(adv$unique_id)
+for(id in ids){
+  points(height_m.mean ~ date, data=adv, lwd=2, 
+         subset=unique_id==id, type='o', col=mypal[as.factor(species)])
+  
+  with(adv[adv$unique_id==id,], arrows(date, height_m.mean, date, height_m.mean+height_m.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+  
+  with(adv[adv$unique_id==id,], arrows(date, height_m.mean, date, height_m.mean-height_m.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+}
+legend("bottomright", expression(bold("Advanced")), inset=.01, bty='n')
+
+```
+
+
+## Calliper in 45L through time
+
+You can also embed plots, for example:
+
+```{r diameter, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7}
+par(las=1,mgp=c(3.5,1,0),mfrow=c(2,1), mar=c(0,5,1,1))   
+#plot regular trees
+plot(calliper.mean~date, data=reg, ylab="", xaxt='n',xlab="", type='n', ylim=c(10,35))
+axis.Date(1, at=xAT, labels=FALSE)
+
+ids <- unique(reg$unique_id)
+for(id in ids){
+  points(calliper.mean ~ date, data=reg, lwd=2, 
+         subset=unique_id==id, type='o', col=mypal[as.factor(species)])
+  
+  with(reg[reg$unique_id==id,], arrows(date, calliper.mean, date, calliper.mean+calliper.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+  
+  with(reg[reg$unique_id==id,], arrows(date, calliper.mean, date, calliper.mean-calliper.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+}
+legend("bottomright", expression(bold("Regular")), inset=.01, bty='n')
+mtext("Calliper at 30cm (mm)",2,line=-2.5, outer = TRUE, at=.5, las=0)
+legend("topleft", legend = speclab2, lty=1,lwd=2, col=palette(),bty='n', cex=.8)
+#advanced
+par(mar=c(5,5,0,1))
+plot(calliper.mean~date, data=adv, ylab="", xaxt='n',xlab="", type='n', ylim=c(10,35))
+axis.Date(1, at=xAT)
+
+ids <- unique(adv$unique_id)
+for(id in ids){
+  points(calliper.mean ~ date, data=adv, lwd=2, 
+         subset=unique_id==id, type='o', col=mypal[as.factor(species)])
+  
+  with(adv[adv$unique_id==id,], arrows(date, calliper.mean, date, calliper.mean+calliper.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+  
+  with(adv[adv$unique_id==id,], arrows(date, calliper.mean, date, calliper.mean-calliper.se, 
+                                       angle=90,length=0.03, cex=2,col=mypal[species]))
+}
+legend("bottomright", expression(bold("Advanced")), inset=.01, bty='n')
+
+```
+
