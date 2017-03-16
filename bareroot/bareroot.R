@@ -29,7 +29,7 @@ gradecols <- c("deepskyblue2", "firebrick3")
 speclab <- c("Acer rubrum bowhall","Acer rubrum octoberglory","Fraxinus pennsylvanica \ncimmaron",
              "Fraxinus pennsylvanica \nurbanite","Platanus acerifolia","Platanus acerifolia liberty",
              "Pyrus calleryana \ncapital","Pyrus calleryana \nchanticleer")
-pre_br_sort <- arrange(pre_br, species)
+pre_br_sort <- plyr::arrange(pre_br, species)
 pre_br_sort$id <- with(pre_br_sort, paste(species, grade, sep="-"))
 
 # bar(sizeindex, factors=c(grade, species), dataframe=pre_br_sort, errbar=TRUE, ylim=c(0,70), xlab="", xaxt='n',
@@ -71,8 +71,8 @@ text(c(2,5,8,11,14,17,20,23), par("usr")[3]-.1,  srt=45,labels=speclab,xpd=TRUE,
 # growth through time plotting ----------------------------------------------------------------------------
 
 bareroot3$unique_id <- with(bareroot3, paste(species, grade, sep="-"))
-
-bareroot_agg <- summaryBy(height_m+calliper+sizeindex ~ date+grade+unique_id+genus_species+variety+species,
+library(sciplot)
+bareroot_agg <- doBy::summaryBy(height_m+calliper+sizeindex ~ date+grade+unique_id+genus_species+variety+species,
                           data=bareroot3, FUN=c(mean, se))
   bareroot_agg$species <- as.factor(bareroot_agg$species)
   
@@ -113,6 +113,7 @@ with(reg[reg$unique_id==id,], arrows(date, sizeindex.mean, date, sizeindex.mean-
 legend("bottomright", expression(bold("Regular")), inset=.01, bty='n')
 mtext(silab,2,line=-2.5, outer = TRUE, at=.5, las=0)
 legend("topleft", legend = speclab2, lty=1,lwd=2, col=palette(),bty='n', cex=.8)
+
 #advanced
 par(mar=c(5,5,0,1))
 plot(sizeindex.mean~date, data=adv, ylab="", xaxt='n',xlab="", type='n', ylim=c(0,90))

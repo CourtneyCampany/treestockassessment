@@ -12,7 +12,7 @@ opts_knit$set(root.dir = '../')
 
 
 ```{r, echo=FALSE}
-se <- function(x) sd(x)/sqrt(length(x))
+library(sciplot)
 #load and formate bareroot data
 bareroot2 <- read.csv("bareroot/bareroot_clean.csv")
     
@@ -33,13 +33,32 @@ speclab2 <- c("Acer rubrum bowhall","Acer rubrum octoberglory","Fraxinus pennsyl
 ```
 
 ## Hi Leanne !!!
+Here is a summary of what we have down so far.  I have split off the first set of measurements that we took before planting in 45L.  This makes sense for several reasons.  It is always good to have time0 measurements, which we do.  It has takes away the issue with caliper measurement locations before and after planting.  Nicely, we can analyze the two sets of data separately.  What I would like for you to work on a bit is the methods with me.  Specifically, a brief (1 paragraph) description of the bare root production process to grow the trees till the point we planted them. Then we will need information on the soil used, fertilization/water regime. We can add that to details below. I have the data code automated, so all these figures will update as new data comes in.
 
-## Methods
+\
+We should also think about any other measurements we might take when the experiment is over. I think canopy spread on each tree would be good. Possibly scanning a few leafs for area and sending them to me to dry them for mass. It would be a pain but total leaf count could also be useful (if we measured leaf mass/area). Maybe on a subset of trees. I think the affect of grade on leaf production + overall growth is a solid story.
 
+\
+Anything else you can think of??? 
 
+## Methods (lets start to work on this together)
 
+##Experimental design
+The experiment was located at Fleming's nursery in Monbulk, VIC, Australia. This open air wholesale tree nursery is located 220m above sea level with a mean annual temperature of 13.3 &deg; and mean annual precipitation of 1085 mm.
+One hundred sixty dormant bare root trees where planted into 45L bags in the winter of 2016 (July). Eight total deciduous species, consisting of two varietals per species, were planted. For each of the 16 species+varieties 10 trees of each of 2 grades ("Advanced" and "Regular") were used (Table 1). *insert spacing/fert/irrig here*. Trees were staked as needed.
+
+\
+*insert explanation of bareroot production process and method for grading here*
+
+\
+Before planting, an initial height and diameter of each tree was measured. Initial tree height was measured starting at the root initiation point. Diameter was measured at 30cm above the root initiation point. Once tree were planted height and diameter measurements were measured at regular intervals once leaf out occurred. For planted trees, height was measured starting at the soil surface and diameter was measured at 30cm above the soil surface. The experiment was terminated on *insert date*, once a single species had reached it maximum size in the 45L container. This represents a common nursery practice in which a batch of tree stock must be either sold or potted up to the next container size.
+
+#Results
+Ill start running stats in the near future on the time0 trees. We will want to extract the importance of how species, varieties within species, and grades differ. For the industry, we can focus on "Size Index" if you want.  If we plan on trying to publish this in a journal (which we should), we will need to focus on the allometric components height and diameter. We could also use stem volume (d^2h) as it makes a more meaningful comparison to the container volume and is a commonly used parameter. 
 
 ##Pre-planting bareroot data
+
+Here you clearly see how some species/varieties are inherently different. You can also see the clear difference in grade on size index.  Importantly, both height and caliper differ to start.
 
 ```{r start, echo=FALSE}
 pre_br_agg <- doBy::summaryBy(height_m+calliper+sizeindex ~ date+species+grade, data=pre_br, FUN=c(mean, se))
@@ -80,9 +99,8 @@ text(c(2,5,8,11,14,17,20,23), par("usr")[3]-.1,  srt=45,labels=speclab,xpd=TRUE,
 
 ```
 
-## Size Index in 45L through time
-
-You can also embed plots, for example:
+## Growth and morphology metrics
+Below are the mean + standard error for each individual batch of trees. It seems that the rate of height growth in regular trees may be slightly higher and these trees seem to have caught up by February. This last date is intersting though.  It will be interesting what the new data show, as it apperas Advanced trees are leveling off. It appears that grade has a more lasting effect on caliper.  Although the rate of caliper expansion seems to be greater in Regular trees they still havent caught up by February (~20 vs ~25). Overall, Advanced trees still have a higher size index than Regular trees at this point (~70 vs ~55) due to the differences in calliper. It will be very interesting to see what the final numbers on when we terminate.
 
 ```{r sizeindex, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7}
 mypal <- RColorBrewer::brewer.pal(8, "Dark2")
@@ -132,9 +150,7 @@ legend("bottomright", expression(bold("Advanced")), inset=.01, bty='n')
 
 ```
 
-## Height in 45L through time
 
-You can also embed plots, for example:
 ```{r height, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7}
 par(las=1,mgp=c(3.5,1,0),mfrow=c(2,1), mar=c(0,5,1,1))   
 #plot regular trees
@@ -175,10 +191,6 @@ legend("bottomright", expression(bold("Advanced")), inset=.01, bty='n')
 
 ```
 
-
-## Calliper in 45L through time
-
-You can also embed plots, for example:
 
 ```{r diameter, echo=FALSE,fig.align='center',fig.width = 7, fig.height = 7}
 par(las=1,mgp=c(3.5,1,0),mfrow=c(2,1), mar=c(0,5,1,1))   
