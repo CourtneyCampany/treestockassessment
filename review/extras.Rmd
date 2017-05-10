@@ -1,0 +1,42 @@
+---
+title: "extras review"
+author: "Court Campany"
+date: "10 May 2017"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+In 2015, the Australian nursery industry adopted a new standard (**AS2303**) to assess the quality of tree stock for landscape use [@ozstandard]. This new standard was designed to assess above- and belowground characteristics of production tree stock for all stages of growth. Although the **AS2303** standard is not currently mandatory, it is likely to be increasingly called upon in order to minimize risks of out-planting failure with new landscape and green infrastructure projects. 
+
+The term "stock type" is used to describe a seedlings age and method production, while also serving as a visual reference of what the seedling should look like before out-planting [@pinto2011conducting].
+
+\
+In **AS2303**, a simplified aboveground volume based parameter ('Size Index') is generated from the product of stem caliper at 300 mm and total height [@ozstandard]. This parameter, generalized for all species, is then related to the size of the container at dispatch. The assessment criteria stipulates that root occupancy inside of the container must be high, thus allowing container volume to provide an reasonable indice of root system size. Minimum and maximum acceptable values of 'Size Index' are then specified for the extremely large range of container volumes used in Australian landscape-based tree nurseries. This grading criteria provides a new method to assess the overall balance of a nursery tree, different from other international nursery standards. These other standards stipulate appropriate ranges of height, caliper, canopy spread or tree slenderness for different container sizes or rootball dimensions [@eurostandard;@usastandard; @candastandard; @britstandard]. However, most of these existing standards do not include tree balance specifications for large container sizes that are frequently utilized for growing landscape trees.
+
+\
+**AS2303** uniquely delineates a 'Size Index' range for a tree shoot system in proportion to a continuum of containers sizes starting at 20 L. This is a unique attempt to quantify and standardize above and belowground balance in landscape-based nursery tree stock produced in Australia. Proper balance between root and shoot systems is critical to increase the potential for survival of out-planted trees to landscape environments, and likely should be evaluated in quality assessments of larger nursery trees. If use of 'Size Index' and its relationship with rooting volume provides an accurate assessment of tree stock balance, it provides a tool for both Australian growers and buyers of landscape trees to use to better meet the increasing green space demands outlined in the "202020 Vision". 
+
+
+\
+If measured variation in tree stock from species differences, climate or nursery practices suggest this new index inadequately describes overall tree stock balance, however, its usage may inhibit the long-term goals of the "202020 Vision". Many existing nursery tree standards (non-Australian) include quality specifications for different classifications of tree stock (i.e. spreading, upright, evergreen, deciduous, etc.), while **AS2303** provides one single guideline for all tree stock. If empirical evaluations suggest the specified 'Size Index' approach should be amended, then further categorization of Australian tree stock represents a potential avenue to improve tree balance assessment criteria. In should also be explicitly mentioned that robust survival and field establishment experimental trials should be undertaken to ensure that current and future iterations of tree balance criteria positively correlate to out-planting success.
+
+\
+Whether the specified correlation between aboveground 'Size Index' and rooting volume in **AS2303** captures this variation in tree growth for the large range of deciduous, evergreen, native and non-native landscape trees produced in Australian nurseries has yet to be explicitly studied.
+As a result, the ability of the 'Size Index' parameter to be used as a general tool to correlate aboveground size to rooting volume needs to be tested empirically.
+
+The degree to which nursery practices and the wide variability in regional climate in Australia affect the current quality assessment criteria in **AS2303** is unknown and requires further evaluation.
+
+\
+```{r ausclimate, echo=FALSE, error=TRUE,fig.width=8, fig.height=6,dev="png", dpi=600, dev.args=list(type="cairo")}
+library(png)
+climate <- readPNG("images/climatezone_aus1.png")
+par(mar=c(0,0,0,0))
+plot(c(0,1),c(0,1), type="n", axes=F, xlab="", ylab="")
+rasterImage(climate, xleft = 0, ybottom = 0, xright = 1, ytop =1)
+
+```
+Figure 1. Major climate regions of Australia (source: http://www.bom.gov.au).
