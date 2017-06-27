@@ -32,29 +32,23 @@ speclab2 <- c("Acer rubrum bowhall","Acer rubrum octoberglory","Fraxinus pennsyl
                 "Pyrus calleryana capital","Pyrus calleryana chanticleer")  
 ```
 
-## Hi Leanne !!!
-Here is a summary of what we have down so far.  I have split off the first set of measurements that we took before planting in 45L.  This makes sense for several reasons.  It is always good to have time0 measurements, which we do.  It has takes away the issue with caliper measurement locations before and after planting.  Nicely, we can analyze the two sets of data separately.  What I would like for you to work on a bit is the methods with me.  Specifically, a brief (1 paragraph) description of the bare root production process to grow the trees till the point we planted them. Then we will need information on the soil used, fertilization/water regime. We can add that to details below. I have the data code automated, so all these figures will update as new data comes in.
+## Summary
+I split off the first set of measurements before planting in 45L. This makes sense for several reasons. It is good to have time0 measurements, which we do. It takes away the issue with caliper measurement locations before and after planting. We can analyze the two sets of data separately. We need to work on the methods. Specifically, a brief (1 paragraph) description of the bare root production process to grow the trees before we planted them. We will also need information on the soil used and the fertilization/water regime. We can add that to details below.
 
-\
-We should also think about any other measurements we might take when the experiment is over. I think canopy spread on each tree would be good. Possibly scanning a few leafs for area and sending them to me to dry them for mass. It would be a pain but total leaf count could also be useful (if we measured leaf mass/area). Maybe on a subset of trees. I think the affect of grade on leaf production + overall growth is a solid story.
 
-\
-Anything else you can think of??? 
-
-## Methods (lets start to work on this together)
+## Methods
 
 ##Experimental design
-The experiment was located at Fleming's nursery in Monbulk, VIC, Australia. This open air wholesale tree nursery is located 220m above sea level with a mean annual temperature of 13.3 &deg; and mean annual precipitation of 1085 mm.
-One hundred sixty dormant bare root trees where planted into 45L bags in the winter of 2016 (July). Eight total deciduous species, consisting of two varietals per species, were planted. For each of the 16 species+varieties 10 trees of each of 2 grades ("Advanced" and "Regular") were used (Table 1). *insert spacing/fert/irrig here*. Trees were staked as needed.
+The experiment was located at Fleming's nursery in Monbulk, VIC, Australia. This open air wholesale tree nursery is located 220m above sea level with a mean annual temperature of 13.3 &deg; and mean annual precipitation of 1085 mm. One hundred sixty dormant bare root trees where planted into 45L bags in the winter of 2016 (July). Eight total deciduous species, consisting of two varietals per species, were planted. For each of the 16 species+varieties 10 trees of each of 2 grades ("Advanced" and "Regular") were used (Table 1). *also insert spacing/fert/irrig here*. Trees were staked as needed.
 
 \
 *insert explanation of bareroot production process and method for grading here*
 
 \
-Before planting, an initial height and diameter of each tree was measured. Initial tree height was measured starting at the root initiation point. Diameter was measured at 30cm above the root initiation point. Once tree were planted height and diameter measurements were measured at regular intervals once leaf out occurred. For planted trees, height was measured starting at the soil surface and diameter was measured at 30cm above the soil surface. The experiment was terminated on *insert date*, once a single species had reached it maximum size in the 45L container. This represents a common nursery practice in which a batch of tree stock must be either sold or potted up to the next container size.
+Before planting, an initial height and diameter of each tree was measured. Initial tree height was measured starting at the root initiation point. Diameter was measured at 30cm above the root initiation point. Once tree were planted height and diameter measurements were measured at regular intervals once leaf out occurred. For planted trees, height was measured starting at the soil surface and diameter was measured at 30cm above the soil surface. The experiment was terminated on *insert date*, once a single species had reached it maximum acceptable size in the 45L container. This represents a common nursery practice in which a batch of tree stock must be either sold or potted up to the next container size.
 
-#Results
-Ill start running stats in the near future on the time0 trees. We will want to extract the importance of how species, varieties within species, and grades differ. For the industry, we can focus on "Size Index" if you want.  If we plan on trying to publish this in a journal (which we should), we will need to focus on the allometric components height and diameter. We could also use stem volume (d^2h) as it makes a more meaningful comparison to the container volume and is a commonly used parameter. 
+#Results (ongoing)
+Ill start running stats in the near future on the time0 trees. We will want to determine how species, varieties within species, and grades differ. For the industry, we can focus on "Size Index" if you want and/or on the allometric components height and diameter. We could also use stem volume (d^2h) as it makes a meaningful comparison to the container volume. 
 
 ##Pre-planting bareroot data
 
