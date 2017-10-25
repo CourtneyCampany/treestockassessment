@@ -1,8 +1,7 @@
 source("functions_and_packages/size_index_format.R")
-
+source("functions_and_packages/functions.R")
 
 ##this script extracts the leaf data from the tree shape datafiles
-
 
 # read in tree shape data -------------------------------------------------
 leaf_files <- list.files(path = "data//", pattern="*shape.csv", full.names = TRUE)
@@ -17,7 +16,7 @@ for (i in seq_along(leaf_list)){
 }  
 
 
-# collect leaf data -------------------------------------------------------
+# organize leaf shape data -------------------------------------------------------
 
 leaf_get_func <- function(x){
   
@@ -42,7 +41,7 @@ lma_func <- function(x){
   x$area_tree <- with(x, (leafarea1+leafarea2+leafarea3)/3)
   
   y <- doBy::summaryBy(sla_tree + mass_tree + area_tree ~ nursery + species + volume, 
-                       data=x, FUN=mean, keep.names = TRUE)
+                       data=x, FUN=c(mean, se))
   
   return(y)
 }
@@ -107,6 +106,7 @@ nursery_leaves7 <-   species_variety_func(nursery_leaves6)
 origin <- read.csv("data/species_origin.csv")
 nursery_leaves8 <- merge(nursery_leaves7, origin)
 
+write.csv(nursery_leaves8[, c(1:4, 7,10:14)], "calculated_data/woodstock_sla.csv", row.names = FALSE)
 
 evercol <- scales::alpha("forestgreen", .3)
 decidcol <- scales::alpha("goldenrod1", .3)
